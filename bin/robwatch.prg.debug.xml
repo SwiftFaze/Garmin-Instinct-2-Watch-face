@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\Rob\Downloads\garmin\robwatch\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\robwatch\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="3" lineNum="7" parent="globals/robwatchView" pc="268435510" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="3" lineNum="9" parent="globals/robwatchView" pc="268435528" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="4" lineNum="5" parent="globals/robwatchApp" pc="268435543" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="7" lineNum="72" parent="globals/robwatchView" pc="268435562" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="7" lineNum="73" parent="globals/robwatchView" pc="268435566" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="7" lineNum="74" parent="globals/robwatchView" pc="268435583" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="7" lineNum="75" parent="globals/robwatchView" pc="268435657" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="7" lineNum="77" parent="globals/robwatchView" pc="268435676" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="7" lineNum="78" parent="globals/robwatchView" pc="268435734" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="8" lineNum="16" parent="globals/robwatchView" pc="268435754" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="8" lineNum="17" parent="globals/robwatchView" pc="268435756" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="39" parent="globals/robwatchView" pc="268435798" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="40" parent="globals/robwatchView" pc="268435802" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="42" parent="globals/robwatchView" pc="268435819" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="43" parent="globals/robwatchView" pc="268435826" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="44" parent="globals/robwatchView" pc="268435845" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="45" parent="globals/robwatchView" pc="268435864" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="47" parent="globals/robwatchView" pc="268435883" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="50" parent="globals/robwatchView" pc="268435941" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="10" lineNum="52" parent="globals/robwatchView" pc="268435963" symbol="updateWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="11" lineNum="11" parent="globals/robwatchView" pc="268435986" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="11" lineNum="12" parent="globals/robwatchView" pc="268435988" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="13" lineNum="30" parent="globals/robwatchView" pc="268436007" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="13" lineNum="32" parent="globals/robwatchView" pc="268436009" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="13" lineNum="33" parent="globals/robwatchView" pc="268436021" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="13" lineNum="36" parent="globals/robwatchView" pc="268436033" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="14" lineNum="81" parent="globals/robwatchView" pc="268436058" symbol="addToView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="14" lineNum="82" parent="globals/robwatchView" pc="268436062" symbol="addToView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchView.mc" id="14" lineNum="83" parent="globals/robwatchView" pc="268436087" symbol="addToView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="15" lineNum="12" parent="globals/robwatchApp" pc="268436102" symbol="onStart"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="16" lineNum="20" parent="globals/robwatchApp" pc="268436105" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="16" lineNum="21" parent="globals/robwatchApp" pc="268436107" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="17" lineNum="7" parent="globals/robwatchApp" pc="268436144" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="17" lineNum="8" parent="globals/robwatchApp" pc="268436146" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\robwatch\\source\\robwatchApp.mc" id="18" lineNum="16" parent="globals/robwatchApp" pc="268436165" symbol="onStop"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\robwatch\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="19" lineNum="13" parent="globals/Rez/Layouts" pc="268436168" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\robwatch\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="19" lineNum="14" parent="globals/Rez/Layouts" pc="268436180" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\robwatch\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="19" lineNum="16" parent="globals/Rez/Layouts" pc="268436321" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\robwatch\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="19" lineNum="18" parent="globals/Rez/Layouts" pc="268436433" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\robwatch\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="19" lineNum="20" parent="globals/Rez/Layouts" pc="268436545" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="9" method="true" symbol="addToView"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="14" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8391489" module="true" symbol="Weather"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="10" method="true" symbol="createClock"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="7" object="true" symbol="robwatchView"/>
+        <entry field="true" id="13" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="11" symbol="pressureValues"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="12" method="true" symbol="updateWeather"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="6" object="true" symbol="robwatchApp"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435752" name="clockTime" stackId="1" startPc="268435566"/>
+        <entry endPc="268435752" name="timeString" stackId="2" startPc="268435566"/>
+        <entry endPc="268435752" name="timeMsString" stackId="3" startPc="268435566"/>
+        <entry arg="true" endPc="268435797" name="dc" stackId="1" startPc="268435754"/>
+        <entry endPc="268435984" name="weather" stackId="1" startPc="268435802"/>
+        <entry endPc="268435959" name="lowTemp" stackId="2" startPc="268435826"/>
+        <entry endPc="268435959" name="temp" stackId="3" startPc="268435826"/>
+        <entry endPc="268435959" name="highTemp" stackId="4" startPc="268435826"/>
+        <entry endPc="268435959" name="tempString" stackId="5" startPc="268435826"/>
+        <entry arg="true" endPc="268436057" name="dc" stackId="1" startPc="268436007"/>
+        <entry arg="true" endPc="268436101" name="name" stackId="1" startPc="268436058"/>
+        <entry arg="true" endPc="268436101" name="data" stackId="2" startPc="268436058"/>
+        <entry endPc="268436100" name="view" stackId="3" startPc="268436062"/>
+        <entry arg="true" endPc="268436581" name="dc" stackId="1" startPc="268436168"/>
+        <entry endPc="268436581" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268436180"/>
+        <entry endPc="268436581" name="rez_cmp_local_text_TimeMsLabel" stackId="3" startPc="268436180"/>
+        <entry endPc="268436581" name="rez_cmp_local_text_TemperatureLabel" stackId="4" startPc="268436180"/>
+    </localVars>
+    <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3888-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Rez" offset="134" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/robwatchView" offset="189" parentId="globals" symbolId="robwatchView" type="class"/>
+        <dataEntry label="globals/robwatchApp" offset="316" parentId="globals" symbolId="robwatchApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="387" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="426" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="465" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435486">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435542" name="&lt;init&gt;" parent="robwatchView" startPc="268435510">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435561" name="&lt;init&gt;" parent="robwatchApp" startPc="268435543">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="robwatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="robwatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435753" name="createClock" parent="robwatchView" startPc="268435562">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435797" name="onLayout" parent="robwatchView" startPc="268435754">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="robwatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435985" name="updateWeather" parent="robwatchView" startPc="268435798">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436006" name="initialize" parent="robwatchView" startPc="268435986">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="robwatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436057" name="onUpdate" parent="robwatchView" startPc="268436007">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436101" name="addToView" parent="robwatchView" startPc="268436058">
+            <param id="name"/>
+            <param id="data"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436104" name="onStart" parent="robwatchApp" startPc="268436102">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436143" name="getInitialView" parent="robwatchApp" startPc="268436105">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436164" name="initialize" parent="robwatchApp" startPc="268436144">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436167" name="onStop" parent="robwatchApp" startPc="268436165">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436581" name="WatchFace" parent="Layouts" startPc="268436168">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

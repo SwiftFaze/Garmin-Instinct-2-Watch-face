@@ -1,0 +1,26 @@
+<layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+   
+    <label id="TimeLabel" 
+    x="0" 
+    y="center" 
+    font="Graphics.FONT_NUMBER_THAI_HOT"
+    justification="Graphics.TEXT_JUSTIFY_LEFT" 
+    color="Graphics.COLOR_BLUE" />
+
+
+    <label id="TimeMsLabel" 
+    x="90" 
+    y="65" 
+    font="Graphics.FONT_GLANCE_NUMBER"
+    justification="Graphics.TEXT_JUSTIFY_LEFT" 
+    color="Graphics.COLOR_BLUE" />
+
+
+    <label id="TemperatureLabel" 
+    x="5" 
+    y="110" 
+    font="Graphics.FONT_SMALL"
+    justification="Graphics.TEXT_JUSTIFY_LEFT" 
+    color="Graphics.COLOR_BLUE" />
+
+</layout>
