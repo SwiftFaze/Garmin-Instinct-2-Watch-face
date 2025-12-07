@@ -18,20 +18,25 @@ module Rez {
         (:initialized) var Fog as ResourceId;
         (:initialized) var Cloudy as ResourceId;
         (:initialized) var Rain as ResourceId;
+        (:initialized) var Skull as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>0, :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>35, :locY=>65, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_NUMBER_THAI_HOT});
 
-            var rez_cmp_local_text_TimeMsLabel = new WatchUi.Text({:identifier=>"TimeMsLabel", :color=>Graphics.COLOR_BLUE, :locX=>90, :locY=>65, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_GLANCE_NUMBER});
+            var rez_cmp_local_text_TimeMsLabel = new WatchUi.Text({:identifier=>"TimeMsLabel", :color=>Graphics.COLOR_BLUE, :locX=>125, :locY=>70, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_GLANCE_NUMBER});
 
-            var rez_cmp_local_text_TemperatureLabel = new WatchUi.Text({:identifier=>"TemperatureLabel", :color=>Graphics.COLOR_BLUE, :locX=>90, :locY=>90, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_TemperatureLabel = new WatchUi.Text({:identifier=>"TemperatureLabel", :color=>Graphics.COLOR_BLUE, :locX=>125, :locY=>95, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_WeatherConditionLabel = new WatchUi.Text({:identifier=>"WeatherConditionLabel", :color=>Graphics.COLOR_WHITE, :locX=>30, :locY=>110, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SYSTEM_XTINY});
+            var rez_cmp_local_text_DayLabel = new WatchUi.Text({:identifier=>"DayLabel", :color=>Graphics.COLOR_BLUE, :locX=>173, :locY=>70, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_GLANCE_NUMBER});
 
-            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_TimeMsLabel, rez_cmp_local_text_TemperatureLabel, rez_cmp_local_text_WeatherConditionLabel] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_MonthLabel = new WatchUi.Text({:identifier=>"MonthLabel", :color=>Graphics.COLOR_BLUE, :locX=>173, :locY=>95, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_WeatherConditionLabel = new WatchUi.Text({:identifier=>"WeatherConditionLabel", :color=>Graphics.COLOR_WHITE, :locX=>65, :locY=>115, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SYSTEM_XTINY});
+
+            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_TimeMsLabel, rez_cmp_local_text_TemperatureLabel, rez_cmp_local_text_DayLabel, rez_cmp_local_text_MonthLabel, rez_cmp_local_text_WeatherConditionLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

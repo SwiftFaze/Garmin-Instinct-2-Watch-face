@@ -1,31 +1,48 @@
 <layout id="WatchFace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
    
     <label id="TimeLabel" 
-    x="0" 
-    y="center" 
+    x="35" 
+    y="65" 
     font="Graphics.FONT_NUMBER_THAI_HOT"
     justification="Graphics.TEXT_JUSTIFY_LEFT" 
     color="Graphics.COLOR_BLUE" />
 
 
     <label id="TimeMsLabel" 
-    x="90" 
-    y="65" 
+    x="125" 
+    y="70" 
     font="Graphics.FONT_GLANCE_NUMBER"
     justification="Graphics.TEXT_JUSTIFY_LEFT" 
     color="Graphics.COLOR_BLUE" />
 
-
     <label id="TemperatureLabel" 
-    x="90" 
-    y="90" 
+    x="125" 
+    y="95" 
     font="Graphics.FONT_SMALL"
     justification="Graphics.TEXT_JUSTIFY_LEFT" 
     color="Graphics.COLOR_BLUE" />
 
+    <label id="DayLabel" 
+    x="173" 
+    y="70" 
+    font="Graphics.FONT_GLANCE_NUMBER"
+    justification="Graphics.TEXT_JUSTIFY_RIGHT" 
+    color="Graphics.COLOR_BLUE" />
+
+    <label id="MonthLabel" 
+    x="173" 
+    y="95" 
+    font="Graphics.FONT_SMALL"
+    justification="Graphics.TEXT_JUSTIFY_RIGHT" 
+    color="Graphics.COLOR_BLUE" />
+
+
+
+
+
     <label id="WeatherConditionLabel" 
-    x="30" 
-    y="110" 
+    x="65" 
+    y="115" 
     font="Graphics.FONT_SYSTEM_XTINY"
     justification="Graphics.TEXT_JUSTIFY_LEFT" 
     color="Graphics.COLOR_WHITE" />

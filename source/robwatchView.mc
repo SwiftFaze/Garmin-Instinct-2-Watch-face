@@ -3,6 +3,8 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Weather;
+import Toybox.Time;
+import Toybox.Time.Gregorian;
 class robwatchView extends WatchUi.WatchFace {
 
 
@@ -60,19 +62,21 @@ class robwatchView extends WatchUi.WatchFace {
     function onUpdate(dc as Dc) as Void {
         // Get and show the current time
         createClock();
-        updateWeather();
+        createWeather();
+        createDayMonthDate();
+
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
         setWeatherIcon(dc);
 
-
+        dc.drawBitmap(-85, 0, WatchUi.loadResource(Rez.Drawables.Skull));
 
 
 
     }
 
-    function updateWeather() as Void {
+    function createWeather() as Void {
         var weather = Weather.getCurrentConditions();
 
         if (weather != null) {
@@ -80,7 +84,8 @@ class robwatchView extends WatchUi.WatchFace {
             var temp = weather.temperature.toNumber();
             var highTemp = weather.highTemperature.toNumber();
             //var tempString = Lang.format("$1$/$2$ - $3$°", [lowTemp, highTemp, temp]);
-            var tempString = Lang.format("$3$°", [lowTemp, highTemp, temp]);
+            var tempFormat = (temp >= 0 ? (temp < 10 ? "0" + temp : temp) : temp) + "°";
+            var tempString = Lang.format("$3$", [lowTemp, highTemp, tempFormat]);
             addToView("TemperatureLabel",tempString);
         } else {
             addToView("TemperatureLabel", "-°");
@@ -112,10 +117,24 @@ class robwatchView extends WatchUi.WatchFace {
         addToView("TimeMsLabel", timeMsString);
     }
 
+    function createDayMonthDate() as Void {
+
+        var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var dayString = Lang.format("$1$", [today.day.format("%02d")]);
+        addToView("DayLabel", dayString);
+
+        var MonthString = Lang.format("$1$", [today.month.format("%02d")]);
+        addToView("MonthLabel", MonthString);
+    }
+
+
+
     function addToView(name, data) as Void {
         var view = View.findDrawableById(name) as Text;
         view.setText(data);
     }
+
+
 
 
     // USE AFTER view.onUpdate(dc);
@@ -359,7 +378,7 @@ function setWeatherIcon(dc) as Void {
 
     // Draw the icon
     if (icon != null) {
-        dc.drawBitmap(2, 110, icon);
+        dc.drawBitmap(35, 115, icon);
     }
 
     // Set the text label

@@ -12,4 +12,5 @@
     <bitmap id="Fog" filename="fog.svg" dithering="none" />
     <bitmap id="Cloudy" filename="cloudy.svg" dithering="none" />
     <bitmap id="Rain" filename="rain.svg" dithering="none" />
+    <bitmap id="Skull" filename="skull.svg" dithering="floyd_steinberg" />
 </drawables>
