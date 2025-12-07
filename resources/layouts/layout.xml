@@ -17,10 +17,20 @@
 
 
     <label id="TemperatureLabel" 
-    x="5" 
-    y="110" 
+    x="90" 
+    y="90" 
     font="Graphics.FONT_SMALL"
     justification="Graphics.TEXT_JUSTIFY_LEFT" 
     color="Graphics.COLOR_BLUE" />
+
+    <label id="WeatherConditionLabel" 
+    x="30" 
+    y="110" 
+    font="Graphics.FONT_SYSTEM_XTINY"
+    justification="Graphics.TEXT_JUSTIFY_LEFT" 
+    color="Graphics.COLOR_WHITE" />
+
+
+
 
 </layout>

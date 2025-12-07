@@ -1,240 +1,451 @@
-[ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+[ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
 import Toybox.Graphics;
-[ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+[ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
 import Toybox.Lang;
-[ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+[ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
 import Toybox.System;
-[ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+[ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Weather,5,14,21]; ]
+[ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Weather,5,14,21]; ]
 import Toybox.Weather;
-[ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 7; @symbol_classdef = [robwatchView,7,6,18]; @symbol_extends<0> = [WatchUi,7,27,34]; @symbol_extends<1> = [WatchFace,7,35,44]; ]
+[ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 6; @symbol_classdef = [robwatchView,6,6,18]; @symbol_extends<0> = [WatchUi,6,27,34]; @symbol_extends<1> = [WatchFace,6,35,44]; ]
 class robwatchView extends WatchUi.WatchFace {
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 7; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 6; ]
     <init> {
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 9 8 ]
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 23 8 ]
         %tmp.1 = newa 0;
         putv self :pressureValues %tmp.1;
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 7; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 9; @position = 8; @symbol_vardef = [pressureValues,9,8,22]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 10; @position = 8; @symbol_vardef = [sunIcon,10,8,15]; ]
+    var sunIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 11; @position = 8; @symbol_vardef = [weatherAlertIcon,11,8,24]; ]
+    var weatherAlertIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 12; @position = 8; @symbol_vardef = [windyIcon,12,8,17]; ]
+    var windyIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 13; @position = 8; @symbol_vardef = [snowIcon,13,8,16]; ]
+    var snowIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 14; @position = 8; @symbol_vardef = [lightRainIcon,14,8,21]; ]
+    var lightRainIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 15; @position = 8; @symbol_vardef = [overcastIcon,15,8,20]; ]
+    var overcastIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 16; @position = 8; @symbol_vardef = [clearNightIcon,16,8,22]; ]
+    var clearNightIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 17; @position = 8; @symbol_vardef = [nightCloudyIcon,17,8,23]; ]
+    var nightCloudyIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 18; @position = 8; @symbol_vardef = [stormIcon,18,8,17]; ]
+    var stormIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 19; @position = 8; @symbol_vardef = [fogIcon,19,8,15]; ]
+    var fogIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 20; @position = 8; @symbol_vardef = [cloudyIcon,20,8,18]; ]
+    var cloudyIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 21; @position = 8; @symbol_vardef = [rainIcon,21,8,16]; ]
+    var rainIcon;
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 23; @position = 8; @symbol_vardef = [pressureValues,23,8,22]; ]
     var pressureValues;
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 11; @symbol_functiondef = [initialize,11,13,23]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 25; @symbol_functiondef = [initialize,25,13,23]; ]
     function initialize() as Void {
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_11_26_13_4_start:
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 12 8 ]
-        symbol [ WatchFace %tmp.2 12 8 17 ];
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_25_26_27_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 26 8 ]
+        symbol [ WatchFace %tmp.2 26 8 17 ];
         %tmp.2 = getv ? :WatchFace;
-        symbol [ initialize %tmp.3 12 18 28 ];
+        symbol [ initialize %tmp.3 26 18 28 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_11_26_13_4_stop:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_25_26_27_4_stop:
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 16; @symbol_functiondef = [onLayout,16,13,21]; @symbol_param<0> = [dc,16,22,24]; @symbol_param<0>_type<0> = [Dc,16,28,30]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 30; @symbol_functiondef = [onLayout,30,13,21]; @symbol_param<0> = [dc,30,22,24]; @symbol_param<0>_type<0> = [Dc,30,28,30]; ]
     function onLayout(dc as Dc) as Void {
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_16_40_18_4_start:
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 17 8 ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_30_40_32_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 31 8 ]
         %tmp.1 = self;
-        symbol [ setLayout %tmp.2 17 8 17 ];
+        symbol [ setLayout %tmp.2 31 8 17 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
-        symbol [ Rez %tmp.4 17 18 21 ];
+        symbol [ Rez %tmp.4 31 18 21 ];
         %tmp.4 = getv ? :Rez;
-        symbol [ Layouts %tmp.5 17 22 29 ];
+        symbol [ Layouts %tmp.5 31 22 29 ];
         %tmp.5 = getv %tmp.4 :Layouts;
-        symbol [ WatchFace %tmp.6 17 30 39 ];
+        symbol [ WatchFace %tmp.6 31 30 39 ];
         %tmp.6 = getv function %tmp.5 :WatchFace;
         %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 17 40 42 ];
+        symbol [ dc %tmp.7 31 40 42 ];
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         invoke %tmp.1 %tmp.2(%tmp.8);
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_16_40_18_4_stop:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_30_40_32_4_stop:
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 23; @symbol_functiondef = [onShow,23,13,19]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 37; @symbol_functiondef = [onShow,37,13,19]; ]
     function onShow() as Void {
-    }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 30; @symbol_functiondef = [onUpdate,30,13,21]; @symbol_param<0> = [dc,30,22,24]; @symbol_param<0>_type<0> = [Dc,30,28,30]; ]
-    function onUpdate(dc as Dc) as Void {
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_30_40_37_4_start:
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 32 8 ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_37_30_39_3_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 38 9 ]
         %tmp.1 = self;
-        symbol [ createClock %tmp.2 32 8 19 ];
+        symbol [ loadResources %tmp.2 38 9 22 ];
+        %tmp.2 = getv function %tmp.1 :loadResources;
+        invoke %tmp.1 %tmp.2();
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_37_30_39_3_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 41; @symbol_functiondef = [loadResources,41,13,26]; ]
+    function loadResources() as Void {
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_41_37_54_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 42 8 ]
+        symbol [ WatchUi %tmp.1 42 18 25 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.2 42 26 38 ];
+        %tmp.2 = getv function %tmp.1 :loadResource;
+        symbol [ Rez %tmp.4 42 39 42 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Drawables %tmp.5 42 43 52 ];
+        %tmp.5 = getv %tmp.4 :Drawables;
+        symbol [ Sun %tmp.6 42 53 56 ];
+        %tmp.6 = getv %tmp.5 :Sun;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+        symbol [ sunIcon ? 42 8 15 ];
+        putv self :sunIcon %tmp.7;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 43 8 ]
+        symbol [ WatchUi %tmp.8 43 27 34 ];
+        %tmp.8 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.9 43 35 47 ];
+        %tmp.9 = getv function %tmp.8 :loadResource;
+        symbol [ Rez %tmp.11 43 48 51 ];
+        %tmp.11 = getv ? :Rez;
+        symbol [ Drawables %tmp.12 43 52 61 ];
+        %tmp.12 = getv %tmp.11 :Drawables;
+        symbol [ WeatherAlert %tmp.13 43 62 74 ];
+        %tmp.13 = getv %tmp.12 :WeatherAlert;
+        %tmp.14 = invoke %tmp.8 %tmp.9(%tmp.13);
+        symbol [ weatherAlertIcon ? 43 8 24 ];
+        putv self :weatherAlertIcon %tmp.14;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 44 8 ]
+        symbol [ WatchUi %tmp.15 44 20 27 ];
+        %tmp.15 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.16 44 28 40 ];
+        %tmp.16 = getv function %tmp.15 :loadResource;
+        symbol [ Rez %tmp.18 44 41 44 ];
+        %tmp.18 = getv ? :Rez;
+        symbol [ Drawables %tmp.19 44 45 54 ];
+        %tmp.19 = getv %tmp.18 :Drawables;
+        symbol [ Windy %tmp.20 44 55 60 ];
+        %tmp.20 = getv %tmp.19 :Windy;
+        %tmp.21 = invoke %tmp.15 %tmp.16(%tmp.20);
+        symbol [ windyIcon ? 44 8 17 ];
+        putv self :windyIcon %tmp.21;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 45 8 ]
+        symbol [ WatchUi %tmp.22 45 19 26 ];
+        %tmp.22 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.23 45 27 39 ];
+        %tmp.23 = getv function %tmp.22 :loadResource;
+        symbol [ Rez %tmp.25 45 40 43 ];
+        %tmp.25 = getv ? :Rez;
+        symbol [ Drawables %tmp.26 45 44 53 ];
+        %tmp.26 = getv %tmp.25 :Drawables;
+        symbol [ Snow %tmp.27 45 54 58 ];
+        %tmp.27 = getv %tmp.26 :Snow;
+        %tmp.28 = invoke %tmp.22 %tmp.23(%tmp.27);
+        symbol [ snowIcon ? 45 8 16 ];
+        putv self :snowIcon %tmp.28;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 46 8 ]
+        symbol [ WatchUi %tmp.29 46 24 31 ];
+        %tmp.29 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.30 46 32 44 ];
+        %tmp.30 = getv function %tmp.29 :loadResource;
+        symbol [ Rez %tmp.32 46 45 48 ];
+        %tmp.32 = getv ? :Rez;
+        symbol [ Drawables %tmp.33 46 49 58 ];
+        %tmp.33 = getv %tmp.32 :Drawables;
+        symbol [ LightRain %tmp.34 46 59 68 ];
+        %tmp.34 = getv %tmp.33 :LightRain;
+        %tmp.35 = invoke %tmp.29 %tmp.30(%tmp.34);
+        symbol [ lightRainIcon ? 46 8 21 ];
+        putv self :lightRainIcon %tmp.35;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 47 8 ]
+        symbol [ WatchUi %tmp.36 47 23 30 ];
+        %tmp.36 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.37 47 31 43 ];
+        %tmp.37 = getv function %tmp.36 :loadResource;
+        symbol [ Rez %tmp.39 47 44 47 ];
+        %tmp.39 = getv ? :Rez;
+        symbol [ Drawables %tmp.40 47 48 57 ];
+        %tmp.40 = getv %tmp.39 :Drawables;
+        symbol [ Overcast %tmp.41 47 58 66 ];
+        %tmp.41 = getv %tmp.40 :Overcast;
+        %tmp.42 = invoke %tmp.36 %tmp.37(%tmp.41);
+        symbol [ overcastIcon ? 47 8 20 ];
+        putv self :overcastIcon %tmp.42;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 48 8 ]
+        symbol [ WatchUi %tmp.43 48 25 32 ];
+        %tmp.43 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.44 48 33 45 ];
+        %tmp.44 = getv function %tmp.43 :loadResource;
+        symbol [ Rez %tmp.46 48 46 49 ];
+        %tmp.46 = getv ? :Rez;
+        symbol [ Drawables %tmp.47 48 50 59 ];
+        %tmp.47 = getv %tmp.46 :Drawables;
+        symbol [ ClearNight %tmp.48 48 60 70 ];
+        %tmp.48 = getv %tmp.47 :ClearNight;
+        %tmp.49 = invoke %tmp.43 %tmp.44(%tmp.48);
+        symbol [ clearNightIcon ? 48 8 22 ];
+        putv self :clearNightIcon %tmp.49;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 49 8 ]
+        symbol [ WatchUi %tmp.50 49 26 33 ];
+        %tmp.50 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.51 49 34 46 ];
+        %tmp.51 = getv function %tmp.50 :loadResource;
+        symbol [ Rez %tmp.53 49 47 50 ];
+        %tmp.53 = getv ? :Rez;
+        symbol [ Drawables %tmp.54 49 51 60 ];
+        %tmp.54 = getv %tmp.53 :Drawables;
+        symbol [ NightCloudy %tmp.55 49 61 72 ];
+        %tmp.55 = getv %tmp.54 :NightCloudy;
+        %tmp.56 = invoke %tmp.50 %tmp.51(%tmp.55);
+        symbol [ nightCloudyIcon ? 49 8 23 ];
+        putv self :nightCloudyIcon %tmp.56;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 50 8 ]
+        symbol [ WatchUi %tmp.57 50 20 27 ];
+        %tmp.57 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.58 50 28 40 ];
+        %tmp.58 = getv function %tmp.57 :loadResource;
+        symbol [ Rez %tmp.60 50 41 44 ];
+        %tmp.60 = getv ? :Rez;
+        symbol [ Drawables %tmp.61 50 45 54 ];
+        %tmp.61 = getv %tmp.60 :Drawables;
+        symbol [ Storm %tmp.62 50 55 60 ];
+        %tmp.62 = getv %tmp.61 :Storm;
+        %tmp.63 = invoke %tmp.57 %tmp.58(%tmp.62);
+        symbol [ stormIcon ? 50 8 17 ];
+        putv self :stormIcon %tmp.63;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 51 8 ]
+        symbol [ WatchUi %tmp.64 51 18 25 ];
+        %tmp.64 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.65 51 26 38 ];
+        %tmp.65 = getv function %tmp.64 :loadResource;
+        symbol [ Rez %tmp.67 51 39 42 ];
+        %tmp.67 = getv ? :Rez;
+        symbol [ Drawables %tmp.68 51 43 52 ];
+        %tmp.68 = getv %tmp.67 :Drawables;
+        symbol [ Fog %tmp.69 51 53 56 ];
+        %tmp.69 = getv %tmp.68 :Fog;
+        %tmp.70 = invoke %tmp.64 %tmp.65(%tmp.69);
+        symbol [ fogIcon ? 51 8 15 ];
+        putv self :fogIcon %tmp.70;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 52 8 ]
+        symbol [ WatchUi %tmp.71 52 21 28 ];
+        %tmp.71 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.72 52 29 41 ];
+        %tmp.72 = getv function %tmp.71 :loadResource;
+        symbol [ Rez %tmp.74 52 42 45 ];
+        %tmp.74 = getv ? :Rez;
+        symbol [ Drawables %tmp.75 52 46 55 ];
+        %tmp.75 = getv %tmp.74 :Drawables;
+        symbol [ Cloudy %tmp.76 52 56 62 ];
+        %tmp.76 = getv %tmp.75 :Cloudy;
+        %tmp.77 = invoke %tmp.71 %tmp.72(%tmp.76);
+        symbol [ cloudyIcon ? 52 8 18 ];
+        putv self :cloudyIcon %tmp.77;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 53 8 ]
+        symbol [ WatchUi %tmp.78 53 19 26 ];
+        %tmp.78 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.79 53 27 39 ];
+        %tmp.79 = getv function %tmp.78 :loadResource;
+        symbol [ Rez %tmp.81 53 40 43 ];
+        %tmp.81 = getv ? :Rez;
+        symbol [ Drawables %tmp.82 53 44 53 ];
+        %tmp.82 = getv %tmp.81 :Drawables;
+        symbol [ Rain %tmp.83 53 54 58 ];
+        %tmp.83 = getv %tmp.82 :Rain;
+        %tmp.84 = invoke %tmp.78 %tmp.79(%tmp.83);
+        symbol [ rainIcon ? 53 8 16 ];
+        putv self :rainIcon %tmp.84;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_41_37_54_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 60; @symbol_functiondef = [onUpdate,60,13,21]; @symbol_param<0> = [dc,60,22,24]; @symbol_param<0>_type<0> = [Dc,60,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_60_40_73_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 62 8 ]
+        %tmp.1 = self;
+        symbol [ createClock %tmp.2 62 8 19 ];
         %tmp.2 = getv function %tmp.1 :createClock;
         invoke %tmp.1 %tmp.2();
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 33 8 ]
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 63 8 ]
         %tmp.3 = self;
-        symbol [ updateWeather %tmp.4 33 8 21 ];
+        symbol [ updateWeather %tmp.4 63 8 21 ];
         %tmp.4 = getv function %tmp.3 :updateWeather;
         invoke %tmp.3 %tmp.4();
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 36 8 ]
-        symbol [ View %tmp.6 36 8 12 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 65 8 ]
+        symbol [ View %tmp.6 65 8 12 ];
         %tmp.6 = getv ? :View;
-        symbol [ onUpdate %tmp.7 36 13 21 ];
+        symbol [ onUpdate %tmp.7 65 13 21 ];
         %tmp.7 = getv function %tmp.6 :onUpdate;
         %tmp.8 = lgetv %dc;
-        symbol [ dc %tmp.8 36 22 24 ];
+        symbol [ dc %tmp.8 65 22 24 ];
         invoke %tmp.6 %tmp.7(%tmp.8);
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_30_40_37_4_stop:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 67 8 ]
+        %tmp.9 = self;
+        symbol [ setWeatherIcon %tmp.10 67 8 22 ];
+        %tmp.10 = getv function %tmp.9 :setWeatherIcon;
+        %tmp.11 = lgetv %dc;
+        symbol [ dc %tmp.11 67 23 25 ];
+        invoke %tmp.9 %tmp.10(%tmp.11);
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_60_40_73_4_stop:
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 39; @symbol_functiondef = [updateWeather,39,13,26]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 75; @symbol_functiondef = [updateWeather,75,13,26]; ]
     function updateWeather() as Void {
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_39_37_54_4_start:
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 40 8 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_39_37_54_4_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_39_37_54_4_stop" ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_75_37_88_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 76 8 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_75_37_88_4_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_75_37_88_4_stop" ]
         %weather.1 = local;
-        symbol [ weather %weather.1 40 12 19 ];
-        symbol [ Weather %tmp.1 40 22 29 ];
+        symbol [ weather %weather.1 76 12 19 ];
+        symbol [ Weather %tmp.1 76 22 29 ];
         %tmp.1 = getm $.Toybox.Weather;
-        symbol [ getCurrentConditions %tmp.2 40 30 50 ];
+        symbol [ getCurrentConditions %tmp.2 76 30 50 ];
         %tmp.2 = getv function %tmp.1 :getCurrentConditions;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %weather.1 %tmp.3;
-        symbol [ weather %weather.1 40 12 19 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 42 8 ]
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_8_53_8_if_stmt:
+        symbol [ weather %weather.1 76 12 19 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 78 8 ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_8_87_8_if_stmt:
         %tmp.4 = lgetv %weather.1;
-        symbol [ weather %tmp.4 42 12 19 ];
+        symbol [ weather %tmp.4 78 12 19 ];
         %tmp.5 = null;
         %tmp.6 = ne %tmp.4 %tmp.5;
-        bf %tmp.6 @c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_8_53_8_if_else_false;
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_8_53_8_if_true:
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_start:
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 43 12 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_stop" ]
+        bf %tmp.6 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_8_87_8_if_else_false;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_8_87_8_if_true:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 79 12 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_stop" ]
         %lowTemp.2 = local;
-        symbol [ lowTemp %lowTemp.2 43 16 23 ];
+        symbol [ lowTemp %lowTemp.2 79 16 23 ];
         %tmp.7 = lgetv %weather.1;
-        symbol [ weather %tmp.7 43 26 33 ];
+        symbol [ weather %tmp.7 79 26 33 ];
         %tmp.8 = as %tmp.7 { (!Null) };
-        symbol [ lowTemperature %tmp.9 43 34 48 ];
+        symbol [ lowTemperature %tmp.9 79 34 48 ];
         %tmp.9 = getv %tmp.8 :lowTemperature;
-        symbol [ toNumber %tmp.10 43 49 57 ];
+        symbol [ toNumber %tmp.10 79 49 57 ];
         %tmp.10 = getv function %tmp.9 :toNumber;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         lputv %lowTemp.2 %tmp.11;
-        symbol [ lowTemp %lowTemp.2 43 16 23 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 44 12 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_stop" ]
+        symbol [ lowTemp %lowTemp.2 79 16 23 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 80 12 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_stop" ]
         %temp.3 = local;
-        symbol [ temp %temp.3 44 16 20 ];
+        symbol [ temp %temp.3 80 16 20 ];
         %tmp.12 = lgetv %weather.1;
-        symbol [ weather %tmp.12 44 23 30 ];
+        symbol [ weather %tmp.12 80 23 30 ];
         %tmp.13 = as %tmp.12 { (!Null) };
-        symbol [ temperature %tmp.14 44 31 42 ];
+        symbol [ temperature %tmp.14 80 31 42 ];
         %tmp.14 = getv %tmp.13 :temperature;
-        symbol [ toNumber %tmp.15 44 43 51 ];
+        symbol [ toNumber %tmp.15 80 43 51 ];
         %tmp.15 = getv function %tmp.14 :toNumber;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         lputv %temp.3 %tmp.16;
-        symbol [ temp %temp.3 44 16 20 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 45 12 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_stop" ]
+        symbol [ temp %temp.3 80 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 81 12 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_stop" ]
         %highTemp.4 = local;
-        symbol [ highTemp %highTemp.4 45 16 24 ];
+        symbol [ highTemp %highTemp.4 81 16 24 ];
         %tmp.17 = lgetv %weather.1;
-        symbol [ weather %tmp.17 45 27 34 ];
+        symbol [ weather %tmp.17 81 27 34 ];
         %tmp.18 = as %tmp.17 { (!Null) };
-        symbol [ highTemperature %tmp.19 45 35 50 ];
+        symbol [ highTemperature %tmp.19 81 35 50 ];
         %tmp.19 = getv %tmp.18 :highTemperature;
-        symbol [ toNumber %tmp.20 45 51 59 ];
+        symbol [ toNumber %tmp.20 81 51 59 ];
         %tmp.20 = getv function %tmp.19 :toNumber;
         %tmp.21 = invoke %tmp.19 %tmp.20();
         lputv %highTemp.4 %tmp.21;
-        symbol [ highTemp %highTemp.4 45 16 24 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 47 13 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_stop" ]
+        symbol [ highTemp %highTemp.4 81 16 24 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 83 12 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_stop" ]
         %tempString.5 = local;
-        symbol [ tempString %tempString.5 47 17 27 ];
-        symbol [ Lang %tmp.22 47 30 34 ];
+        symbol [ tempString %tempString.5 83 16 26 ];
+        symbol [ Lang %tmp.22 83 29 33 ];
         %tmp.22 = getm $.Toybox.Lang;
-        symbol [ format %tmp.23 47 35 41 ];
+        symbol [ format %tmp.23 83 34 40 ];
         %tmp.23 = getv function %tmp.22 :format;
-        %tmp.24 = "$1$/$2$ - $3$°";
+        %tmp.24 = "$3$°";
         %tmp.25 = newa 3;
         %tmp.26 = lgetv %lowTemp.2;
-        symbol [ lowTemp %tmp.26 47 61 68 ];
+        symbol [ lowTemp %tmp.26 83 50 57 ];
         %tmp.27 = dup %tmp.25;
         %tmp.28 = aputv %tmp.27 0 %tmp.26;
         %tmp.29 = lgetv %highTemp.4;
-        symbol [ highTemp %tmp.29 47 70 78 ];
+        symbol [ highTemp %tmp.29 83 59 67 ];
         %tmp.30 = dup %tmp.28;
         %tmp.31 = aputv %tmp.30 1 %tmp.29;
         %tmp.32 = lgetv %temp.3;
-        symbol [ temp %tmp.32 47 80 84 ];
+        symbol [ temp %tmp.32 83 69 73 ];
         %tmp.33 = dup %tmp.31;
         %tmp.34 = aputv %tmp.33 2 %tmp.32;
         %tmp.35 = invoke %tmp.22 %tmp.23(%tmp.24, %tmp.34);
         lputv %tempString.5 %tmp.35;
-        symbol [ tempString %tempString.5 47 17 27 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 50 12 ]
+        symbol [ tempString %tempString.5 83 16 26 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 84 12 ]
         %tmp.36 = self;
-        symbol [ addToView %tmp.37 50 12 21 ];
+        symbol [ addToView %tmp.37 84 12 21 ];
         %tmp.37 = getv function %tmp.36 :addToView;
         %tmp.38 = "TemperatureLabel";
         %tmp.39 = lgetv %tempString.5;
-        symbol [ tempString %tmp.39 50 41 51 ];
+        symbol [ tempString %tmp.39 84 41 51 ];
         invoke %tmp.36 %tmp.37(%tmp.38, %tmp.39);
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_29_51_8_stop:
-        goto @c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_8_53_8_if_end;
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_8_53_8_if_else_false:
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_51_15_53_8_start:
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 52 12 ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_29_85_8_stop:
+        goto @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_8_87_8_if_end;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_8_87_8_if_else_false:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_85_15_87_8_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 86 12 ]
         %tmp.40 = self;
-        symbol [ addToView %tmp.41 52 12 21 ];
+        symbol [ addToView %tmp.41 86 12 21 ];
         %tmp.41 = getv function %tmp.40 :addToView;
         %tmp.42 = "TemperatureLabel";
         %tmp.43 = "-°";
         invoke %tmp.40 %tmp.41(%tmp.42, %tmp.43);
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_51_15_53_8_stop:
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_42_8_53_8_if_end:
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_39_37_54_4_stop:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_85_15_87_8_stop:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_78_8_87_8_if_end:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_75_37_88_4_stop:
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 60; @symbol_functiondef = [onHide,60,13,19]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 94; @symbol_functiondef = [onHide,94,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 64; @symbol_functiondef = [onExitSleep,64,13,24]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 98; @symbol_functiondef = [onExitSleep,98,13,24]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 68; @symbol_functiondef = [onEnterSleep,68,13,25]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 102; @symbol_functiondef = [onEnterSleep,102,13,25]; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 72; @symbol_functiondef = [createClock,72,13,24]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 106; @symbol_functiondef = [createClock,106,13,24]; ]
     function createClock() as Void {
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_start:
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 73 8 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_stop" ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_106_35_113_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 107 8 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_106_35_113_4_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_106_35_113_4_stop" ]
         %clockTime.1 = local;
-        symbol [ clockTime %clockTime.1 73 12 21 ];
-        symbol [ System %tmp.1 73 24 30 ];
+        symbol [ clockTime %clockTime.1 107 12 21 ];
+        symbol [ System %tmp.1 107 24 30 ];
         %tmp.1 = getm $.Toybox.System;
-        symbol [ getClockTime %tmp.2 73 31 43 ];
+        symbol [ getClockTime %tmp.2 107 31 43 ];
         %tmp.2 = getv function %tmp.1 :getClockTime;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
-        symbol [ clockTime %clockTime.1 73 12 21 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 74 8 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_stop" ]
+        symbol [ clockTime %clockTime.1 107 12 21 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 108 8 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_106_35_113_4_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_106_35_113_4_stop" ]
         %timeString.2 = local;
-        symbol [ timeString %timeString.2 74 12 22 ];
-        symbol [ Lang %tmp.4 74 25 29 ];
+        symbol [ timeString %timeString.2 108 12 22 ];
+        symbol [ Lang %tmp.4 108 25 29 ];
         %tmp.4 = getm $.Toybox.Lang;
-        symbol [ format %tmp.5 74 30 36 ];
+        symbol [ format %tmp.5 108 30 36 ];
         %tmp.5 = getv function %tmp.4 :format;
         %tmp.6 = "$1$$2$";
         %tmp.7 = newa 2;
         %tmp.8 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.8 74 48 57 ];
-        symbol [ hour %tmp.9 74 58 62 ];
+        symbol [ clockTime %tmp.8 108 48 57 ];
+        symbol [ hour %tmp.9 108 58 62 ];
         %tmp.9 = getv %tmp.8 :hour;
         %tmp.10 = dup %tmp.7;
         %tmp.11 = aputv %tmp.10 0 %tmp.9;
         %tmp.12 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.12 74 64 73 ];
-        symbol [ min %tmp.13 74 74 77 ];
+        symbol [ clockTime %tmp.12 108 64 73 ];
+        symbol [ min %tmp.13 108 74 77 ];
         %tmp.13 = getv %tmp.12 :min;
-        symbol [ format %tmp.14 74 78 84 ];
+        symbol [ format %tmp.14 108 78 84 ];
         %tmp.14 = getv function %tmp.13 :format;
         %tmp.15 = "%02d";
         %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
@@ -242,30 +453,30 @@ c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_start:
         %tmp.18 = aputv %tmp.17 1 %tmp.16;
         %tmp.19 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.18);
         lputv %timeString.2 %tmp.19;
-        symbol [ timeString %timeString.2 74 12 22 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 75 8 ]
+        symbol [ timeString %timeString.2 108 12 22 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 109 8 ]
         %tmp.20 = self;
-        symbol [ addToView %tmp.21 75 8 17 ];
+        symbol [ addToView %tmp.21 109 8 17 ];
         %tmp.21 = getv function %tmp.20 :addToView;
         %tmp.22 = "TimeLabel";
         %tmp.23 = lgetv %timeString.2;
-        symbol [ timeString %tmp.23 75 31 41 ];
+        symbol [ timeString %tmp.23 109 31 41 ];
         invoke %tmp.20 %tmp.21(%tmp.22, %tmp.23);
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 77 8 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_stop" ]
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 111 8 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_106_35_113_4_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_106_35_113_4_stop" ]
         %timeMsString.3 = local;
-        symbol [ timeMsString %timeMsString.3 77 12 24 ];
-        symbol [ Lang %tmp.24 77 27 31 ];
+        symbol [ timeMsString %timeMsString.3 111 12 24 ];
+        symbol [ Lang %tmp.24 111 27 31 ];
         %tmp.24 = getm $.Toybox.Lang;
-        symbol [ format %tmp.25 77 32 38 ];
+        symbol [ format %tmp.25 111 32 38 ];
         %tmp.25 = getv function %tmp.24 :format;
         %tmp.26 = "$1$";
         %tmp.27 = newa 1;
         %tmp.28 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.28 77 47 56 ];
-        symbol [ sec %tmp.29 77 57 60 ];
+        symbol [ clockTime %tmp.28 111 47 56 ];
+        symbol [ sec %tmp.29 111 57 60 ];
         %tmp.29 = getv %tmp.28 :sec;
-        symbol [ format %tmp.30 77 61 67 ];
+        symbol [ format %tmp.30 111 61 67 ];
         %tmp.30 = getv function %tmp.29 :format;
         %tmp.31 = "%02d";
         %tmp.32 = invoke %tmp.29 %tmp.30(%tmp.31);
@@ -273,46 +484,1286 @@ c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_start:
         %tmp.34 = aputv %tmp.33 0 %tmp.32;
         %tmp.35 = invoke %tmp.24 %tmp.25(%tmp.26, %tmp.34);
         lputv %timeMsString.3 %tmp.35;
-        symbol [ timeMsString %timeMsString.3 77 12 24 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 78 8 ]
+        symbol [ timeMsString %timeMsString.3 111 12 24 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 112 8 ]
         %tmp.36 = self;
-        symbol [ addToView %tmp.37 78 8 17 ];
+        symbol [ addToView %tmp.37 112 8 17 ];
         %tmp.37 = getv function %tmp.36 :addToView;
         %tmp.38 = "TimeMsLabel";
         %tmp.39 = lgetv %timeMsString.3;
-        symbol [ timeMsString %tmp.39 78 33 45 ];
+        symbol [ timeMsString %tmp.39 112 33 45 ];
         invoke %tmp.36 %tmp.37(%tmp.38, %tmp.39);
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_72_35_79_4_stop:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_106_35_113_4_stop:
     }
-    [ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 81; @symbol_functiondef = [addToView,81,13,22]; @symbol_param<0> = [name,81,23,27]; @symbol_param<1> = [data,81,29,33]; ]
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 115; @symbol_functiondef = [addToView,115,13,22]; @symbol_param<0> = [name,115,23,27]; @symbol_param<1> = [data,115,29,33]; ]
     function addToView(name, data) as Void {
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_81_43_84_4_start:
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 82 8 ]
-        [ "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_81_43_84_4_start" "c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_81_43_84_4_stop" ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_115_43_118_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 116 8 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_115_43_118_4_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_115_43_118_4_stop" ]
         %view.1 = local;
-        symbol [ view %view.1 82 12 16 ];
-        symbol [ View %tmp.2 82 19 23 ];
+        symbol [ view %view.1 116 12 16 ];
+        symbol [ View %tmp.2 116 19 23 ];
         %tmp.2 = getv ? :View;
-        symbol [ findDrawableById %tmp.3 82 24 40 ];
+        symbol [ findDrawableById %tmp.3 116 24 40 ];
         %tmp.3 = getv function %tmp.2 :findDrawableById;
         %tmp.4 = lgetv %name;
-        symbol [ name %tmp.4 82 41 45 ];
+        symbol [ name %tmp.4 116 41 45 ];
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         %tmp.6 = as %tmp.5 Text;
-        symbol [ Text %tmp.6 82 50 54 ];
+        symbol [ Text %tmp.6 116 50 54 ];
         lputv %view.1 %tmp.6;
-        symbol [ view %view.1 82 12 16 ];
-[ "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc" 83 8 ]
+        symbol [ view %view.1 116 12 16 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 117 8 ]
         %tmp.7 = lgetv %view.1;
-        symbol [ view %tmp.7 83 8 12 ];
-        symbol [ setText %tmp.8 83 13 20 ];
+        symbol [ view %tmp.7 117 8 12 ];
+        symbol [ setText %tmp.8 117 13 20 ];
         %tmp.8 = getv function %tmp.7 :setText;
         %tmp.9 = lgetv %data;
-        symbol [ data %tmp.9 83 21 25 ];
+        symbol [ data %tmp.9 117 21 25 ];
         invoke %tmp.7 %tmp.8(%tmp.9);
-c__Users_Rob_Downloads_garmin_robwatch_source_robwatchView_mc_81_43_84_4_stop:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_115_43_118_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 122; @symbol_functiondef = [drawCircle,122,13,23]; @symbol_param<0> = [dc,122,24,26]; ]
+    function drawCircle(dc) as Void {
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_122_36_125_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 123 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 123 8 10 ];
+        symbol [ setColor %tmp.2 123 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 123 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.4 123 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
+        symbol [ Graphics %tmp.5 123 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 123 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 124 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 124 8 10 ];
+        symbol [ fillCircle %tmp.8 124 11 21 ];
+        %tmp.8 = getv function %tmp.7 :fillCircle;
+        %tmp.9 = 50;
+        %tmp.10 = 100;
+        %tmp.11 = 75;
+        invoke %tmp.7 %tmp.8(%tmp.9, %tmp.10, %tmp.11);
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_122_36_125_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 128; @symbol_functiondef = [drawText,128,13,21]; @symbol_param<0> = [dc,128,22,24]; ]
+    function drawText(dc) as Void {
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_128_34_140_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 129 4 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_128_34_140_4_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_128_34_140_4_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 129 8 17 ];
+        symbol [ System %tmp.1 129 20 26 ];
+        %tmp.1 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.2 129 27 39 ];
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+        symbol [ clockTime %clockTime.1 129 8 17 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 130 4 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_128_34_140_4_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_128_34_140_4_stop" ]
+        %timeString.2 = local;
+        symbol [ timeString %timeString.2 130 8 18 ];
+        symbol [ Lang %tmp.4 130 21 25 ];
+        %tmp.4 = getm $.Toybox.Lang;
+        symbol [ format %tmp.5 130 26 32 ];
+        %tmp.5 = getv function %tmp.4 :format;
+        %tmp.6 = "$1$$2$";
+        %tmp.7 = newa 2;
+        %tmp.8 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.8 130 44 53 ];
+        symbol [ hour %tmp.9 130 54 58 ];
+        %tmp.9 = getv %tmp.8 :hour;
+        %tmp.10 = dup %tmp.7;
+        %tmp.11 = aputv %tmp.10 0 %tmp.9;
+        %tmp.12 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.12 130 60 69 ];
+        symbol [ min %tmp.13 130 70 73 ];
+        %tmp.13 = getv %tmp.12 :min;
+        symbol [ format %tmp.14 130 74 80 ];
+        %tmp.14 = getv function %tmp.13 :format;
+        %tmp.15 = "%02d";
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        %tmp.17 = dup %tmp.11;
+        %tmp.18 = aputv %tmp.17 1 %tmp.16;
+        %tmp.19 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.18);
+        lputv %timeString.2 %tmp.19;
+        symbol [ timeString %timeString.2 130 8 18 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 132 4 ]
+        %tmp.20 = lgetv %dc;
+        symbol [ dc %tmp.20 132 4 6 ];
+        symbol [ setColor %tmp.21 132 7 15 ];
+        %tmp.21 = getv function %tmp.20 :setColor;
+        symbol [ Graphics %tmp.22 132 16 24 ];
+        %tmp.22 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.23 132 25 36 ];
+        %tmp.23 = getv %tmp.22 :COLOR_WHITE;
+        symbol [ Graphics %tmp.24 132 38 46 ];
+        %tmp.24 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.25 132 47 64 ];
+        %tmp.25 = getv %tmp.24 :COLOR_TRANSPARENT;
+        invoke %tmp.20 %tmp.21(%tmp.23, %tmp.25);
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 133 4 ]
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 133 4 6 ];
+        symbol [ drawText %tmp.27 133 7 15 ];
+        %tmp.27 = getv function %tmp.26 :drawText;
+        %tmp.28 = lgetv %dc;
+        symbol [ dc %tmp.28 134 8 10 ];
+        symbol [ getWidth %tmp.29 134 11 19 ];
+        %tmp.29 = getv function %tmp.28 :getWidth;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        %tmp.31 = 2;
+        %tmp.32 = div %tmp.30 %tmp.31;
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 135 8 10 ];
+        symbol [ getHeight %tmp.34 135 11 20 ];
+        %tmp.34 = getv function %tmp.33 :getHeight;
+        %tmp.35 = invoke %tmp.33 %tmp.34();
+        %tmp.36 = 2;
+        %tmp.37 = div %tmp.35 %tmp.36;
+        symbol [ Graphics %tmp.38 136 8 16 ];
+        %tmp.38 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.39 136 17 27 ];
+        %tmp.39 = getv %tmp.38 :FONT_LARGE;
+        %tmp.40 = lgetv %timeString.2;
+        symbol [ timeString %tmp.40 137 8 18 ];
+        symbol [ Graphics %tmp.41 138 8 16 ];
+        %tmp.41 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.42 138 17 36 ];
+        %tmp.42 = getv %tmp.41 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.26 %tmp.27(%tmp.32, %tmp.37, %tmp.39, %tmp.40, %tmp.42);
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_128_34_140_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 143; @symbol_functiondef = [drawWeatherIcon,143,13,28]; @symbol_param<0> = [dc,143,29,31]; @symbol_param<1> = [icon,143,33,37]; ]
+    function drawWeatherIcon(dc, icon) as Void {
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_143_47_145_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 144 7 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 144 7 9 ];
+        symbol [ drawBitmap %tmp.2 144 10 20 ];
+        %tmp.2 = getv function %tmp.1 :drawBitmap;
+        %tmp.3 = 80;
+        %tmp.4 = 110;
+        %tmp.5 = lgetv %icon;
+        symbol [ icon %tmp.5 144 30 34 ];
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.5);
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_143_47_145_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 146; @symbol_functiondef = [setWeatherIcon,146,9,23]; @symbol_param<0> = [dc,146,24,26]; ]
+    function setWeatherIcon(dc) as Void {
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_146_36_367_0_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 147 4 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_146_36_367_0_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_146_36_367_0_stop" ]
+        %icon.1 = local;
+        symbol [ icon %icon.1 147 8 12 ];
+        %tmp.1 = null;
+        lputv %icon.1 %tmp.1;
+        symbol [ icon %icon.1 147 8 12 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 148 4 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_146_36_367_0_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_146_36_367_0_stop" ]
+        %weatherText.2 = local;
+        symbol [ weatherText %weatherText.2 148 8 19 ];
+        %tmp.2 = "";
+        lputv %weatherText.2 %tmp.2;
+        symbol [ weatherText %weatherText.2 148 8 19 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 149 4 ]
+        [ "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_146_36_367_0_start" "C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_146_36_367_0_stop" ]
+        %weather.3 = local;
+        symbol [ weather %weather.3 149 8 15 ];
+        symbol [ Weather %tmp.3 149 18 25 ];
+        %tmp.3 = getm $.Toybox.Weather;
+        symbol [ getCurrentConditions %tmp.4 149 26 46 ];
+        %tmp.4 = getv function %tmp.3 :getCurrentConditions;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        lputv %weather.3 %tmp.5;
+        symbol [ weather %weather.3 149 8 15 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 151 4 ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_151_4_358_4_if_stmt:
+        %tmp.6 = lgetv %weather.3;
+        symbol [ weather %tmp.6 151 8 15 ];
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        bf %tmp.8 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_151_4_358_4_if_end;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_151_4_358_4_if_true:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_151_25_358_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 152 8 ]
+        %tmp.9 = lgetv %weather.3;
+        symbol [ weather %tmp.9 152 16 23 ];
+        %tmp.10 = as %tmp.9 { (!Null) };
+        symbol [ condition %tmp.11 152 24 33 ];
+        %tmp.11 = getv %tmp.10 :condition;
+        push %tmp.11;
+        switch %tmp.11 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtBegin:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 153 12 ]
+        %tmp.12 = dup %tmp.11;
+        symbol [ Weather %tmp.13 153 17 24 ];
+        %tmp.13 = getm $.Toybox.Weather;
+        symbol [ CONDITION_CLEAR %tmp.14 153 25 40 ];
+        %tmp.14 = getv %tmp.13 :CONDITION_CLEAR;
+        %tmp.15 = getv function %tmp.12 :equals;
+        %tmp.16 = invoke %tmp.12 %tmp.15 (%tmp.14);
+        bt %tmp.16 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_153_12_156_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 157 12 ]
+        %tmp.17 = dup %tmp.11;
+        symbol [ Weather %tmp.18 157 17 24 ];
+        %tmp.18 = getm $.Toybox.Weather;
+        symbol [ CONDITION_PARTLY_CLEAR %tmp.19 157 25 47 ];
+        %tmp.19 = getv %tmp.18 :CONDITION_PARTLY_CLEAR;
+        %tmp.20 = getv function %tmp.17 :equals;
+        %tmp.21 = invoke %tmp.17 %tmp.20 (%tmp.19);
+        bt %tmp.21 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_157_12_160_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 161 12 ]
+        %tmp.22 = dup %tmp.11;
+        symbol [ Weather %tmp.23 161 17 24 ];
+        %tmp.23 = getm $.Toybox.Weather;
+        symbol [ CONDITION_MOSTLY_CLEAR %tmp.24 161 25 47 ];
+        %tmp.24 = getv %tmp.23 :CONDITION_MOSTLY_CLEAR;
+        %tmp.25 = getv function %tmp.22 :equals;
+        %tmp.26 = invoke %tmp.22 %tmp.25 (%tmp.24);
+        bt %tmp.26 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_161_12_164_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 165 12 ]
+        %tmp.27 = dup %tmp.11;
+        symbol [ Weather %tmp.28 165 17 24 ];
+        %tmp.28 = getm $.Toybox.Weather;
+        symbol [ CONDITION_FAIR %tmp.29 165 25 39 ];
+        %tmp.29 = getv %tmp.28 :CONDITION_FAIR;
+        %tmp.30 = getv function %tmp.27 :equals;
+        %tmp.31 = invoke %tmp.27 %tmp.30 (%tmp.29);
+        bt %tmp.31 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_165_12_168_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 170 12 ]
+        %tmp.32 = dup %tmp.11;
+        symbol [ Weather %tmp.33 170 17 24 ];
+        %tmp.33 = getm $.Toybox.Weather;
+        symbol [ CONDITION_PARTLY_CLOUDY %tmp.34 170 25 48 ];
+        %tmp.34 = getv %tmp.33 :CONDITION_PARTLY_CLOUDY;
+        %tmp.35 = getv function %tmp.32 :equals;
+        %tmp.36 = invoke %tmp.32 %tmp.35 (%tmp.34);
+        bt %tmp.36 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_170_12_173_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 174 12 ]
+        %tmp.37 = dup %tmp.11;
+        symbol [ Weather %tmp.38 174 17 24 ];
+        %tmp.38 = getm $.Toybox.Weather;
+        symbol [ CONDITION_MOSTLY_CLOUDY %tmp.39 174 25 48 ];
+        %tmp.39 = getv %tmp.38 :CONDITION_MOSTLY_CLOUDY;
+        %tmp.40 = getv function %tmp.37 :equals;
+        %tmp.41 = invoke %tmp.37 %tmp.40 (%tmp.39);
+        bt %tmp.41 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_174_12_177_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 178 12 ]
+        %tmp.42 = dup %tmp.11;
+        symbol [ Weather %tmp.43 178 17 24 ];
+        %tmp.43 = getm $.Toybox.Weather;
+        symbol [ CONDITION_CLOUDY %tmp.44 178 25 41 ];
+        %tmp.44 = getv %tmp.43 :CONDITION_CLOUDY;
+        %tmp.45 = getv function %tmp.42 :equals;
+        %tmp.46 = invoke %tmp.42 %tmp.45 (%tmp.44);
+        bt %tmp.46 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_178_12_181_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 182 12 ]
+        %tmp.47 = dup %tmp.11;
+        symbol [ Weather %tmp.48 182 17 24 ];
+        %tmp.48 = getm $.Toybox.Weather;
+        symbol [ CONDITION_THIN_CLOUDS %tmp.49 182 25 46 ];
+        %tmp.49 = getv %tmp.48 :CONDITION_THIN_CLOUDS;
+        %tmp.50 = getv function %tmp.47 :equals;
+        %tmp.51 = invoke %tmp.47 %tmp.50 (%tmp.49);
+        bt %tmp.51 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_182_12_185_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 187 12 ]
+        %tmp.52 = dup %tmp.11;
+        symbol [ Weather %tmp.53 187 17 24 ];
+        %tmp.53 = getm $.Toybox.Weather;
+        symbol [ CONDITION_RAIN %tmp.54 187 25 39 ];
+        %tmp.54 = getv %tmp.53 :CONDITION_RAIN;
+        %tmp.55 = getv function %tmp.52 :equals;
+        %tmp.56 = invoke %tmp.52 %tmp.55 (%tmp.54);
+        bt %tmp.56 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_187_12_190_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 191 12 ]
+        %tmp.57 = dup %tmp.11;
+        symbol [ Weather %tmp.58 191 17 24 ];
+        %tmp.58 = getm $.Toybox.Weather;
+        symbol [ CONDITION_HEAVY_RAIN %tmp.59 191 25 45 ];
+        %tmp.59 = getv %tmp.58 :CONDITION_HEAVY_RAIN;
+        %tmp.60 = getv function %tmp.57 :equals;
+        %tmp.61 = invoke %tmp.57 %tmp.60 (%tmp.59);
+        bt %tmp.61 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_191_12_194_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 195 12 ]
+        %tmp.62 = dup %tmp.11;
+        symbol [ Weather %tmp.63 195 17 24 ];
+        %tmp.63 = getm $.Toybox.Weather;
+        symbol [ CONDITION_LIGHT_RAIN %tmp.64 195 25 45 ];
+        %tmp.64 = getv %tmp.63 :CONDITION_LIGHT_RAIN;
+        %tmp.65 = getv function %tmp.62 :equals;
+        %tmp.66 = invoke %tmp.62 %tmp.65 (%tmp.64);
+        bt %tmp.66 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_195_12_198_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 199 12 ]
+        %tmp.67 = dup %tmp.11;
+        symbol [ Weather %tmp.68 199 17 24 ];
+        %tmp.68 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SHOWERS %tmp.69 199 25 42 ];
+        %tmp.69 = getv %tmp.68 :CONDITION_SHOWERS;
+        %tmp.70 = getv function %tmp.67 :equals;
+        %tmp.71 = invoke %tmp.67 %tmp.70 (%tmp.69);
+        bt %tmp.71 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_199_12_202_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 203 12 ]
+        %tmp.72 = dup %tmp.11;
+        symbol [ Weather %tmp.73 203 17 24 ];
+        %tmp.73 = getm $.Toybox.Weather;
+        symbol [ CONDITION_HEAVY_SHOWERS %tmp.74 203 25 48 ];
+        %tmp.74 = getv %tmp.73 :CONDITION_HEAVY_SHOWERS;
+        %tmp.75 = getv function %tmp.72 :equals;
+        %tmp.76 = invoke %tmp.72 %tmp.75 (%tmp.74);
+        bt %tmp.76 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_203_12_206_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 207 12 ]
+        %tmp.77 = dup %tmp.11;
+        symbol [ Weather %tmp.78 207 17 24 ];
+        %tmp.78 = getm $.Toybox.Weather;
+        symbol [ CONDITION_LIGHT_SHOWERS %tmp.79 207 25 48 ];
+        %tmp.79 = getv %tmp.78 :CONDITION_LIGHT_SHOWERS;
+        %tmp.80 = getv function %tmp.77 :equals;
+        %tmp.81 = invoke %tmp.77 %tmp.80 (%tmp.79);
+        bt %tmp.81 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_207_12_210_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 211 12 ]
+        %tmp.82 = dup %tmp.11;
+        symbol [ Weather %tmp.83 211 17 24 ];
+        %tmp.83 = getm $.Toybox.Weather;
+        symbol [ CONDITION_DRIZZLE %tmp.84 211 25 42 ];
+        %tmp.84 = getv %tmp.83 :CONDITION_DRIZZLE;
+        %tmp.85 = getv function %tmp.82 :equals;
+        %tmp.86 = invoke %tmp.82 %tmp.85 (%tmp.84);
+        bt %tmp.86 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_211_12_214_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 215 12 ]
+        %tmp.87 = dup %tmp.11;
+        symbol [ Weather %tmp.88 215 17 24 ];
+        %tmp.88 = getm $.Toybox.Weather;
+        symbol [ CONDITION_RAIN_SNOW %tmp.89 215 25 44 ];
+        %tmp.89 = getv %tmp.88 :CONDITION_RAIN_SNOW;
+        %tmp.90 = getv function %tmp.87 :equals;
+        %tmp.91 = invoke %tmp.87 %tmp.90 (%tmp.89);
+        bt %tmp.91 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_215_12_218_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 219 12 ]
+        %tmp.92 = dup %tmp.11;
+        symbol [ Weather %tmp.93 219 17 24 ];
+        %tmp.93 = getm $.Toybox.Weather;
+        symbol [ CONDITION_LIGHT_RAIN_SNOW %tmp.94 219 25 50 ];
+        %tmp.94 = getv %tmp.93 :CONDITION_LIGHT_RAIN_SNOW;
+        %tmp.95 = getv function %tmp.92 :equals;
+        %tmp.96 = invoke %tmp.92 %tmp.95 (%tmp.94);
+        bt %tmp.96 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_219_12_222_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 223 12 ]
+        %tmp.97 = dup %tmp.11;
+        symbol [ Weather %tmp.98 223 17 24 ];
+        %tmp.98 = getm $.Toybox.Weather;
+        symbol [ CONDITION_HEAVY_RAIN_SNOW %tmp.99 223 25 50 ];
+        %tmp.99 = getv %tmp.98 :CONDITION_HEAVY_RAIN_SNOW;
+        %tmp.100 = getv function %tmp.97 :equals;
+        %tmp.101 = invoke %tmp.97 %tmp.100 (%tmp.99);
+        bt %tmp.101 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_223_12_226_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 228 12 ]
+        %tmp.102 = dup %tmp.11;
+        symbol [ Weather %tmp.103 228 17 24 ];
+        %tmp.103 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SNOW %tmp.104 228 25 39 ];
+        %tmp.104 = getv %tmp.103 :CONDITION_SNOW;
+        %tmp.105 = getv function %tmp.102 :equals;
+        %tmp.106 = invoke %tmp.102 %tmp.105 (%tmp.104);
+        bt %tmp.106 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_228_12_231_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 232 12 ]
+        %tmp.107 = dup %tmp.11;
+        symbol [ Weather %tmp.108 232 17 24 ];
+        %tmp.108 = getm $.Toybox.Weather;
+        symbol [ CONDITION_LIGHT_SNOW %tmp.109 232 25 45 ];
+        %tmp.109 = getv %tmp.108 :CONDITION_LIGHT_SNOW;
+        %tmp.110 = getv function %tmp.107 :equals;
+        %tmp.111 = invoke %tmp.107 %tmp.110 (%tmp.109);
+        bt %tmp.111 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_232_12_235_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 236 12 ]
+        %tmp.112 = dup %tmp.11;
+        symbol [ Weather %tmp.113 236 17 24 ];
+        %tmp.113 = getm $.Toybox.Weather;
+        symbol [ CONDITION_HEAVY_SNOW %tmp.114 236 25 45 ];
+        %tmp.114 = getv %tmp.113 :CONDITION_HEAVY_SNOW;
+        %tmp.115 = getv function %tmp.112 :equals;
+        %tmp.116 = invoke %tmp.112 %tmp.115 (%tmp.114);
+        bt %tmp.116 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_236_12_239_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 240 12 ]
+        %tmp.117 = dup %tmp.11;
+        symbol [ Weather %tmp.118 240 17 24 ];
+        %tmp.118 = getm $.Toybox.Weather;
+        symbol [ CONDITION_ICE_SNOW %tmp.119 240 25 43 ];
+        %tmp.119 = getv %tmp.118 :CONDITION_ICE_SNOW;
+        %tmp.120 = getv function %tmp.117 :equals;
+        %tmp.121 = invoke %tmp.117 %tmp.120 (%tmp.119);
+        bt %tmp.121 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_240_12_243_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 244 12 ]
+        %tmp.122 = dup %tmp.11;
+        symbol [ Weather %tmp.123 244 17 24 ];
+        %tmp.123 = getm $.Toybox.Weather;
+        symbol [ CONDITION_FLURRIES %tmp.124 244 25 43 ];
+        %tmp.124 = getv %tmp.123 :CONDITION_FLURRIES;
+        %tmp.125 = getv function %tmp.122 :equals;
+        %tmp.126 = invoke %tmp.122 %tmp.125 (%tmp.124);
+        bt %tmp.126 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_244_12_247_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 248 12 ]
+        %tmp.127 = dup %tmp.11;
+        symbol [ Weather %tmp.128 248 17 24 ];
+        %tmp.128 = getm $.Toybox.Weather;
+        symbol [ CONDITION_CHANCE_OF_SNOW %tmp.129 248 25 49 ];
+        %tmp.129 = getv %tmp.128 :CONDITION_CHANCE_OF_SNOW;
+        %tmp.130 = getv function %tmp.127 :equals;
+        %tmp.131 = invoke %tmp.127 %tmp.130 (%tmp.129);
+        bt %tmp.131 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_248_12_251_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 252 12 ]
+        %tmp.132 = dup %tmp.11;
+        symbol [ Weather %tmp.133 252 17 24 ];
+        %tmp.133 = getm $.Toybox.Weather;
+        symbol [ CONDITION_CLOUDY_CHANCE_OF_SNOW %tmp.134 252 25 56 ];
+        %tmp.134 = getv %tmp.133 :CONDITION_CLOUDY_CHANCE_OF_SNOW;
+        %tmp.135 = getv function %tmp.132 :equals;
+        %tmp.136 = invoke %tmp.132 %tmp.135 (%tmp.134);
+        bt %tmp.136 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_252_12_255_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 256 12 ]
+        %tmp.137 = dup %tmp.11;
+        symbol [ Weather %tmp.138 256 17 24 ];
+        %tmp.138 = getm $.Toybox.Weather;
+        symbol [ CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW %tmp.139 256 25 61 ];
+        %tmp.139 = getv %tmp.138 :CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW;
+        %tmp.140 = getv function %tmp.137 :equals;
+        %tmp.141 = invoke %tmp.137 %tmp.140 (%tmp.139);
+        bt %tmp.141 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_256_12_259_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 261 12 ]
+        %tmp.142 = dup %tmp.11;
+        symbol [ Weather %tmp.143 261 17 24 ];
+        %tmp.143 = getm $.Toybox.Weather;
+        symbol [ CONDITION_THUNDERSTORMS %tmp.144 261 25 48 ];
+        %tmp.144 = getv %tmp.143 :CONDITION_THUNDERSTORMS;
+        %tmp.145 = getv function %tmp.142 :equals;
+        %tmp.146 = invoke %tmp.142 %tmp.145 (%tmp.144);
+        bt %tmp.146 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_261_12_264_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 265 12 ]
+        %tmp.147 = dup %tmp.11;
+        symbol [ Weather %tmp.148 265 17 24 ];
+        %tmp.148 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SCATTERED_THUNDERSTORMS %tmp.149 265 25 58 ];
+        %tmp.149 = getv %tmp.148 :CONDITION_SCATTERED_THUNDERSTORMS;
+        %tmp.150 = getv function %tmp.147 :equals;
+        %tmp.151 = invoke %tmp.147 %tmp.150 (%tmp.149);
+        bt %tmp.151 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_265_12_268_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 269 12 ]
+        %tmp.152 = dup %tmp.11;
+        symbol [ Weather %tmp.153 269 17 24 ];
+        %tmp.153 = getm $.Toybox.Weather;
+        symbol [ CONDITION_CHANCE_OF_THUNDERSTORMS %tmp.154 269 25 58 ];
+        %tmp.154 = getv %tmp.153 :CONDITION_CHANCE_OF_THUNDERSTORMS;
+        %tmp.155 = getv function %tmp.152 :equals;
+        %tmp.156 = invoke %tmp.152 %tmp.155 (%tmp.154);
+        bt %tmp.156 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_269_12_272_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 274 12 ]
+        %tmp.157 = dup %tmp.11;
+        symbol [ Weather %tmp.158 274 17 24 ];
+        %tmp.158 = getm $.Toybox.Weather;
+        symbol [ CONDITION_FOG %tmp.159 274 25 38 ];
+        %tmp.159 = getv %tmp.158 :CONDITION_FOG;
+        %tmp.160 = getv function %tmp.157 :equals;
+        %tmp.161 = invoke %tmp.157 %tmp.160 (%tmp.159);
+        bt %tmp.161 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_274_12_277_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 278 12 ]
+        %tmp.162 = dup %tmp.11;
+        symbol [ Weather %tmp.163 278 17 24 ];
+        %tmp.163 = getm $.Toybox.Weather;
+        symbol [ CONDITION_HAZY %tmp.164 278 25 39 ];
+        %tmp.164 = getv %tmp.163 :CONDITION_HAZY;
+        %tmp.165 = getv function %tmp.162 :equals;
+        %tmp.166 = invoke %tmp.162 %tmp.165 (%tmp.164);
+        bt %tmp.166 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_278_12_281_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 282 12 ]
+        %tmp.167 = dup %tmp.11;
+        symbol [ Weather %tmp.168 282 17 24 ];
+        %tmp.168 = getm $.Toybox.Weather;
+        symbol [ CONDITION_HAZE %tmp.169 282 25 39 ];
+        %tmp.169 = getv %tmp.168 :CONDITION_HAZE;
+        %tmp.170 = getv function %tmp.167 :equals;
+        %tmp.171 = invoke %tmp.167 %tmp.170 (%tmp.169);
+        bt %tmp.171 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_282_12_285_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 286 12 ]
+        %tmp.172 = dup %tmp.11;
+        symbol [ Weather %tmp.173 286 17 24 ];
+        %tmp.173 = getm $.Toybox.Weather;
+        symbol [ CONDITION_MIST %tmp.174 286 25 39 ];
+        %tmp.174 = getv %tmp.173 :CONDITION_MIST;
+        %tmp.175 = getv function %tmp.172 :equals;
+        %tmp.176 = invoke %tmp.172 %tmp.175 (%tmp.174);
+        bt %tmp.176 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_286_12_289_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 290 12 ]
+        %tmp.177 = dup %tmp.11;
+        symbol [ Weather %tmp.178 290 17 24 ];
+        %tmp.178 = getm $.Toybox.Weather;
+        symbol [ CONDITION_DUST %tmp.179 290 25 39 ];
+        %tmp.179 = getv %tmp.178 :CONDITION_DUST;
+        %tmp.180 = getv function %tmp.177 :equals;
+        %tmp.181 = invoke %tmp.177 %tmp.180 (%tmp.179);
+        bt %tmp.181 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_290_12_293_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 294 12 ]
+        %tmp.182 = dup %tmp.11;
+        symbol [ Weather %tmp.183 294 17 24 ];
+        %tmp.183 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SMOKE %tmp.184 294 25 40 ];
+        %tmp.184 = getv %tmp.183 :CONDITION_SMOKE;
+        %tmp.185 = getv function %tmp.182 :equals;
+        %tmp.186 = invoke %tmp.182 %tmp.185 (%tmp.184);
+        bt %tmp.186 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_294_12_297_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 298 12 ]
+        %tmp.187 = dup %tmp.11;
+        symbol [ Weather %tmp.188 298 17 24 ];
+        %tmp.188 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SAND %tmp.189 298 25 39 ];
+        %tmp.189 = getv %tmp.188 :CONDITION_SAND;
+        %tmp.190 = getv function %tmp.187 :equals;
+        %tmp.191 = invoke %tmp.187 %tmp.190 (%tmp.189);
+        bt %tmp.191 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_298_12_301_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 302 12 ]
+        %tmp.192 = dup %tmp.11;
+        symbol [ Weather %tmp.193 302 17 24 ];
+        %tmp.193 = getm $.Toybox.Weather;
+        symbol [ CONDITION_VOLCANIC_ASH %tmp.194 302 25 47 ];
+        %tmp.194 = getv %tmp.193 :CONDITION_VOLCANIC_ASH;
+        %tmp.195 = getv function %tmp.192 :equals;
+        %tmp.196 = invoke %tmp.192 %tmp.195 (%tmp.194);
+        bt %tmp.196 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_302_12_305_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 306 12 ]
+        %tmp.197 = dup %tmp.11;
+        symbol [ Weather %tmp.198 306 17 24 ];
+        %tmp.198 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SANDSTORM %tmp.199 306 25 44 ];
+        %tmp.199 = getv %tmp.198 :CONDITION_SANDSTORM;
+        %tmp.200 = getv function %tmp.197 :equals;
+        %tmp.201 = invoke %tmp.197 %tmp.200 (%tmp.199);
+        bt %tmp.201 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_306_12_309_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 311 12 ]
+        %tmp.202 = dup %tmp.11;
+        symbol [ Weather %tmp.203 311 17 24 ];
+        %tmp.203 = getm $.Toybox.Weather;
+        symbol [ CONDITION_WINDY %tmp.204 311 25 40 ];
+        %tmp.204 = getv %tmp.203 :CONDITION_WINDY;
+        %tmp.205 = getv function %tmp.202 :equals;
+        %tmp.206 = invoke %tmp.202 %tmp.205 (%tmp.204);
+        bt %tmp.206 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_311_12_314_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 315 12 ]
+        %tmp.207 = dup %tmp.11;
+        symbol [ Weather %tmp.208 315 17 24 ];
+        %tmp.208 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SQUALL %tmp.209 315 25 41 ];
+        %tmp.209 = getv %tmp.208 :CONDITION_SQUALL;
+        %tmp.210 = getv function %tmp.207 :equals;
+        %tmp.211 = invoke %tmp.207 %tmp.210 (%tmp.209);
+        bt %tmp.211 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_315_12_318_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 319 12 ]
+        %tmp.212 = dup %tmp.11;
+        symbol [ Weather %tmp.213 319 17 24 ];
+        %tmp.213 = getm $.Toybox.Weather;
+        symbol [ CONDITION_HURRICANE %tmp.214 319 25 44 ];
+        %tmp.214 = getv %tmp.213 :CONDITION_HURRICANE;
+        %tmp.215 = getv function %tmp.212 :equals;
+        %tmp.216 = invoke %tmp.212 %tmp.215 (%tmp.214);
+        bt %tmp.216 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_319_12_322_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 323 12 ]
+        %tmp.217 = dup %tmp.11;
+        symbol [ Weather %tmp.218 323 17 24 ];
+        %tmp.218 = getm $.Toybox.Weather;
+        symbol [ CONDITION_TROPICAL_STORM %tmp.219 323 25 49 ];
+        %tmp.219 = getv %tmp.218 :CONDITION_TROPICAL_STORM;
+        %tmp.220 = getv function %tmp.217 :equals;
+        %tmp.221 = invoke %tmp.217 %tmp.220 (%tmp.219);
+        bt %tmp.221 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_323_12_326_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 328 12 ]
+        %tmp.222 = dup %tmp.11;
+        symbol [ Weather %tmp.223 328 17 24 ];
+        %tmp.223 = getm $.Toybox.Weather;
+        symbol [ CONDITION_HAIL %tmp.224 328 25 39 ];
+        %tmp.224 = getv %tmp.223 :CONDITION_HAIL;
+        %tmp.225 = getv function %tmp.222 :equals;
+        %tmp.226 = invoke %tmp.222 %tmp.225 (%tmp.224);
+        bt %tmp.226 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_328_12_331_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 332 12 ]
+        %tmp.227 = dup %tmp.11;
+        symbol [ Weather %tmp.228 332 17 24 ];
+        %tmp.228 = getm $.Toybox.Weather;
+        symbol [ CONDITION_ICE %tmp.229 332 25 38 ];
+        %tmp.229 = getv %tmp.228 :CONDITION_ICE;
+        %tmp.230 = getv function %tmp.227 :equals;
+        %tmp.231 = invoke %tmp.227 %tmp.230 (%tmp.229);
+        bt %tmp.231 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_332_12_335_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 336 12 ]
+        %tmp.232 = dup %tmp.11;
+        symbol [ Weather %tmp.233 336 17 24 ];
+        %tmp.233 = getm $.Toybox.Weather;
+        symbol [ CONDITION_FREEZING_RAIN %tmp.234 336 25 48 ];
+        %tmp.234 = getv %tmp.233 :CONDITION_FREEZING_RAIN;
+        %tmp.235 = getv function %tmp.232 :equals;
+        %tmp.236 = invoke %tmp.232 %tmp.235 (%tmp.234);
+        bt %tmp.236 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_336_12_339_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 340 12 ]
+        %tmp.237 = dup %tmp.11;
+        symbol [ Weather %tmp.238 340 17 24 ];
+        %tmp.238 = getm $.Toybox.Weather;
+        symbol [ CONDITION_SLEET %tmp.239 340 25 40 ];
+        %tmp.239 = getv %tmp.238 :CONDITION_SLEET;
+        %tmp.240 = getv function %tmp.237 :equals;
+        %tmp.241 = invoke %tmp.237 %tmp.240 (%tmp.239);
+        bt %tmp.241 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_340_12_343_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 344 12 ]
+        %tmp.242 = dup %tmp.11;
+        symbol [ Weather %tmp.243 344 17 24 ];
+        %tmp.243 = getm $.Toybox.Weather;
+        symbol [ CONDITION_UNKNOWN_PRECIPITATION %tmp.244 344 25 56 ];
+        %tmp.244 = getv %tmp.243 :CONDITION_UNKNOWN_PRECIPITATION;
+        %tmp.245 = getv function %tmp.242 :equals;
+        %tmp.246 = invoke %tmp.242 %tmp.245 (%tmp.244);
+        bt %tmp.246 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_344_12_347_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 348 12 ]
+        %tmp.247 = dup %tmp.11;
+        symbol [ Weather %tmp.248 348 17 24 ];
+        %tmp.248 = getm $.Toybox.Weather;
+        symbol [ CONDITION_UNKNOWN %tmp.249 348 25 42 ];
+        %tmp.249 = getv %tmp.248 :CONDITION_UNKNOWN;
+        %tmp.250 = getv function %tmp.247 :equals;
+        %tmp.251 = invoke %tmp.247 %tmp.250 (%tmp.249);
+        bt %tmp.251 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_348_12_351_21_switchCase;
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 353 12 ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtDefault:
+        goto @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_defaultCodeBegin;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_153_12_156_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 154 16 ]
+        symbol [ sunIcon %tmp.253 154 23 30 ];
+        %tmp.253 = getv ? :sunIcon;
+        lputv %icon.1 %tmp.253;
+        symbol [ icon %icon.1 154 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 155 16 ]
+        %tmp.254 = "Clear";
+        lputv %weatherText.2 %tmp.254;
+        symbol [ weatherText %weatherText.2 155 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 156 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_157_12_160_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 158 16 ]
+        symbol [ sunIcon %tmp.256 158 23 30 ];
+        %tmp.256 = getv ? :sunIcon;
+        lputv %icon.1 %tmp.256;
+        symbol [ icon %icon.1 158 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 159 16 ]
+        %tmp.257 = "Partly Clear";
+        lputv %weatherText.2 %tmp.257;
+        symbol [ weatherText %weatherText.2 159 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 160 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_161_12_164_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 162 16 ]
+        symbol [ sunIcon %tmp.259 162 23 30 ];
+        %tmp.259 = getv ? :sunIcon;
+        lputv %icon.1 %tmp.259;
+        symbol [ icon %icon.1 162 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 163 16 ]
+        %tmp.260 = "Mostly Clear";
+        lputv %weatherText.2 %tmp.260;
+        symbol [ weatherText %weatherText.2 163 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 164 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_165_12_168_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 166 16 ]
+        symbol [ sunIcon %tmp.262 166 23 30 ];
+        %tmp.262 = getv ? :sunIcon;
+        lputv %icon.1 %tmp.262;
+        symbol [ icon %icon.1 166 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 167 16 ]
+        %tmp.263 = "Fair";
+        lputv %weatherText.2 %tmp.263;
+        symbol [ weatherText %weatherText.2 167 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 168 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_170_12_173_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 171 16 ]
+        symbol [ cloudyIcon %tmp.265 171 23 33 ];
+        %tmp.265 = getv ? :cloudyIcon;
+        lputv %icon.1 %tmp.265;
+        symbol [ icon %icon.1 171 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 172 16 ]
+        %tmp.266 = "Partly Cloudy";
+        lputv %weatherText.2 %tmp.266;
+        symbol [ weatherText %weatherText.2 172 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 173 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_174_12_177_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 175 16 ]
+        symbol [ cloudyIcon %tmp.268 175 23 33 ];
+        %tmp.268 = getv ? :cloudyIcon;
+        lputv %icon.1 %tmp.268;
+        symbol [ icon %icon.1 175 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 176 16 ]
+        %tmp.269 = "Mostly Cloudy";
+        lputv %weatherText.2 %tmp.269;
+        symbol [ weatherText %weatherText.2 176 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 177 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_178_12_181_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 179 16 ]
+        symbol [ cloudyIcon %tmp.271 179 23 33 ];
+        %tmp.271 = getv ? :cloudyIcon;
+        lputv %icon.1 %tmp.271;
+        symbol [ icon %icon.1 179 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 180 16 ]
+        %tmp.272 = "Cloudy";
+        lputv %weatherText.2 %tmp.272;
+        symbol [ weatherText %weatherText.2 180 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 181 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_182_12_185_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 183 16 ]
+        symbol [ cloudyIcon %tmp.274 183 23 33 ];
+        %tmp.274 = getv ? :cloudyIcon;
+        lputv %icon.1 %tmp.274;
+        symbol [ icon %icon.1 183 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 184 16 ]
+        %tmp.275 = "Thin Clouds";
+        lputv %weatherText.2 %tmp.275;
+        symbol [ weatherText %weatherText.2 184 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 185 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_187_12_190_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 188 16 ]
+        symbol [ rainIcon %tmp.277 188 23 31 ];
+        %tmp.277 = getv ? :rainIcon;
+        lputv %icon.1 %tmp.277;
+        symbol [ icon %icon.1 188 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 189 16 ]
+        %tmp.278 = "Rain";
+        lputv %weatherText.2 %tmp.278;
+        symbol [ weatherText %weatherText.2 189 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 190 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_191_12_194_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 192 16 ]
+        symbol [ rainIcon %tmp.280 192 23 31 ];
+        %tmp.280 = getv ? :rainIcon;
+        lputv %icon.1 %tmp.280;
+        symbol [ icon %icon.1 192 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 193 16 ]
+        %tmp.281 = "Heavy Rain";
+        lputv %weatherText.2 %tmp.281;
+        symbol [ weatherText %weatherText.2 193 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 194 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_195_12_198_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 196 16 ]
+        symbol [ lightRainIcon %tmp.283 196 23 36 ];
+        %tmp.283 = getv ? :lightRainIcon;
+        lputv %icon.1 %tmp.283;
+        symbol [ icon %icon.1 196 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 197 16 ]
+        %tmp.284 = "Light Rain";
+        lputv %weatherText.2 %tmp.284;
+        symbol [ weatherText %weatherText.2 197 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 198 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_199_12_202_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 200 16 ]
+        symbol [ rainIcon %tmp.286 200 23 31 ];
+        %tmp.286 = getv ? :rainIcon;
+        lputv %icon.1 %tmp.286;
+        symbol [ icon %icon.1 200 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 201 16 ]
+        %tmp.287 = "Showers";
+        lputv %weatherText.2 %tmp.287;
+        symbol [ weatherText %weatherText.2 201 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 202 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_203_12_206_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 204 16 ]
+        symbol [ rainIcon %tmp.289 204 23 31 ];
+        %tmp.289 = getv ? :rainIcon;
+        lputv %icon.1 %tmp.289;
+        symbol [ icon %icon.1 204 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 205 16 ]
+        %tmp.290 = "Heavy Showers";
+        lputv %weatherText.2 %tmp.290;
+        symbol [ weatherText %weatherText.2 205 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 206 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_207_12_210_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 208 16 ]
+        symbol [ lightRainIcon %tmp.292 208 23 36 ];
+        %tmp.292 = getv ? :lightRainIcon;
+        lputv %icon.1 %tmp.292;
+        symbol [ icon %icon.1 208 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 209 16 ]
+        %tmp.293 = "Light Showers";
+        lputv %weatherText.2 %tmp.293;
+        symbol [ weatherText %weatherText.2 209 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 210 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_211_12_214_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 212 16 ]
+        symbol [ lightRainIcon %tmp.295 212 23 36 ];
+        %tmp.295 = getv ? :lightRainIcon;
+        lputv %icon.1 %tmp.295;
+        symbol [ icon %icon.1 212 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 213 16 ]
+        %tmp.296 = "Drizzle";
+        lputv %weatherText.2 %tmp.296;
+        symbol [ weatherText %weatherText.2 213 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 214 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_215_12_218_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 216 16 ]
+        symbol [ rainIcon %tmp.298 216 23 31 ];
+        %tmp.298 = getv ? :rainIcon;
+        lputv %icon.1 %tmp.298;
+        symbol [ icon %icon.1 216 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 217 16 ]
+        %tmp.299 = "Rain/Snow";
+        lputv %weatherText.2 %tmp.299;
+        symbol [ weatherText %weatherText.2 217 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 218 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_219_12_222_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 220 16 ]
+        symbol [ snowIcon %tmp.301 220 23 31 ];
+        %tmp.301 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.301;
+        symbol [ icon %icon.1 220 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 221 16 ]
+        %tmp.302 = "Light Rain/Snow";
+        lputv %weatherText.2 %tmp.302;
+        symbol [ weatherText %weatherText.2 221 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 222 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_223_12_226_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 224 16 ]
+        symbol [ snowIcon %tmp.304 224 23 31 ];
+        %tmp.304 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.304;
+        symbol [ icon %icon.1 224 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 225 16 ]
+        %tmp.305 = "Heavy Rain/Snow";
+        lputv %weatherText.2 %tmp.305;
+        symbol [ weatherText %weatherText.2 225 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 226 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_228_12_231_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 229 16 ]
+        symbol [ snowIcon %tmp.307 229 23 31 ];
+        %tmp.307 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.307;
+        symbol [ icon %icon.1 229 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 230 16 ]
+        %tmp.308 = "Snow";
+        lputv %weatherText.2 %tmp.308;
+        symbol [ weatherText %weatherText.2 230 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 231 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_232_12_235_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 233 16 ]
+        symbol [ snowIcon %tmp.310 233 23 31 ];
+        %tmp.310 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.310;
+        symbol [ icon %icon.1 233 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 234 16 ]
+        %tmp.311 = "Light Snow";
+        lputv %weatherText.2 %tmp.311;
+        symbol [ weatherText %weatherText.2 234 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 235 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_236_12_239_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 237 16 ]
+        symbol [ snowIcon %tmp.313 237 23 31 ];
+        %tmp.313 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.313;
+        symbol [ icon %icon.1 237 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 238 16 ]
+        %tmp.314 = "Heavy Snow";
+        lputv %weatherText.2 %tmp.314;
+        symbol [ weatherText %weatherText.2 238 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 239 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_240_12_243_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 241 16 ]
+        symbol [ snowIcon %tmp.316 241 23 31 ];
+        %tmp.316 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.316;
+        symbol [ icon %icon.1 241 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 242 16 ]
+        %tmp.317 = "Ice/Snow";
+        lputv %weatherText.2 %tmp.317;
+        symbol [ weatherText %weatherText.2 242 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 243 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_244_12_247_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 245 16 ]
+        symbol [ snowIcon %tmp.319 245 23 31 ];
+        %tmp.319 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.319;
+        symbol [ icon %icon.1 245 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 246 16 ]
+        %tmp.320 = "Flurries";
+        lputv %weatherText.2 %tmp.320;
+        symbol [ weatherText %weatherText.2 246 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 247 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_248_12_251_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 249 16 ]
+        symbol [ snowIcon %tmp.322 249 23 31 ];
+        %tmp.322 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.322;
+        symbol [ icon %icon.1 249 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 250 16 ]
+        %tmp.323 = "Chance of Snow";
+        lputv %weatherText.2 %tmp.323;
+        symbol [ weatherText %weatherText.2 250 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 251 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_252_12_255_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 253 16 ]
+        symbol [ snowIcon %tmp.325 253 23 31 ];
+        %tmp.325 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.325;
+        symbol [ icon %icon.1 253 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 254 16 ]
+        %tmp.326 = "Cloudy Chance of Snow";
+        lputv %weatherText.2 %tmp.326;
+        symbol [ weatherText %weatherText.2 254 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 255 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_256_12_259_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 257 16 ]
+        symbol [ snowIcon %tmp.328 257 23 31 ];
+        %tmp.328 = getv ? :snowIcon;
+        lputv %icon.1 %tmp.328;
+        symbol [ icon %icon.1 257 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 258 16 ]
+        %tmp.329 = "Cloudy Chance of Rain/Snow";
+        lputv %weatherText.2 %tmp.329;
+        symbol [ weatherText %weatherText.2 258 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 259 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_261_12_264_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 262 16 ]
+        symbol [ stormIcon %tmp.331 262 23 32 ];
+        %tmp.331 = getv ? :stormIcon;
+        lputv %icon.1 %tmp.331;
+        symbol [ icon %icon.1 262 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 263 16 ]
+        %tmp.332 = "Thunderstorms";
+        lputv %weatherText.2 %tmp.332;
+        symbol [ weatherText %weatherText.2 263 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 264 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_265_12_268_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 266 16 ]
+        symbol [ stormIcon %tmp.334 266 23 32 ];
+        %tmp.334 = getv ? :stormIcon;
+        lputv %icon.1 %tmp.334;
+        symbol [ icon %icon.1 266 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 267 16 ]
+        %tmp.335 = "Scattered Thunderstorms";
+        lputv %weatherText.2 %tmp.335;
+        symbol [ weatherText %weatherText.2 267 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 268 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_269_12_272_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 270 16 ]
+        symbol [ stormIcon %tmp.337 270 23 32 ];
+        %tmp.337 = getv ? :stormIcon;
+        lputv %icon.1 %tmp.337;
+        symbol [ icon %icon.1 270 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 271 16 ]
+        %tmp.338 = "Chance of Thunderstorms";
+        lputv %weatherText.2 %tmp.338;
+        symbol [ weatherText %weatherText.2 271 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 272 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_274_12_277_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 275 16 ]
+        symbol [ fogIcon %tmp.340 275 23 30 ];
+        %tmp.340 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.340;
+        symbol [ icon %icon.1 275 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 276 16 ]
+        %tmp.341 = "Fog";
+        lputv %weatherText.2 %tmp.341;
+        symbol [ weatherText %weatherText.2 276 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 277 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_278_12_281_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 279 16 ]
+        symbol [ fogIcon %tmp.343 279 23 30 ];
+        %tmp.343 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.343;
+        symbol [ icon %icon.1 279 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 280 16 ]
+        %tmp.344 = "Hazy";
+        lputv %weatherText.2 %tmp.344;
+        symbol [ weatherText %weatherText.2 280 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 281 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_282_12_285_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 283 16 ]
+        symbol [ fogIcon %tmp.346 283 23 30 ];
+        %tmp.346 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.346;
+        symbol [ icon %icon.1 283 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 284 16 ]
+        %tmp.347 = "Haze";
+        lputv %weatherText.2 %tmp.347;
+        symbol [ weatherText %weatherText.2 284 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 285 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_286_12_289_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 287 16 ]
+        symbol [ fogIcon %tmp.349 287 23 30 ];
+        %tmp.349 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.349;
+        symbol [ icon %icon.1 287 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 288 16 ]
+        %tmp.350 = "Mist";
+        lputv %weatherText.2 %tmp.350;
+        symbol [ weatherText %weatherText.2 288 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 289 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_290_12_293_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 291 16 ]
+        symbol [ fogIcon %tmp.352 291 23 30 ];
+        %tmp.352 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.352;
+        symbol [ icon %icon.1 291 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 292 16 ]
+        %tmp.353 = "Dust";
+        lputv %weatherText.2 %tmp.353;
+        symbol [ weatherText %weatherText.2 292 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 293 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_294_12_297_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 295 16 ]
+        symbol [ fogIcon %tmp.355 295 23 30 ];
+        %tmp.355 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.355;
+        symbol [ icon %icon.1 295 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 296 16 ]
+        %tmp.356 = "Smoke";
+        lputv %weatherText.2 %tmp.356;
+        symbol [ weatherText %weatherText.2 296 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 297 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_298_12_301_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 299 16 ]
+        symbol [ fogIcon %tmp.358 299 23 30 ];
+        %tmp.358 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.358;
+        symbol [ icon %icon.1 299 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 300 16 ]
+        %tmp.359 = "Sand";
+        lputv %weatherText.2 %tmp.359;
+        symbol [ weatherText %weatherText.2 300 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 301 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_302_12_305_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 303 16 ]
+        symbol [ fogIcon %tmp.361 303 23 30 ];
+        %tmp.361 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.361;
+        symbol [ icon %icon.1 303 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 304 16 ]
+        %tmp.362 = "Volcanic Ash";
+        lputv %weatherText.2 %tmp.362;
+        symbol [ weatherText %weatherText.2 304 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 305 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_306_12_309_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 307 16 ]
+        symbol [ fogIcon %tmp.364 307 23 30 ];
+        %tmp.364 = getv ? :fogIcon;
+        lputv %icon.1 %tmp.364;
+        symbol [ icon %icon.1 307 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 308 16 ]
+        %tmp.365 = "Sandstorm";
+        lputv %weatherText.2 %tmp.365;
+        symbol [ weatherText %weatherText.2 308 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 309 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_311_12_314_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 312 16 ]
+        symbol [ windyIcon %tmp.367 312 23 32 ];
+        %tmp.367 = getv ? :windyIcon;
+        lputv %icon.1 %tmp.367;
+        symbol [ icon %icon.1 312 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 313 16 ]
+        %tmp.368 = "Windy";
+        lputv %weatherText.2 %tmp.368;
+        symbol [ weatherText %weatherText.2 313 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 314 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_315_12_318_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 316 16 ]
+        symbol [ windyIcon %tmp.370 316 23 32 ];
+        %tmp.370 = getv ? :windyIcon;
+        lputv %icon.1 %tmp.370;
+        symbol [ icon %icon.1 316 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 317 16 ]
+        %tmp.371 = "Squall";
+        lputv %weatherText.2 %tmp.371;
+        symbol [ weatherText %weatherText.2 317 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 318 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_319_12_322_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 320 16 ]
+        symbol [ windyIcon %tmp.373 320 23 32 ];
+        %tmp.373 = getv ? :windyIcon;
+        lputv %icon.1 %tmp.373;
+        symbol [ icon %icon.1 320 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 321 16 ]
+        %tmp.374 = "Hurricane";
+        lputv %weatherText.2 %tmp.374;
+        symbol [ weatherText %weatherText.2 321 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 322 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_323_12_326_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 324 16 ]
+        symbol [ windyIcon %tmp.376 324 23 32 ];
+        %tmp.376 = getv ? :windyIcon;
+        lputv %icon.1 %tmp.376;
+        symbol [ icon %icon.1 324 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 325 16 ]
+        %tmp.377 = "Tropical Storm";
+        lputv %weatherText.2 %tmp.377;
+        symbol [ weatherText %weatherText.2 325 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 326 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_328_12_331_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 329 16 ]
+        symbol [ overcastIcon %tmp.379 329 23 35 ];
+        %tmp.379 = getv ? :overcastIcon;
+        lputv %icon.1 %tmp.379;
+        symbol [ icon %icon.1 329 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 330 16 ]
+        %tmp.380 = "Hail";
+        lputv %weatherText.2 %tmp.380;
+        symbol [ weatherText %weatherText.2 330 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 331 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_332_12_335_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 333 16 ]
+        symbol [ overcastIcon %tmp.382 333 23 35 ];
+        %tmp.382 = getv ? :overcastIcon;
+        lputv %icon.1 %tmp.382;
+        symbol [ icon %icon.1 333 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 334 16 ]
+        %tmp.383 = "Ice";
+        lputv %weatherText.2 %tmp.383;
+        symbol [ weatherText %weatherText.2 334 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 335 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_336_12_339_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 337 16 ]
+        symbol [ overcastIcon %tmp.385 337 23 35 ];
+        %tmp.385 = getv ? :overcastIcon;
+        lputv %icon.1 %tmp.385;
+        symbol [ icon %icon.1 337 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 338 16 ]
+        %tmp.386 = "Freezing Rain";
+        lputv %weatherText.2 %tmp.386;
+        symbol [ weatherText %weatherText.2 338 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 339 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_340_12_343_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 341 16 ]
+        symbol [ overcastIcon %tmp.388 341 23 35 ];
+        %tmp.388 = getv ? :overcastIcon;
+        lputv %icon.1 %tmp.388;
+        symbol [ icon %icon.1 341 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 342 16 ]
+        %tmp.389 = "Sleet";
+        lputv %weatherText.2 %tmp.389;
+        symbol [ weatherText %weatherText.2 342 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 343 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_344_12_347_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 345 16 ]
+        symbol [ overcastIcon %tmp.391 345 23 35 ];
+        %tmp.391 = getv ? :overcastIcon;
+        lputv %icon.1 %tmp.391;
+        symbol [ icon %icon.1 345 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 346 16 ]
+        %tmp.392 = "Unknown Precipitation";
+        lputv %weatherText.2 %tmp.392;
+        symbol [ weatherText %weatherText.2 346 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 347 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_348_12_351_21_switchCase:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 349 16 ]
+        symbol [ overcastIcon %tmp.394 349 23 35 ];
+        %tmp.394 = getv ? :overcastIcon;
+        lputv %icon.1 %tmp.394;
+        symbol [ icon %icon.1 349 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 350 16 ]
+        %tmp.395 = "Unknown";
+        lputv %weatherText.2 %tmp.395;
+        symbol [ weatherText %weatherText.2 350 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 351 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_353_12_356_21_switchCase:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_defaultCodeBegin:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 354 16 ]
+        symbol [ overcastIcon %tmp.397 354 23 35 ];
+        %tmp.397 = getv ? :overcastIcon;
+        lputv %icon.1 %tmp.397;
+        symbol [ icon %icon.1 354 16 20 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 355 16 ]
+        %tmp.398 = "Unknown";
+        lputv %weatherText.2 %tmp.398;
+        symbol [ weatherText %weatherText.2 355 16 27 ];
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 356 16 ]
+        goto break @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_152_8_357_8_switchStmtEnd:
+        pop;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_151_25_358_4_stop:
+        goto @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_151_4_358_4_if_end;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_151_4_358_4_if_end:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 361 4 ]
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_361_4_363_4_if_stmt:
+        %tmp.399 = lgetv %icon.1;
+        symbol [ icon %tmp.399 361 8 12 ];
+        %tmp.400 = null;
+        %tmp.401 = ne %tmp.399 %tmp.400;
+        bf %tmp.401 @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_361_4_363_4_if_end;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_361_4_363_4_if_true:
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_361_22_363_4_start:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 362 8 ]
+        %tmp.402 = lgetv %dc;
+        symbol [ dc %tmp.402 362 8 10 ];
+        symbol [ drawBitmap %tmp.403 362 11 21 ];
+        %tmp.403 = getv function %tmp.402 :drawBitmap;
+        %tmp.404 = 2;
+        %tmp.405 = 110;
+        %tmp.406 = lgetv %icon.1;
+        symbol [ icon %tmp.406 362 30 34 ];
+        %tmp.407 = as %tmp.406 { (!Null) };
+        invoke %tmp.402 %tmp.403(%tmp.404, %tmp.405, %tmp.407);
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_361_22_363_4_stop:
+        goto @C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_361_4_363_4_if_end;
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_361_4_363_4_if_end:
+[ "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 366 4 ]
+        %tmp.408 = self;
+        symbol [ addToView %tmp.409 366 4 13 ];
+        %tmp.409 = getv function %tmp.408 :addToView;
+        %tmp.410 = "WeatherConditionLabel";
+        %tmp.411 = lgetv %weatherText.2;
+        symbol [ weatherText %tmp.411 366 39 50 ];
+        invoke %tmp.408 %tmp.409(%tmp.410, %tmp.411);
+C__Users_Rob_Downloads_garmin_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_146_36_367_0_stop:
     }
 }
-[ @file = "c:\Users\Rob\Downloads\garmin\robwatch\source\robwatchView.mc"; @line = 1; ]
+[ @file = "C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 1; ]
 <init> {
 }

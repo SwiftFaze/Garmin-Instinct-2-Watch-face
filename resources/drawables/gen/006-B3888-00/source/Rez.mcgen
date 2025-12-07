@@ -6,18 +6,7 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var Sun as ResourceId;
-        (:initialized) var WeatherAlert as ResourceId;
-        (:initialized) var Windy as ResourceId;
-        (:initialized) var Snow as ResourceId;
-        (:initialized) var LightRain as ResourceId;
-        (:initialized) var Overcast as ResourceId;
-        (:initialized) var ClearNight as ResourceId;
-        (:initialized) var NightCloudy as ResourceId;
-        (:initialized) var Storm as ResourceId;
-        (:initialized) var Fog as ResourceId;
-        (:initialized) var Cloudy as ResourceId;
-        (:initialized) var Rain as ResourceId;
+        (:initialized) var Test as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
@@ -27,11 +16,9 @@ module Rez {
 
             var rez_cmp_local_text_TimeMsLabel = new WatchUi.Text({:identifier=>"TimeMsLabel", :color=>Graphics.COLOR_BLUE, :locX=>90, :locY=>65, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_GLANCE_NUMBER});
 
-            var rez_cmp_local_text_TemperatureLabel = new WatchUi.Text({:identifier=>"TemperatureLabel", :color=>Graphics.COLOR_BLUE, :locX=>90, :locY=>90, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_TemperatureLabel = new WatchUi.Text({:identifier=>"TemperatureLabel", :color=>Graphics.COLOR_BLUE, :locX=>5, :locY=>110, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_WeatherConditionLabel = new WatchUi.Text({:identifier=>"WeatherConditionLabel", :color=>Graphics.COLOR_WHITE, :locX=>30, :locY=>110, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SYSTEM_XTINY});
-
-            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_TimeMsLabel, rez_cmp_local_text_TemperatureLabel, rez_cmp_local_text_WeatherConditionLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_TimeMsLabel, rez_cmp_local_text_TemperatureLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
