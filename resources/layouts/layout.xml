@@ -49,5 +49,11 @@
 
 
 
+    <label id="PressureLabel" 
+    x="42" 
+    y="115" 
+    font="Graphics.FONT_SMALL"
+    justification="Graphics.TEXT_JUSTIFY_LEFT" 
+    color="Graphics.COLOR_BLUE" />
 
 </layout>

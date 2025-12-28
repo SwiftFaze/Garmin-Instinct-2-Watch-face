@@ -36,7 +36,9 @@ module Rez {
 
             var rez_cmp_local_text_WeatherConditionLabel = new WatchUi.Text({:identifier=>"WeatherConditionLabel", :color=>Graphics.COLOR_WHITE, :locX=>65, :locY=>115, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SYSTEM_XTINY});
 
-            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_TimeMsLabel, rez_cmp_local_text_TemperatureLabel, rez_cmp_local_text_DayLabel, rez_cmp_local_text_MonthLabel, rez_cmp_local_text_WeatherConditionLabel] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_PressureLabel = new WatchUi.Text({:identifier=>"PressureLabel", :color=>Graphics.COLOR_BLUE, :locX=>42, :locY=>115, :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SMALL});
+
+            return [rez_cmp_local_text_TimeLabel, rez_cmp_local_text_TimeMsLabel, rez_cmp_local_text_TemperatureLabel, rez_cmp_local_text_DayLabel, rez_cmp_local_text_MonthLabel, rez_cmp_local_text_WeatherConditionLabel, rez_cmp_local_text_PressureLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

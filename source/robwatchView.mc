@@ -4,6 +4,7 @@ import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Weather;
 import Toybox.Time;
+import Toybox.SensorHistory;
 import Toybox.Time.Gregorian;
 class robwatchView extends WatchUi.WatchFace {
 
@@ -22,7 +23,7 @@ class robwatchView extends WatchUi.WatchFace {
     var cloudyIcon;
     var rainIcon;
 
-    var pressureValues = [];
+    var pressureValues as Array = new Array();
 
     function initialize() {
         WatchFace.initialize();
@@ -72,6 +73,10 @@ class robwatchView extends WatchUi.WatchFace {
 
        dc.drawBitmap(-85, 0, WatchUi.loadResource(Rez.Drawables.Skull));
 
+       // Update and draw the barometer graph at the bottom
+       updatePressureValues();
+       drawBarometer(dc);
+
 
 
     }
@@ -89,6 +94,145 @@ class robwatchView extends WatchUi.WatchFace {
 
         } catch (ex) {
             addToView("TemperatureLabel", "-°");
+        }
+
+    }
+
+    // Pressure sampling: pull last N samples from SensorHistory, populate pressureValues (oldest->newest) and update PressureLabel
+    function updatePressureValues() as Void {
+        try {
+            var iter = null;
+            if ((Toybox has :SensorHistory) && (SensorHistory has :getPressureHistory)) {
+                iter = SensorHistory.getPressureHistory({:period => new Time.Duration(14400)});
+            }
+            if (iter == null) {
+                pressureValues = [];
+                addToView("PressureLabel", "-");
+                return;
+            }
+
+            // Collect samples (iterator returns newest first)
+            var samples = [];
+            var newest = null;
+            var oldest = null;
+            var s = iter.next();
+            var sampleCount = 0;
+            while ((s != null)) {
+                if (sampleCount == 0) { newest = s; }
+                samples.add(s);
+                sampleCount = sampleCount + 1;
+                oldest = s;
+                s = iter.next();
+            }
+
+            if (sampleCount == 0) {
+                pressureValues = [];
+                addToView("PressureLabel", "-");
+                return;
+            }
+
+            // Build pressureValues as oldest -> newest
+            
+            for (var i = sampleCount - 1; i >= 0; i--) {
+                var sample = samples[i];
+                if ((sample != null) && (sample.data != null)) {
+                    var p = sample.data;
+                    if (p > 2000) { // likely in Pa -> convert to hPa
+                        p = p / 100.0;
+                    }
+                    pressureValues.add(p);
+                }
+            }
+          
+            // Set the label using the newest sample
+            if ((newest != null) && (newest.data != null)) {
+                var latestVal = newest.data;
+                var oldestVal = oldest.data;
+                if (latestVal > 2000) { latestVal = latestVal / 100.0; }
+                if (oldestVal > 2000) { oldestVal = oldestVal / 100.0; }
+                addToView("PressureLabel", Lang.format("$2$ | $1$", [latestVal.format("%0.0f"), oldestVal.format("%0.0f")]));
+            } else {
+                addToView("PressureLabel", "-");
+            }
+
+        } catch (ex) {
+            pressureValues = [];
+            addToView("PressureLabel", "-");
+        }
+    }
+
+    function drawBarometer(dc as Dc) as Void {
+        // Simple axes: horizontal baseline and left vertical axis
+        var graphH = 30;
+        var graphW = 90;
+
+        var graphY = 143;
+        var graphX = 42;
+
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        // horizontal baseline
+        dc.drawLine(graphX, graphY + graphH, graphX + graphW, graphY + graphH);
+        // vertical axis (left)
+        dc.drawLine(graphX, graphY, graphX, graphY + graphH);
+
+        // Draw line graph (oldest -> newest)
+        var points = pressureValues.size();
+        if (points <= 0) {
+            return;
+        }
+
+        // compute min/max
+        var minP = pressureValues[0];
+        var maxP = minP;
+        for (var i = 1; i < points; i++) {
+            var v = pressureValues[i];
+            if (v < minP) { minP = v; }
+            if (v > maxP) { maxP = v; }
+        }
+        if (minP == maxP) {
+            minP = minP - 1;
+            maxP = maxP + 1;
+        }
+
+        var baselineY = graphY + graphH;
+
+        // Fill area under the curve by drawing vertical lines for each pixel column
+        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+        for (var px = 0; px <= graphW; px++) {
+            var x = graphX + px;
+            // position in sample space (0..points-1)
+            var pos = (points == 1) ? 0 : (px * (points - 1)) / graphW;
+            var idx = Math.floor(pos);
+            if (idx < 0) { idx = 0; }
+            if (idx > points - 1) { idx = points - 1; }
+            var frac = pos - idx;
+            var v1 = pressureValues[idx];
+            var v2 = (idx + 1 < points) ? pressureValues[idx + 1] : v1;
+            var val = v1 + (v2 - v1) * frac;
+            var y = graphY + graphH - Math.floor((val - minP) * (graphH - 2) / (maxP - minP)) - 1;
+            // clamp y
+            if (y < graphY) { y = graphY; }
+            if (y > baselineY) { y = baselineY; }
+            dc.drawLine(x, y, x, baselineY);
+        }
+
+        // draw polyline on top of fill
+        var stepX = (points == 1) ? 0 : Math.floor(graphW / (points - 1));
+        var prevX = graphX;
+        var prevY = graphY + graphH - Math.floor((pressureValues[0] - minP) * (graphH - 2) / (maxP - minP)) - 1;
+
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        if (points == 1) {
+            dc.drawLine(prevX, prevY, prevX, prevY);
+        } else {
+            for (var i = 1; i < points; i++) {
+                var x = graphX + i * stepX;
+                var val = pressureValues[i];
+                var y = graphY + graphH - Math.floor((val - minP) * (graphH - 2) / (maxP - minP)) - 1;
+                dc.drawLine(prevX, prevY, x, y);
+                prevX = x;
+                prevY = y;
+            }
         }
 
     }
