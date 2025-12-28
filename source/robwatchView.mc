@@ -68,9 +68,9 @@ class robwatchView extends WatchUi.WatchFace {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
-        setWeatherIcon(dc);
+       // setWeatherIcon(dc);
 
-        dc.drawBitmap(-85, 0, WatchUi.loadResource(Rez.Drawables.Skull));
+       dc.drawBitmap(-85, 0, WatchUi.loadResource(Rez.Drawables.Skull));
 
 
 

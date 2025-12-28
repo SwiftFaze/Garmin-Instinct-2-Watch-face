@@ -272,22 +272,21 @@
         <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="65" parent="globals/robwatchView" pc="268439205" symbol="onUpdate"/>
         <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="66" parent="globals/robwatchView" pc="268439217" symbol="onUpdate"/>
         <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="69" parent="globals/robwatchView" pc="268439229" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="71" parent="globals/robwatchView" pc="268439253" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="73" parent="globals/robwatchView" pc="268439267" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="21" lineNum="12" parent="globals/robwatchApp" pc="268439329" symbol="onStart"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="22" lineNum="20" parent="globals/robwatchApp" pc="268439332" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="22" lineNum="21" parent="globals/robwatchApp" pc="268439334" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="23" lineNum="7" parent="globals/robwatchApp" pc="268439371" symbol="initialize"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="23" lineNum="8" parent="globals/robwatchApp" pc="268439373" symbol="initialize"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="24" lineNum="16" parent="globals/robwatchApp" pc="268439392" symbol="onStop"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268439395" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="27" parent="globals/Rez/Layouts" pc="268439407" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="29" parent="globals/Rez/Layouts" pc="268439519" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="31" parent="globals/Rez/Layouts" pc="268439631" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="33" parent="globals/Rez/Layouts" pc="268439743" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="35" parent="globals/Rez/Layouts" pc="268439855" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="37" parent="globals/Rez/Layouts" pc="268439967" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="39" parent="globals/Rez/Layouts" pc="268440079" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="73" parent="globals/robwatchView" pc="268439253" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="21" lineNum="12" parent="globals/robwatchApp" pc="268439315" symbol="onStart"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="22" lineNum="20" parent="globals/robwatchApp" pc="268439318" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="22" lineNum="21" parent="globals/robwatchApp" pc="268439320" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="23" lineNum="7" parent="globals/robwatchApp" pc="268439357" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="23" lineNum="8" parent="globals/robwatchApp" pc="268439359" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="24" lineNum="16" parent="globals/robwatchApp" pc="268439378" symbol="onStop"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268439381" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="27" parent="globals/Rez/Layouts" pc="268439393" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="29" parent="globals/Rez/Layouts" pc="268439505" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="31" parent="globals/Rez/Layouts" pc="268439617" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="33" parent="globals/Rez/Layouts" pc="268439729" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="35" parent="globals/Rez/Layouts" pc="268439841" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="37" parent="globals/Rez/Layouts" pc="268439953" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="39" parent="globals/Rez/Layouts" pc="268440065" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry field="true" id="24" symbol="snowIcon"/>
@@ -396,14 +395,14 @@
         <entry endPc="268438601" name="clockTime" stackId="1" startPc="268438415"/>
         <entry endPc="268438601" name="timeString" stackId="2" startPc="268438415"/>
         <entry endPc="268438601" name="timeMsString" stackId="3" startPc="268438415"/>
-        <entry arg="true" endPc="268439328" name="dc" stackId="1" startPc="268439191"/>
-        <entry arg="true" endPc="268440145" name="dc" stackId="1" startPc="268439395"/>
-        <entry endPc="268440145" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268439407"/>
-        <entry endPc="268440145" name="rez_cmp_local_text_TimeMsLabel" stackId="3" startPc="268439407"/>
-        <entry endPc="268440145" name="rez_cmp_local_text_TemperatureLabel" stackId="4" startPc="268439407"/>
-        <entry endPc="268440145" name="rez_cmp_local_text_DayLabel" stackId="5" startPc="268439407"/>
-        <entry endPc="268440145" name="rez_cmp_local_text_MonthLabel" stackId="6" startPc="268439407"/>
-        <entry endPc="268440145" name="rez_cmp_local_text_WeatherConditionLabel" stackId="7" startPc="268439407"/>
+        <entry arg="true" endPc="268439314" name="dc" stackId="1" startPc="268439191"/>
+        <entry arg="true" endPc="268440131" name="dc" stackId="1" startPc="268439381"/>
+        <entry endPc="268440131" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268439393"/>
+        <entry endPc="268440131" name="rez_cmp_local_text_TimeMsLabel" stackId="3" startPc="268439393"/>
+        <entry endPc="268440131" name="rez_cmp_local_text_TemperatureLabel" stackId="4" startPc="268439393"/>
+        <entry endPc="268440131" name="rez_cmp_local_text_DayLabel" stackId="5" startPc="268439393"/>
+        <entry endPc="268440131" name="rez_cmp_local_text_MonthLabel" stackId="6" startPc="268439393"/>
+        <entry endPc="268440131" name="rez_cmp_local_text_WeatherConditionLabel" stackId="7" startPc="268439393"/>
     </localVars>
     <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3888-00"/>
     <annotations>
@@ -507,25 +506,25 @@
         <functionEntry accessMode="public" endPc="268439190" name="loadResources" parent="robwatchView" startPc="268438624">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439328" name="onUpdate" parent="robwatchView" startPc="268439191">
+        <functionEntry accessMode="public" endPc="268439314" name="onUpdate" parent="robwatchView" startPc="268439191">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439331" name="onStart" parent="robwatchApp" startPc="268439329">
+        <functionEntry accessMode="public" endPc="268439317" name="onStart" parent="robwatchApp" startPc="268439315">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439370" name="getInitialView" parent="robwatchApp" startPc="268439332">
+        <functionEntry accessMode="public" endPc="268439356" name="getInitialView" parent="robwatchApp" startPc="268439318">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439391" name="initialize" parent="robwatchApp" startPc="268439371">
+        <functionEntry accessMode="public" endPc="268439377" name="initialize" parent="robwatchApp" startPc="268439357">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439394" name="onStop" parent="robwatchApp" startPc="268439392">
+        <functionEntry accessMode="public" endPc="268439380" name="onStop" parent="robwatchApp" startPc="268439378">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440145" name="WatchFace" parent="Layouts" startPc="268439395">
+        <functionEntry accessMode="public" endPc="268440131" name="WatchFace" parent="Layouts" startPc="268439381">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

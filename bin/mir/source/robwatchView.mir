@@ -289,32 +289,25 @@ C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_62_40
         %tmp.10 = lgetv %dc;
         symbol [ dc %tmp.10 69 22 24 ];
         invoke %tmp.8 %tmp.9(%tmp.10);
-[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 71 8 ]
-        %tmp.11 = self;
-        symbol [ setWeatherIcon %tmp.12 71 8 22 ];
-        %tmp.12 = getv function %tmp.11 :setWeatherIcon;
-        %tmp.13 = lgetv %dc;
-        symbol [ dc %tmp.13 71 23 25 ];
-        invoke %tmp.11 %tmp.12(%tmp.13);
-[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 73 8 ]
-        %tmp.14 = lgetv %dc;
-        symbol [ dc %tmp.14 73 8 10 ];
-        symbol [ drawBitmap %tmp.15 73 11 21 ];
-        %tmp.15 = getv function %tmp.14 :drawBitmap;
-        %tmp.16 = -85;
-        %tmp.17 = 0;
-        symbol [ WatchUi %tmp.18 73 30 37 ];
-        %tmp.18 = getm $.Toybox.WatchUi;
-        symbol [ loadResource %tmp.19 73 38 50 ];
-        %tmp.19 = getv function %tmp.18 :loadResource;
-        symbol [ Rez %tmp.21 73 51 54 ];
-        %tmp.21 = getv ? :Rez;
-        symbol [ Drawables %tmp.22 73 55 64 ];
-        %tmp.22 = getv %tmp.21 :Drawables;
-        symbol [ Skull %tmp.23 73 65 70 ];
-        %tmp.23 = getv %tmp.22 :Skull;
-        %tmp.24 = invoke %tmp.18 %tmp.19(%tmp.23);
-        invoke %tmp.14 %tmp.15(%tmp.16, %tmp.17, %tmp.24);
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\robwatchView.mc" 73 7 ]
+        %tmp.11 = lgetv %dc;
+        symbol [ dc %tmp.11 73 7 9 ];
+        symbol [ drawBitmap %tmp.12 73 10 20 ];
+        %tmp.12 = getv function %tmp.11 :drawBitmap;
+        %tmp.13 = -85;
+        %tmp.14 = 0;
+        symbol [ WatchUi %tmp.15 73 29 36 ];
+        %tmp.15 = getm $.Toybox.WatchUi;
+        symbol [ loadResource %tmp.16 73 37 49 ];
+        %tmp.16 = getv function %tmp.15 :loadResource;
+        symbol [ Rez %tmp.18 73 50 53 ];
+        %tmp.18 = getv ? :Rez;
+        symbol [ Drawables %tmp.19 73 54 63 ];
+        %tmp.19 = getv %tmp.18 :Drawables;
+        symbol [ Skull %tmp.20 73 64 69 ];
+        %tmp.20 = getv %tmp.19 :Skull;
+        %tmp.21 = invoke %tmp.15 %tmp.16(%tmp.20);
+        invoke %tmp.11 %tmp.12(%tmp.13, %tmp.14, %tmp.21);
 C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_robwatchView_mc_62_40_77_4_stop:
     }
     [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\robwatchView.mc"; @line = 79; @symbol_functiondef = [createWeather,79,13,26]; ]
