@@ -77,9 +77,8 @@ class robwatchView extends WatchUi.WatchFace {
     }
 
     function createWeather() as Void {
-        var weather = Weather.getCurrentConditions();
-
-        if (weather != null) {
+        try {
+            var weather = Weather.getCurrentConditions();
             var lowTemp = weather.lowTemperature.toNumber();
             var temp = weather.temperature.toNumber();
             var highTemp = weather.highTemperature.toNumber();
@@ -87,9 +86,11 @@ class robwatchView extends WatchUi.WatchFace {
             var tempFormat = (temp >= 0 ? (temp < 10 ? "0" + temp : temp) : temp) + "°";
             var tempString = Lang.format("$3$", [lowTemp, highTemp, tempFormat]);
             addToView("TemperatureLabel",tempString);
-        } else {
+
+        } catch (ex) {
             addToView("TemperatureLabel", "-°");
         }
+
     }
 
 

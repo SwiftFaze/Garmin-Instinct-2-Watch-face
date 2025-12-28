@@ -1,293 +1,293 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
-    <manifest filename="C:\Users\Rob\Downloads\garmin\Garmin-Instinct-2-Watch-face\manifest.xml"/>
+    <manifest filename="C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="3" lineNum="8" parent="globals/robwatchView" pc="268435510" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="3" lineNum="25" parent="globals/robwatchView" pc="268435528" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="4" lineNum="5" parent="globals/robwatchApp" pc="268435543" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="120" parent="globals/robwatchView" pc="268435562" symbol="createDayMonthDate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="122" parent="globals/robwatchView" pc="268435566" symbol="createDayMonthDate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="123" parent="globals/robwatchView" pc="268435603" symbol="createDayMonthDate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="124" parent="globals/robwatchView" pc="268435661" symbol="createDayMonthDate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="126" parent="globals/robwatchView" pc="268435680" symbol="createDayMonthDate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="127" parent="globals/robwatchView" pc="268435738" symbol="createDayMonthDate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="79" parent="globals/robwatchView" pc="268435758" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="80" parent="globals/robwatchView" pc="268435762" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="82" parent="globals/robwatchView" pc="268435779" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="83" parent="globals/robwatchView" pc="268435786" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="84" parent="globals/robwatchView" pc="268435805" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="85" parent="globals/robwatchView" pc="268435824" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="87" parent="globals/robwatchView" pc="268435843" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="88" parent="globals/robwatchView" pc="268435891" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="89" parent="globals/robwatchView" pc="268435949" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="91" parent="globals/robwatchView" pc="268435971" symbol="createWeather"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="165" parent="globals/robwatchView" pc="268435994" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="166" parent="globals/robwatchView" pc="268435998" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="167" parent="globals/robwatchView" pc="268436001" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="168" parent="globals/robwatchView" pc="268436008" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="170" parent="globals/robwatchView" pc="268436025" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="171" parent="globals/robwatchView" pc="268436032" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="172" parent="globals/robwatchView" pc="268436040" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="176" parent="globals/robwatchView" pc="268436060" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="180" parent="globals/robwatchView" pc="268436080" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="184" parent="globals/robwatchView" pc="268436100" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="189" parent="globals/robwatchView" pc="268436120" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="193" parent="globals/robwatchView" pc="268436140" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="197" parent="globals/robwatchView" pc="268436160" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="201" parent="globals/robwatchView" pc="268436180" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="206" parent="globals/robwatchView" pc="268436200" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="210" parent="globals/robwatchView" pc="268436220" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="214" parent="globals/robwatchView" pc="268436240" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="218" parent="globals/robwatchView" pc="268436260" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="222" parent="globals/robwatchView" pc="268436280" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="226" parent="globals/robwatchView" pc="268436300" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="230" parent="globals/robwatchView" pc="268436320" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="234" parent="globals/robwatchView" pc="268436340" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="238" parent="globals/robwatchView" pc="268436360" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="242" parent="globals/robwatchView" pc="268436380" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="247" parent="globals/robwatchView" pc="268436400" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="251" parent="globals/robwatchView" pc="268436420" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="255" parent="globals/robwatchView" pc="268436440" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="259" parent="globals/robwatchView" pc="268436460" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="263" parent="globals/robwatchView" pc="268436480" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="267" parent="globals/robwatchView" pc="268436500" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="271" parent="globals/robwatchView" pc="268436520" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="275" parent="globals/robwatchView" pc="268436540" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="280" parent="globals/robwatchView" pc="268436560" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="284" parent="globals/robwatchView" pc="268436580" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="288" parent="globals/robwatchView" pc="268436600" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="293" parent="globals/robwatchView" pc="268436620" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="297" parent="globals/robwatchView" pc="268436640" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="301" parent="globals/robwatchView" pc="268436660" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="305" parent="globals/robwatchView" pc="268436680" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="309" parent="globals/robwatchView" pc="268436700" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="313" parent="globals/robwatchView" pc="268436720" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="317" parent="globals/robwatchView" pc="268436740" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="321" parent="globals/robwatchView" pc="268436760" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="325" parent="globals/robwatchView" pc="268436780" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="330" parent="globals/robwatchView" pc="268436800" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="334" parent="globals/robwatchView" pc="268436820" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="338" parent="globals/robwatchView" pc="268436840" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="342" parent="globals/robwatchView" pc="268436860" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="347" parent="globals/robwatchView" pc="268436880" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="351" parent="globals/robwatchView" pc="268436900" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="355" parent="globals/robwatchView" pc="268436920" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="359" parent="globals/robwatchView" pc="268436940" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="363" parent="globals/robwatchView" pc="268436960" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="367" parent="globals/robwatchView" pc="268436980" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="372" parent="globals/robwatchView" pc="268437000" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="173" parent="globals/robwatchView" pc="268437003" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="174" parent="globals/robwatchView" pc="268437013" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="175" parent="globals/robwatchView" pc="268437020" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="177" parent="globals/robwatchView" pc="268437023" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="178" parent="globals/robwatchView" pc="268437033" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="179" parent="globals/robwatchView" pc="268437040" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="181" parent="globals/robwatchView" pc="268437043" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="182" parent="globals/robwatchView" pc="268437053" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="183" parent="globals/robwatchView" pc="268437060" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="185" parent="globals/robwatchView" pc="268437063" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="186" parent="globals/robwatchView" pc="268437073" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="187" parent="globals/robwatchView" pc="268437080" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="190" parent="globals/robwatchView" pc="268437083" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="191" parent="globals/robwatchView" pc="268437093" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="192" parent="globals/robwatchView" pc="268437100" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="194" parent="globals/robwatchView" pc="268437103" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="195" parent="globals/robwatchView" pc="268437113" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="196" parent="globals/robwatchView" pc="268437120" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="198" parent="globals/robwatchView" pc="268437123" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="199" parent="globals/robwatchView" pc="268437133" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="200" parent="globals/robwatchView" pc="268437140" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="202" parent="globals/robwatchView" pc="268437143" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="203" parent="globals/robwatchView" pc="268437153" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="204" parent="globals/robwatchView" pc="268437160" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="207" parent="globals/robwatchView" pc="268437163" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="208" parent="globals/robwatchView" pc="268437173" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="209" parent="globals/robwatchView" pc="268437180" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="211" parent="globals/robwatchView" pc="268437183" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="212" parent="globals/robwatchView" pc="268437193" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="213" parent="globals/robwatchView" pc="268437200" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="215" parent="globals/robwatchView" pc="268437203" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="216" parent="globals/robwatchView" pc="268437213" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="217" parent="globals/robwatchView" pc="268437220" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="219" parent="globals/robwatchView" pc="268437223" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="220" parent="globals/robwatchView" pc="268437233" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="221" parent="globals/robwatchView" pc="268437240" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="223" parent="globals/robwatchView" pc="268437243" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="224" parent="globals/robwatchView" pc="268437253" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="225" parent="globals/robwatchView" pc="268437260" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="227" parent="globals/robwatchView" pc="268437263" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="228" parent="globals/robwatchView" pc="268437273" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="229" parent="globals/robwatchView" pc="268437280" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="231" parent="globals/robwatchView" pc="268437283" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="232" parent="globals/robwatchView" pc="268437293" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="233" parent="globals/robwatchView" pc="268437300" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="235" parent="globals/robwatchView" pc="268437303" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="236" parent="globals/robwatchView" pc="268437313" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="237" parent="globals/robwatchView" pc="268437320" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="239" parent="globals/robwatchView" pc="268437323" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="240" parent="globals/robwatchView" pc="268437333" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="241" parent="globals/robwatchView" pc="268437340" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="243" parent="globals/robwatchView" pc="268437343" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="244" parent="globals/robwatchView" pc="268437353" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="245" parent="globals/robwatchView" pc="268437360" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="248" parent="globals/robwatchView" pc="268437363" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="249" parent="globals/robwatchView" pc="268437373" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="250" parent="globals/robwatchView" pc="268437380" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="252" parent="globals/robwatchView" pc="268437383" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="253" parent="globals/robwatchView" pc="268437393" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="254" parent="globals/robwatchView" pc="268437400" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="256" parent="globals/robwatchView" pc="268437403" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="257" parent="globals/robwatchView" pc="268437413" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="258" parent="globals/robwatchView" pc="268437420" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="260" parent="globals/robwatchView" pc="268437423" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="261" parent="globals/robwatchView" pc="268437433" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="262" parent="globals/robwatchView" pc="268437440" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="264" parent="globals/robwatchView" pc="268437443" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="265" parent="globals/robwatchView" pc="268437453" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="266" parent="globals/robwatchView" pc="268437460" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="268" parent="globals/robwatchView" pc="268437463" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="269" parent="globals/robwatchView" pc="268437473" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="270" parent="globals/robwatchView" pc="268437480" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="272" parent="globals/robwatchView" pc="268437483" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="273" parent="globals/robwatchView" pc="268437493" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="274" parent="globals/robwatchView" pc="268437500" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="276" parent="globals/robwatchView" pc="268437503" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="277" parent="globals/robwatchView" pc="268437513" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="278" parent="globals/robwatchView" pc="268437520" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="281" parent="globals/robwatchView" pc="268437523" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="282" parent="globals/robwatchView" pc="268437533" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="283" parent="globals/robwatchView" pc="268437540" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="285" parent="globals/robwatchView" pc="268437543" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="286" parent="globals/robwatchView" pc="268437553" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="287" parent="globals/robwatchView" pc="268437560" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="289" parent="globals/robwatchView" pc="268437563" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="290" parent="globals/robwatchView" pc="268437573" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="291" parent="globals/robwatchView" pc="268437580" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="294" parent="globals/robwatchView" pc="268437583" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="295" parent="globals/robwatchView" pc="268437593" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="296" parent="globals/robwatchView" pc="268437600" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="298" parent="globals/robwatchView" pc="268437603" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="299" parent="globals/robwatchView" pc="268437613" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="300" parent="globals/robwatchView" pc="268437620" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="302" parent="globals/robwatchView" pc="268437623" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="303" parent="globals/robwatchView" pc="268437633" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="304" parent="globals/robwatchView" pc="268437640" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="306" parent="globals/robwatchView" pc="268437643" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="307" parent="globals/robwatchView" pc="268437653" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="308" parent="globals/robwatchView" pc="268437660" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="310" parent="globals/robwatchView" pc="268437663" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="311" parent="globals/robwatchView" pc="268437673" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="312" parent="globals/robwatchView" pc="268437680" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="314" parent="globals/robwatchView" pc="268437683" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="315" parent="globals/robwatchView" pc="268437693" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="316" parent="globals/robwatchView" pc="268437700" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="318" parent="globals/robwatchView" pc="268437703" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="319" parent="globals/robwatchView" pc="268437713" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="320" parent="globals/robwatchView" pc="268437720" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="322" parent="globals/robwatchView" pc="268437723" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="323" parent="globals/robwatchView" pc="268437733" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="324" parent="globals/robwatchView" pc="268437740" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="326" parent="globals/robwatchView" pc="268437743" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="327" parent="globals/robwatchView" pc="268437753" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="328" parent="globals/robwatchView" pc="268437760" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="331" parent="globals/robwatchView" pc="268437763" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="332" parent="globals/robwatchView" pc="268437773" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="333" parent="globals/robwatchView" pc="268437780" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="335" parent="globals/robwatchView" pc="268437783" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="336" parent="globals/robwatchView" pc="268437793" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="337" parent="globals/robwatchView" pc="268437800" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="339" parent="globals/robwatchView" pc="268437803" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="340" parent="globals/robwatchView" pc="268437813" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="341" parent="globals/robwatchView" pc="268437820" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="343" parent="globals/robwatchView" pc="268437823" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="344" parent="globals/robwatchView" pc="268437833" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="345" parent="globals/robwatchView" pc="268437840" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="348" parent="globals/robwatchView" pc="268437843" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="349" parent="globals/robwatchView" pc="268437853" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="350" parent="globals/robwatchView" pc="268437860" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="352" parent="globals/robwatchView" pc="268437863" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="353" parent="globals/robwatchView" pc="268437873" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="354" parent="globals/robwatchView" pc="268437880" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="356" parent="globals/robwatchView" pc="268437883" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="357" parent="globals/robwatchView" pc="268437893" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="358" parent="globals/robwatchView" pc="268437900" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="360" parent="globals/robwatchView" pc="268437903" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="361" parent="globals/robwatchView" pc="268437913" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="362" parent="globals/robwatchView" pc="268437920" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="364" parent="globals/robwatchView" pc="268437923" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="365" parent="globals/robwatchView" pc="268437933" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="366" parent="globals/robwatchView" pc="268437940" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="368" parent="globals/robwatchView" pc="268437943" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="369" parent="globals/robwatchView" pc="268437953" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="370" parent="globals/robwatchView" pc="268437960" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="373" parent="globals/robwatchView" pc="268437963" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="374" parent="globals/robwatchView" pc="268437973" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="375" parent="globals/robwatchView" pc="268437980" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="380" parent="globals/robwatchView" pc="268437987" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="381" parent="globals/robwatchView" pc="268437994" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="385" parent="globals/robwatchView" pc="268438021" symbol="setWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="8" lineNum="162" parent="globals/robwatchView" pc="268438041" symbol="drawWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="8" lineNum="163" parent="globals/robwatchView" pc="268438043" symbol="drawWeatherIcon"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="11" lineNum="39" parent="globals/robwatchView" pc="268438068" symbol="onShow"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="11" lineNum="40" parent="globals/robwatchView" pc="268438070" symbol="onShow"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="12" lineNum="32" parent="globals/robwatchView" pc="268438083" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="12" lineNum="33" parent="globals/robwatchView" pc="268438085" symbol="onLayout"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="13" lineNum="141" parent="globals/robwatchView" pc="268438127" symbol="drawCircle"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="13" lineNum="142" parent="globals/robwatchView" pc="268438129" symbol="drawCircle"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="13" lineNum="143" parent="globals/robwatchView" pc="268438151" symbol="drawCircle"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="147" parent="globals/robwatchView" pc="268438179" symbol="drawText"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="148" parent="globals/robwatchView" pc="268438183" symbol="drawText"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="149" parent="globals/robwatchView" pc="268438200" symbol="drawText"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="151" parent="globals/robwatchView" pc="268438274" symbol="drawText"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="152" parent="globals/robwatchView" pc="268438296" symbol="drawText"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="15" lineNum="132" parent="globals/robwatchView" pc="268438355" symbol="addToView"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="15" lineNum="133" parent="globals/robwatchView" pc="268438359" symbol="addToView"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="15" lineNum="134" parent="globals/robwatchView" pc="268438384" symbol="addToView"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="111" parent="globals/robwatchView" pc="268438399" symbol="createClock"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="112" parent="globals/robwatchView" pc="268438403" symbol="createClock"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="113" parent="globals/robwatchView" pc="268438420" symbol="createClock"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="114" parent="globals/robwatchView" pc="268438494" symbol="createClock"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="116" parent="globals/robwatchView" pc="268438513" symbol="createClock"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="117" parent="globals/robwatchView" pc="268438571" symbol="createClock"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="18" lineNum="27" parent="globals/robwatchView" pc="268438591" symbol="initialize"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="18" lineNum="28" parent="globals/robwatchView" pc="268438593" symbol="initialize"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="43" parent="globals/robwatchView" pc="268438612" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="44" parent="globals/robwatchView" pc="268438614" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="45" parent="globals/robwatchView" pc="268438661" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="46" parent="globals/robwatchView" pc="268438708" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="47" parent="globals/robwatchView" pc="268438755" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="48" parent="globals/robwatchView" pc="268438802" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="49" parent="globals/robwatchView" pc="268438849" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="50" parent="globals/robwatchView" pc="268438896" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="51" parent="globals/robwatchView" pc="268438943" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="52" parent="globals/robwatchView" pc="268438990" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="53" parent="globals/robwatchView" pc="268439037" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="54" parent="globals/robwatchView" pc="268439084" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="55" parent="globals/robwatchView" pc="268439131" symbol="loadResources"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="62" parent="globals/robwatchView" pc="268439179" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="64" parent="globals/robwatchView" pc="268439181" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="65" parent="globals/robwatchView" pc="268439193" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="66" parent="globals/robwatchView" pc="268439205" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="69" parent="globals/robwatchView" pc="268439217" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="71" parent="globals/robwatchView" pc="268439241" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="73" parent="globals/robwatchView" pc="268439255" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="21" lineNum="12" parent="globals/robwatchApp" pc="268439317" symbol="onStart"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="22" lineNum="20" parent="globals/robwatchApp" pc="268439320" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="22" lineNum="21" parent="globals/robwatchApp" pc="268439322" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="23" lineNum="7" parent="globals/robwatchApp" pc="268439359" symbol="initialize"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="23" lineNum="8" parent="globals/robwatchApp" pc="268439361" symbol="initialize"/>
-        <entry filename="C:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="24" lineNum="16" parent="globals/robwatchApp" pc="268439380" symbol="onStop"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268439383" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="27" parent="globals/Rez/Layouts" pc="268439395" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="29" parent="globals/Rez/Layouts" pc="268439507" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="31" parent="globals/Rez/Layouts" pc="268439619" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="33" parent="globals/Rez/Layouts" pc="268439731" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="35" parent="globals/Rez/Layouts" pc="268439843" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="37" parent="globals/Rez/Layouts" pc="268439955" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\Rob\\Downloads\\garmin\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="39" parent="globals/Rez/Layouts" pc="268440067" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="3" lineNum="8" parent="globals/robwatchView" pc="268435510" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="3" lineNum="25" parent="globals/robwatchView" pc="268435528" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="4" lineNum="5" parent="globals/robwatchApp" pc="268435543" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="121" parent="globals/robwatchView" pc="268435562" symbol="createDayMonthDate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="123" parent="globals/robwatchView" pc="268435566" symbol="createDayMonthDate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="124" parent="globals/robwatchView" pc="268435603" symbol="createDayMonthDate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="125" parent="globals/robwatchView" pc="268435661" symbol="createDayMonthDate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="127" parent="globals/robwatchView" pc="268435680" symbol="createDayMonthDate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="5" lineNum="128" parent="globals/robwatchView" pc="268435738" symbol="createDayMonthDate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="79" parent="globals/robwatchView" pc="268435758" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="81" parent="globals/robwatchView" pc="268435762" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="82" parent="globals/robwatchView" pc="268435779" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="83" parent="globals/robwatchView" pc="268435798" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="84" parent="globals/robwatchView" pc="268435817" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="86" parent="globals/robwatchView" pc="268435836" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="87" parent="globals/robwatchView" pc="268435884" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="88" parent="globals/robwatchView" pc="268435942" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="90" parent="globals/robwatchView" pc="268435967" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="6" lineNum="91" parent="globals/robwatchView" pc="268435971" symbol="createWeather"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="166" parent="globals/robwatchView" pc="268436006" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="167" parent="globals/robwatchView" pc="268436010" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="168" parent="globals/robwatchView" pc="268436013" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="169" parent="globals/robwatchView" pc="268436020" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="171" parent="globals/robwatchView" pc="268436037" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="172" parent="globals/robwatchView" pc="268436044" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="173" parent="globals/robwatchView" pc="268436052" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="177" parent="globals/robwatchView" pc="268436072" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="181" parent="globals/robwatchView" pc="268436092" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="185" parent="globals/robwatchView" pc="268436112" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="190" parent="globals/robwatchView" pc="268436132" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="194" parent="globals/robwatchView" pc="268436152" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="198" parent="globals/robwatchView" pc="268436172" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="202" parent="globals/robwatchView" pc="268436192" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="207" parent="globals/robwatchView" pc="268436212" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="211" parent="globals/robwatchView" pc="268436232" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="215" parent="globals/robwatchView" pc="268436252" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="219" parent="globals/robwatchView" pc="268436272" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="223" parent="globals/robwatchView" pc="268436292" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="227" parent="globals/robwatchView" pc="268436312" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="231" parent="globals/robwatchView" pc="268436332" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="235" parent="globals/robwatchView" pc="268436352" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="239" parent="globals/robwatchView" pc="268436372" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="243" parent="globals/robwatchView" pc="268436392" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="248" parent="globals/robwatchView" pc="268436412" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="252" parent="globals/robwatchView" pc="268436432" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="256" parent="globals/robwatchView" pc="268436452" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="260" parent="globals/robwatchView" pc="268436472" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="264" parent="globals/robwatchView" pc="268436492" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="268" parent="globals/robwatchView" pc="268436512" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="272" parent="globals/robwatchView" pc="268436532" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="276" parent="globals/robwatchView" pc="268436552" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="281" parent="globals/robwatchView" pc="268436572" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="285" parent="globals/robwatchView" pc="268436592" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="289" parent="globals/robwatchView" pc="268436612" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="294" parent="globals/robwatchView" pc="268436632" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="298" parent="globals/robwatchView" pc="268436652" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="302" parent="globals/robwatchView" pc="268436672" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="306" parent="globals/robwatchView" pc="268436692" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="310" parent="globals/robwatchView" pc="268436712" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="314" parent="globals/robwatchView" pc="268436732" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="318" parent="globals/robwatchView" pc="268436752" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="322" parent="globals/robwatchView" pc="268436772" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="326" parent="globals/robwatchView" pc="268436792" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="331" parent="globals/robwatchView" pc="268436812" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="335" parent="globals/robwatchView" pc="268436832" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="339" parent="globals/robwatchView" pc="268436852" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="343" parent="globals/robwatchView" pc="268436872" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="348" parent="globals/robwatchView" pc="268436892" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="352" parent="globals/robwatchView" pc="268436912" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="356" parent="globals/robwatchView" pc="268436932" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="360" parent="globals/robwatchView" pc="268436952" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="364" parent="globals/robwatchView" pc="268436972" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="368" parent="globals/robwatchView" pc="268436992" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="373" parent="globals/robwatchView" pc="268437012" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="174" parent="globals/robwatchView" pc="268437015" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="175" parent="globals/robwatchView" pc="268437025" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="176" parent="globals/robwatchView" pc="268437032" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="178" parent="globals/robwatchView" pc="268437035" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="179" parent="globals/robwatchView" pc="268437045" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="180" parent="globals/robwatchView" pc="268437052" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="182" parent="globals/robwatchView" pc="268437055" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="183" parent="globals/robwatchView" pc="268437065" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="184" parent="globals/robwatchView" pc="268437072" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="186" parent="globals/robwatchView" pc="268437075" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="187" parent="globals/robwatchView" pc="268437085" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="188" parent="globals/robwatchView" pc="268437092" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="191" parent="globals/robwatchView" pc="268437095" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="192" parent="globals/robwatchView" pc="268437105" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="193" parent="globals/robwatchView" pc="268437112" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="195" parent="globals/robwatchView" pc="268437115" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="196" parent="globals/robwatchView" pc="268437125" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="197" parent="globals/robwatchView" pc="268437132" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="199" parent="globals/robwatchView" pc="268437135" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="200" parent="globals/robwatchView" pc="268437145" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="201" parent="globals/robwatchView" pc="268437152" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="203" parent="globals/robwatchView" pc="268437155" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="204" parent="globals/robwatchView" pc="268437165" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="205" parent="globals/robwatchView" pc="268437172" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="208" parent="globals/robwatchView" pc="268437175" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="209" parent="globals/robwatchView" pc="268437185" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="210" parent="globals/robwatchView" pc="268437192" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="212" parent="globals/robwatchView" pc="268437195" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="213" parent="globals/robwatchView" pc="268437205" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="214" parent="globals/robwatchView" pc="268437212" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="216" parent="globals/robwatchView" pc="268437215" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="217" parent="globals/robwatchView" pc="268437225" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="218" parent="globals/robwatchView" pc="268437232" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="220" parent="globals/robwatchView" pc="268437235" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="221" parent="globals/robwatchView" pc="268437245" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="222" parent="globals/robwatchView" pc="268437252" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="224" parent="globals/robwatchView" pc="268437255" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="225" parent="globals/robwatchView" pc="268437265" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="226" parent="globals/robwatchView" pc="268437272" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="228" parent="globals/robwatchView" pc="268437275" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="229" parent="globals/robwatchView" pc="268437285" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="230" parent="globals/robwatchView" pc="268437292" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="232" parent="globals/robwatchView" pc="268437295" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="233" parent="globals/robwatchView" pc="268437305" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="234" parent="globals/robwatchView" pc="268437312" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="236" parent="globals/robwatchView" pc="268437315" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="237" parent="globals/robwatchView" pc="268437325" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="238" parent="globals/robwatchView" pc="268437332" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="240" parent="globals/robwatchView" pc="268437335" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="241" parent="globals/robwatchView" pc="268437345" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="242" parent="globals/robwatchView" pc="268437352" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="244" parent="globals/robwatchView" pc="268437355" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="245" parent="globals/robwatchView" pc="268437365" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="246" parent="globals/robwatchView" pc="268437372" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="249" parent="globals/robwatchView" pc="268437375" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="250" parent="globals/robwatchView" pc="268437385" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="251" parent="globals/robwatchView" pc="268437392" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="253" parent="globals/robwatchView" pc="268437395" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="254" parent="globals/robwatchView" pc="268437405" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="255" parent="globals/robwatchView" pc="268437412" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="257" parent="globals/robwatchView" pc="268437415" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="258" parent="globals/robwatchView" pc="268437425" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="259" parent="globals/robwatchView" pc="268437432" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="261" parent="globals/robwatchView" pc="268437435" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="262" parent="globals/robwatchView" pc="268437445" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="263" parent="globals/robwatchView" pc="268437452" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="265" parent="globals/robwatchView" pc="268437455" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="266" parent="globals/robwatchView" pc="268437465" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="267" parent="globals/robwatchView" pc="268437472" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="269" parent="globals/robwatchView" pc="268437475" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="270" parent="globals/robwatchView" pc="268437485" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="271" parent="globals/robwatchView" pc="268437492" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="273" parent="globals/robwatchView" pc="268437495" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="274" parent="globals/robwatchView" pc="268437505" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="275" parent="globals/robwatchView" pc="268437512" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="277" parent="globals/robwatchView" pc="268437515" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="278" parent="globals/robwatchView" pc="268437525" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="279" parent="globals/robwatchView" pc="268437532" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="282" parent="globals/robwatchView" pc="268437535" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="283" parent="globals/robwatchView" pc="268437545" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="284" parent="globals/robwatchView" pc="268437552" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="286" parent="globals/robwatchView" pc="268437555" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="287" parent="globals/robwatchView" pc="268437565" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="288" parent="globals/robwatchView" pc="268437572" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="290" parent="globals/robwatchView" pc="268437575" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="291" parent="globals/robwatchView" pc="268437585" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="292" parent="globals/robwatchView" pc="268437592" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="295" parent="globals/robwatchView" pc="268437595" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="296" parent="globals/robwatchView" pc="268437605" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="297" parent="globals/robwatchView" pc="268437612" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="299" parent="globals/robwatchView" pc="268437615" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="300" parent="globals/robwatchView" pc="268437625" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="301" parent="globals/robwatchView" pc="268437632" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="303" parent="globals/robwatchView" pc="268437635" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="304" parent="globals/robwatchView" pc="268437645" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="305" parent="globals/robwatchView" pc="268437652" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="307" parent="globals/robwatchView" pc="268437655" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="308" parent="globals/robwatchView" pc="268437665" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="309" parent="globals/robwatchView" pc="268437672" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="311" parent="globals/robwatchView" pc="268437675" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="312" parent="globals/robwatchView" pc="268437685" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="313" parent="globals/robwatchView" pc="268437692" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="315" parent="globals/robwatchView" pc="268437695" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="316" parent="globals/robwatchView" pc="268437705" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="317" parent="globals/robwatchView" pc="268437712" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="319" parent="globals/robwatchView" pc="268437715" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="320" parent="globals/robwatchView" pc="268437725" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="321" parent="globals/robwatchView" pc="268437732" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="323" parent="globals/robwatchView" pc="268437735" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="324" parent="globals/robwatchView" pc="268437745" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="325" parent="globals/robwatchView" pc="268437752" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="327" parent="globals/robwatchView" pc="268437755" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="328" parent="globals/robwatchView" pc="268437765" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="329" parent="globals/robwatchView" pc="268437772" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="332" parent="globals/robwatchView" pc="268437775" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="333" parent="globals/robwatchView" pc="268437785" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="334" parent="globals/robwatchView" pc="268437792" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="336" parent="globals/robwatchView" pc="268437795" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="337" parent="globals/robwatchView" pc="268437805" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="338" parent="globals/robwatchView" pc="268437812" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="340" parent="globals/robwatchView" pc="268437815" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="341" parent="globals/robwatchView" pc="268437825" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="342" parent="globals/robwatchView" pc="268437832" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="344" parent="globals/robwatchView" pc="268437835" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="345" parent="globals/robwatchView" pc="268437845" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="346" parent="globals/robwatchView" pc="268437852" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="349" parent="globals/robwatchView" pc="268437855" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="350" parent="globals/robwatchView" pc="268437865" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="351" parent="globals/robwatchView" pc="268437872" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="353" parent="globals/robwatchView" pc="268437875" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="354" parent="globals/robwatchView" pc="268437885" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="355" parent="globals/robwatchView" pc="268437892" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="357" parent="globals/robwatchView" pc="268437895" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="358" parent="globals/robwatchView" pc="268437905" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="359" parent="globals/robwatchView" pc="268437912" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="361" parent="globals/robwatchView" pc="268437915" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="362" parent="globals/robwatchView" pc="268437925" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="363" parent="globals/robwatchView" pc="268437932" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="365" parent="globals/robwatchView" pc="268437935" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="366" parent="globals/robwatchView" pc="268437945" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="367" parent="globals/robwatchView" pc="268437952" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="369" parent="globals/robwatchView" pc="268437955" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="370" parent="globals/robwatchView" pc="268437965" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="371" parent="globals/robwatchView" pc="268437972" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="374" parent="globals/robwatchView" pc="268437975" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="375" parent="globals/robwatchView" pc="268437985" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="376" parent="globals/robwatchView" pc="268437992" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="381" parent="globals/robwatchView" pc="268437999" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="382" parent="globals/robwatchView" pc="268438006" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="7" lineNum="386" parent="globals/robwatchView" pc="268438033" symbol="setWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="8" lineNum="163" parent="globals/robwatchView" pc="268438053" symbol="drawWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="8" lineNum="164" parent="globals/robwatchView" pc="268438055" symbol="drawWeatherIcon"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="11" lineNum="39" parent="globals/robwatchView" pc="268438080" symbol="onShow"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="11" lineNum="40" parent="globals/robwatchView" pc="268438082" symbol="onShow"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="12" lineNum="32" parent="globals/robwatchView" pc="268438095" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="12" lineNum="33" parent="globals/robwatchView" pc="268438097" symbol="onLayout"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="13" lineNum="142" parent="globals/robwatchView" pc="268438139" symbol="drawCircle"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="13" lineNum="143" parent="globals/robwatchView" pc="268438141" symbol="drawCircle"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="13" lineNum="144" parent="globals/robwatchView" pc="268438163" symbol="drawCircle"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="148" parent="globals/robwatchView" pc="268438191" symbol="drawText"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="149" parent="globals/robwatchView" pc="268438195" symbol="drawText"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="150" parent="globals/robwatchView" pc="268438212" symbol="drawText"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="152" parent="globals/robwatchView" pc="268438286" symbol="drawText"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="14" lineNum="153" parent="globals/robwatchView" pc="268438308" symbol="drawText"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="15" lineNum="133" parent="globals/robwatchView" pc="268438367" symbol="addToView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="15" lineNum="134" parent="globals/robwatchView" pc="268438371" symbol="addToView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="15" lineNum="135" parent="globals/robwatchView" pc="268438396" symbol="addToView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="112" parent="globals/robwatchView" pc="268438411" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="113" parent="globals/robwatchView" pc="268438415" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="114" parent="globals/robwatchView" pc="268438432" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="115" parent="globals/robwatchView" pc="268438506" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="117" parent="globals/robwatchView" pc="268438525" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="16" lineNum="118" parent="globals/robwatchView" pc="268438583" symbol="createClock"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="18" lineNum="27" parent="globals/robwatchView" pc="268438603" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="18" lineNum="28" parent="globals/robwatchView" pc="268438605" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="43" parent="globals/robwatchView" pc="268438624" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="44" parent="globals/robwatchView" pc="268438626" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="45" parent="globals/robwatchView" pc="268438673" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="46" parent="globals/robwatchView" pc="268438720" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="47" parent="globals/robwatchView" pc="268438767" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="48" parent="globals/robwatchView" pc="268438814" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="49" parent="globals/robwatchView" pc="268438861" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="50" parent="globals/robwatchView" pc="268438908" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="51" parent="globals/robwatchView" pc="268438955" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="52" parent="globals/robwatchView" pc="268439002" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="53" parent="globals/robwatchView" pc="268439049" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="54" parent="globals/robwatchView" pc="268439096" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="19" lineNum="55" parent="globals/robwatchView" pc="268439143" symbol="loadResources"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="62" parent="globals/robwatchView" pc="268439191" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="64" parent="globals/robwatchView" pc="268439193" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="65" parent="globals/robwatchView" pc="268439205" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="66" parent="globals/robwatchView" pc="268439217" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="69" parent="globals/robwatchView" pc="268439229" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="71" parent="globals/robwatchView" pc="268439253" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchView.mc" id="20" lineNum="73" parent="globals/robwatchView" pc="268439267" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="21" lineNum="12" parent="globals/robwatchApp" pc="268439329" symbol="onStart"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="22" lineNum="20" parent="globals/robwatchApp" pc="268439332" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="22" lineNum="21" parent="globals/robwatchApp" pc="268439334" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="23" lineNum="7" parent="globals/robwatchApp" pc="268439371" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="23" lineNum="8" parent="globals/robwatchApp" pc="268439373" symbol="initialize"/>
+        <entry filename="C:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\source\\robwatchApp.mc" id="24" lineNum="16" parent="globals/robwatchApp" pc="268439392" symbol="onStop"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="26" parent="globals/Rez/Layouts" pc="268439395" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="27" parent="globals/Rez/Layouts" pc="268439407" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="29" parent="globals/Rez/Layouts" pc="268439519" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="31" parent="globals/Rez/Layouts" pc="268439631" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="33" parent="globals/Rez/Layouts" pc="268439743" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="35" parent="globals/Rez/Layouts" pc="268439855" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="37" parent="globals/Rez/Layouts" pc="268439967" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\Rob\\Downloads\\Garmin-Instinct-2-Watch-face\\bin\\gen\\006-B3888-00\\source\\Rez.mcgen" id="25" lineNum="39" parent="globals/Rez/Layouts" pc="268440079" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry field="true" id="24" symbol="snowIcon"/>
@@ -372,37 +372,38 @@
         <entry endPc="268435756" name="today" stackId="1" startPc="268435566"/>
         <entry endPc="268435756" name="dayString" stackId="2" startPc="268435566"/>
         <entry endPc="268435756" name="MonthString" stackId="3" startPc="268435566"/>
-        <entry endPc="268435992" name="weather" stackId="1" startPc="268435762"/>
-        <entry endPc="268435967" name="lowTemp" stackId="2" startPc="268435786"/>
-        <entry endPc="268435967" name="temp" stackId="3" startPc="268435786"/>
-        <entry endPc="268435967" name="highTemp" stackId="4" startPc="268435786"/>
-        <entry endPc="268435967" name="tempFormat" stackId="5" startPc="268435786"/>
-        <entry endPc="268435967" name="tempString" stackId="6" startPc="268435786"/>
-        <entry arg="true" endPc="268438040" name="dc" stackId="1" startPc="268435994"/>
-        <entry endPc="268438039" name="icon" stackId="2" startPc="268435998"/>
-        <entry endPc="268438039" name="weatherText" stackId="3" startPc="268435998"/>
-        <entry endPc="268438039" name="weather" stackId="4" startPc="268435998"/>
-        <entry arg="true" endPc="268438067" name="dc" stackId="1" startPc="268438041"/>
-        <entry arg="true" endPc="268438067" name="icon" stackId="2" startPc="268438041"/>
-        <entry arg="true" endPc="268438126" name="dc" stackId="1" startPc="268438083"/>
-        <entry arg="true" endPc="268438178" name="dc" stackId="1" startPc="268438127"/>
-        <entry arg="true" endPc="268438354" name="dc" stackId="1" startPc="268438179"/>
-        <entry endPc="268438353" name="clockTime" stackId="2" startPc="268438183"/>
-        <entry endPc="268438353" name="timeString" stackId="3" startPc="268438183"/>
-        <entry arg="true" endPc="268438398" name="name" stackId="1" startPc="268438355"/>
-        <entry arg="true" endPc="268438398" name="data" stackId="2" startPc="268438355"/>
-        <entry endPc="268438397" name="view" stackId="3" startPc="268438359"/>
-        <entry endPc="268438589" name="clockTime" stackId="1" startPc="268438403"/>
-        <entry endPc="268438589" name="timeString" stackId="2" startPc="268438403"/>
-        <entry endPc="268438589" name="timeMsString" stackId="3" startPc="268438403"/>
-        <entry arg="true" endPc="268439316" name="dc" stackId="1" startPc="268439179"/>
-        <entry arg="true" endPc="268440133" name="dc" stackId="1" startPc="268439383"/>
-        <entry endPc="268440133" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268439395"/>
-        <entry endPc="268440133" name="rez_cmp_local_text_TimeMsLabel" stackId="3" startPc="268439395"/>
-        <entry endPc="268440133" name="rez_cmp_local_text_TemperatureLabel" stackId="4" startPc="268439395"/>
-        <entry endPc="268440133" name="rez_cmp_local_text_DayLabel" stackId="5" startPc="268439395"/>
-        <entry endPc="268440133" name="rez_cmp_local_text_MonthLabel" stackId="6" startPc="268439395"/>
-        <entry endPc="268440133" name="rez_cmp_local_text_WeatherConditionLabel" stackId="7" startPc="268439395"/>
+        <entry endPc="268435960" name="weather" stackId="1" startPc="268435762"/>
+        <entry endPc="268435960" name="lowTemp" stackId="2" startPc="268435762"/>
+        <entry endPc="268435960" name="temp" stackId="3" startPc="268435762"/>
+        <entry endPc="268435960" name="highTemp" stackId="4" startPc="268435762"/>
+        <entry endPc="268435960" name="tempFormat" stackId="5" startPc="268435762"/>
+        <entry endPc="268435960" name="tempString" stackId="6" startPc="268435762"/>
+        <entry endPc="268435999" name="ex" stackId="7" startPc="268435967"/>
+        <entry arg="true" endPc="268438052" name="dc" stackId="1" startPc="268436006"/>
+        <entry endPc="268438051" name="icon" stackId="2" startPc="268436010"/>
+        <entry endPc="268438051" name="weatherText" stackId="3" startPc="268436010"/>
+        <entry endPc="268438051" name="weather" stackId="4" startPc="268436010"/>
+        <entry arg="true" endPc="268438079" name="dc" stackId="1" startPc="268438053"/>
+        <entry arg="true" endPc="268438079" name="icon" stackId="2" startPc="268438053"/>
+        <entry arg="true" endPc="268438138" name="dc" stackId="1" startPc="268438095"/>
+        <entry arg="true" endPc="268438190" name="dc" stackId="1" startPc="268438139"/>
+        <entry arg="true" endPc="268438366" name="dc" stackId="1" startPc="268438191"/>
+        <entry endPc="268438365" name="clockTime" stackId="2" startPc="268438195"/>
+        <entry endPc="268438365" name="timeString" stackId="3" startPc="268438195"/>
+        <entry arg="true" endPc="268438410" name="name" stackId="1" startPc="268438367"/>
+        <entry arg="true" endPc="268438410" name="data" stackId="2" startPc="268438367"/>
+        <entry endPc="268438409" name="view" stackId="3" startPc="268438371"/>
+        <entry endPc="268438601" name="clockTime" stackId="1" startPc="268438415"/>
+        <entry endPc="268438601" name="timeString" stackId="2" startPc="268438415"/>
+        <entry endPc="268438601" name="timeMsString" stackId="3" startPc="268438415"/>
+        <entry arg="true" endPc="268439328" name="dc" stackId="1" startPc="268439191"/>
+        <entry arg="true" endPc="268440145" name="dc" stackId="1" startPc="268439395"/>
+        <entry endPc="268440145" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268439407"/>
+        <entry endPc="268440145" name="rez_cmp_local_text_TimeMsLabel" stackId="3" startPc="268439407"/>
+        <entry endPc="268440145" name="rez_cmp_local_text_TemperatureLabel" stackId="4" startPc="268439407"/>
+        <entry endPc="268440145" name="rez_cmp_local_text_DayLabel" stackId="5" startPc="268439407"/>
+        <entry endPc="268440145" name="rez_cmp_local_text_MonthLabel" stackId="6" startPc="268439407"/>
+        <entry endPc="268440145" name="rez_cmp_local_text_WeatherConditionLabel" stackId="7" startPc="268439407"/>
     </localVars>
     <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B3888-00"/>
     <annotations>
@@ -456,14 +457,14 @@
         <functionEntry accessMode="public" endPc="268435757" name="createDayMonthDate" parent="robwatchView" startPc="268435562">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435993" name="createWeather" parent="robwatchView" startPc="268435758">
+        <functionEntry accessMode="public" endPc="268436005" name="createWeather" parent="robwatchView" startPc="268435758">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438040" name="setWeatherIcon" parent="robwatchView" startPc="268435994">
+        <functionEntry accessMode="public" endPc="268438052" name="setWeatherIcon" parent="robwatchView" startPc="268436006">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438067" name="drawWeatherIcon" parent="robwatchView" startPc="268438041">
+        <functionEntry accessMode="public" endPc="268438079" name="drawWeatherIcon" parent="robwatchView" startPc="268438053">
             <param id="dc"/>
             <param id="icon"/>
             <documentation/>
@@ -474,57 +475,57 @@
         <functionEntry accessMode="public" name="onExitSleep" parent="robwatchView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438082" name="onShow" parent="robwatchView" startPc="268438068">
+        <functionEntry accessMode="public" endPc="268438094" name="onShow" parent="robwatchView" startPc="268438080">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438126" name="onLayout" parent="robwatchView" startPc="268438083">
+        <functionEntry accessMode="public" endPc="268438138" name="onLayout" parent="robwatchView" startPc="268438095">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438178" name="drawCircle" parent="robwatchView" startPc="268438127">
+        <functionEntry accessMode="public" endPc="268438190" name="drawCircle" parent="robwatchView" startPc="268438139">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438354" name="drawText" parent="robwatchView" startPc="268438179">
+        <functionEntry accessMode="public" endPc="268438366" name="drawText" parent="robwatchView" startPc="268438191">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438398" name="addToView" parent="robwatchView" startPc="268438355">
+        <functionEntry accessMode="public" endPc="268438410" name="addToView" parent="robwatchView" startPc="268438367">
             <param id="name"/>
             <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438590" name="createClock" parent="robwatchView" startPc="268438399">
+        <functionEntry accessMode="public" endPc="268438602" name="createClock" parent="robwatchView" startPc="268438411">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onEnterSleep" parent="robwatchView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438611" name="initialize" parent="robwatchView" startPc="268438591">
+        <functionEntry accessMode="public" endPc="268438623" name="initialize" parent="robwatchView" startPc="268438603">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439178" name="loadResources" parent="robwatchView" startPc="268438612">
+        <functionEntry accessMode="public" endPc="268439190" name="loadResources" parent="robwatchView" startPc="268438624">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439316" name="onUpdate" parent="robwatchView" startPc="268439179">
+        <functionEntry accessMode="public" endPc="268439328" name="onUpdate" parent="robwatchView" startPc="268439191">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439319" name="onStart" parent="robwatchApp" startPc="268439317">
+        <functionEntry accessMode="public" endPc="268439331" name="onStart" parent="robwatchApp" startPc="268439329">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439358" name="getInitialView" parent="robwatchApp" startPc="268439320">
+        <functionEntry accessMode="public" endPc="268439370" name="getInitialView" parent="robwatchApp" startPc="268439332">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439379" name="initialize" parent="robwatchApp" startPc="268439359">
+        <functionEntry accessMode="public" endPc="268439391" name="initialize" parent="robwatchApp" startPc="268439371">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439382" name="onStop" parent="robwatchApp" startPc="268439380">
+        <functionEntry accessMode="public" endPc="268439394" name="onStop" parent="robwatchApp" startPc="268439392">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440133" name="WatchFace" parent="Layouts" startPc="268439383">
+        <functionEntry accessMode="public" endPc="268440145" name="WatchFace" parent="Layouts" startPc="268439395">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
