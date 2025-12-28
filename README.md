@@ -1,2 +1,9 @@
+## Run
 1. Create dev key
-2. Build for device
+2. Run
+
+##
+1. Create dev key
+2. Palete command -> Build current project
+3. Connect watch to pc via usb and wait for it to be detected
+4. Copy build file .prg to GARMIN\APPS
