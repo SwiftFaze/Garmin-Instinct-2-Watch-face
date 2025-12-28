@@ -23,7 +23,7 @@ class robwatchView extends WatchUi.WatchFace {
     var cloudyIcon;
     var rainIcon;
 
-    var pressureValues as Array = new Array();
+    var pressureValues = [];
 
     function initialize() {
         WatchFace.initialize();
@@ -39,6 +39,7 @@ class robwatchView extends WatchUi.WatchFace {
     // loading resources into memory.
     function onShow() as Void {
          loadResources();
+         
    }
 
     function loadResources() as Void {
@@ -54,6 +55,7 @@ class robwatchView extends WatchUi.WatchFace {
         fogIcon = WatchUi.loadResource(Rez.Drawables.Fog);
         cloudyIcon = WatchUi.loadResource(Rez.Drawables.Cloudy);
         rainIcon = WatchUi.loadResource(Rez.Drawables.Rain);
+        
     }
 
 
@@ -65,7 +67,7 @@ class robwatchView extends WatchUi.WatchFace {
         createClock();
         createWeather();
         createDayMonthDate();
-
+        
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
@@ -101,6 +103,7 @@ class robwatchView extends WatchUi.WatchFace {
     // Pressure sampling: pull last N samples from SensorHistory, populate pressureValues (oldest->newest) and update PressureLabel
     function updatePressureValues() as Void {
         try {
+            pressureValues = [];
             var iter = null;
             if ((Toybox has :SensorHistory) && (SensorHistory has :getPressureHistory)) {
                 iter = SensorHistory.getPressureHistory({:period => new Time.Duration(14400)});
@@ -193,7 +196,6 @@ class robwatchView extends WatchUi.WatchFace {
             minP = minP - 1;
             maxP = maxP + 1;
         }
-
         var baselineY = graphY + graphH;
 
         // Fill area under the curve by drawing vertical lines for each pixel column
