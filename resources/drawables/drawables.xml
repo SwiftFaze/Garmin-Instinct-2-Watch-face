@@ -1,16 +1,4 @@
 <drawables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
     <bitmap id="LauncherIcon" filename="launcher_icon.svg" dithering="none" />
-    <bitmap id="Sun" filename="sun.svg" dithering="none" />
-    <bitmap id="WeatherAlert" filename="weather_alert.svg" dithering="none" />
-    <bitmap id="Windy" filename="windy.svg" dithering="none" />
-    <bitmap id="Snow" filename="snow.svg" dithering="none" />
-    <bitmap id="LightRain" filename="light_rain.svg" dithering="none" />
-    <bitmap id="Overcast" filename="overcast.svg" dithering="none" />
-    <bitmap id="ClearNight" filename="clear_night.svg" dithering="none" />
-    <bitmap id="NightCloudy" filename="night_cloudy.svg" dithering="none" />
-    <bitmap id="Storm" filename="storm.svg" dithering="none" />
-    <bitmap id="Fog" filename="fog.svg" dithering="none" />
-    <bitmap id="Cloudy" filename="cloudy.svg" dithering="none" />
-    <bitmap id="Rain" filename="rain.svg" dithering="none" />
     <bitmap id="Skull" filename="skull.svg" dithering="floyd_steinberg" />
 </drawables>

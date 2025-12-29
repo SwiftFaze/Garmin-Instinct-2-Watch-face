@@ -10,7 +10,7 @@ class watchServiceDelegate extends Toybox.System.ServiceDelegate {
 	
 	function initialize() {
 		Sys.ServiceDelegate.initialize();
-		//inBackground=true;				//trick for onExit()
+		inBackground=true;				//trick for onExit()
 	}
 	
     function onTemporalEvent() {

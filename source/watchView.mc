@@ -8,25 +8,24 @@ import Toybox.SensorHistory;
 import Toybox.Time.Gregorian;
 class watchView extends WatchUi.WatchFace {
 
-
-    // Declare bitmap variables
-    var sunIcon;
-    var weatherAlertIcon;
-    var windyIcon;
-    var snowIcon;
-    var lightRainIcon;
-    var overcastIcon;
-    var clearNightIcon;
-    var nightCloudyIcon;
-    var stormIcon;
-    var fogIcon;
-    var cloudyIcon;
-    var rainIcon;
-
     var pressureValues = [];
 
     function initialize() {
         WatchFace.initialize();
+
+        //read last values from the Object Store
+        //counter now read in app initialize
+        //var temp=App.getApp().getProperty(OSCOUNTER);
+        //if(temp!=null && temp instanceof Number) {counter=temp;}
+ 
+        //var temp=App.getApp().getProperty(OSDATA);
+        var temp=null;
+        if(temp!=null && temp instanceof String) {bgdata=temp;}
+        
+        var now=System.getClockTime();
+    	var ts=now.hour+":"+now.min.format("%02d");
+        System.println("From OS: data="+bgdata+" "+counter+" at "+ts);  
+
     }
 
     // Load your resources here
@@ -39,23 +38,22 @@ class watchView extends WatchUi.WatchFace {
     // loading resources into memory.
     function onShow() as Void {
          loadResources();
-         
-   }
+    }
+    // Called when this View is removed from the screen. Save the
+    // state of this View here. This includes freeing resources from
+    // memory.
+    function onHide() as Void {
+    }
+
+    // The user has just looked at their watch. Timers and animations may be started here.
+    function onExitSleep() as Void {
+    }
+
+    // Terminate any active timers and prepare for slow updates.
+    function onEnterSleep() as Void {
+    }
 
     function loadResources() as Void {
-        sunIcon = WatchUi.loadResource(Rez.Drawables.Sun);
-        weatherAlertIcon = WatchUi.loadResource(Rez.Drawables.WeatherAlert);
-        windyIcon = WatchUi.loadResource(Rez.Drawables.Windy);
-        snowIcon = WatchUi.loadResource(Rez.Drawables.Snow);
-        lightRainIcon = WatchUi.loadResource(Rez.Drawables.LightRain);
-        overcastIcon = WatchUi.loadResource(Rez.Drawables.Overcast);
-        clearNightIcon = WatchUi.loadResource(Rez.Drawables.ClearNight);
-        nightCloudyIcon = WatchUi.loadResource(Rez.Drawables.NightCloudy);
-        stormIcon = WatchUi.loadResource(Rez.Drawables.Storm);
-        fogIcon = WatchUi.loadResource(Rez.Drawables.Fog);
-        cloudyIcon = WatchUi.loadResource(Rez.Drawables.Cloudy);
-        rainIcon = WatchUi.loadResource(Rez.Drawables.Rain);
-        
     }
 
 
@@ -101,7 +99,7 @@ class watchView extends WatchUi.WatchFace {
     // Pressure sampling: pull last N samples from SensorHistory, populate pressureValues (oldest->newest) and update PressureLabel
     function updatePressureValues() as Void {
         try {
-            System.println("Updating pressure values...");
+            //System.println("Updating pressure values...");
             pressureValues = [];
             var iter = null;
             if ((Toybox has :SensorHistory) && (SensorHistory has :getPressureHistory)) {
@@ -114,7 +112,7 @@ class watchView extends WatchUi.WatchFace {
                 addToView("PressureLabel", "-");
                 return;
             }
-            System.println("Got pressure history iterator.");
+            //System.println("Got pressure history iterator.");
             // Collect samples (iterator returns newest first)
             var samples = [];
             var max = iter.getMax();
@@ -130,10 +128,10 @@ class watchView extends WatchUi.WatchFace {
                 pressureValues.add(s.data / 100.0);
 
                 sampleCount = sampleCount + 1;
-                System.println("Sample " + sampleCount + ": " + s.data);
+                //System.println("Sample " + sampleCount + ": " + s.data);
                 s = iter.next();
             }
-            System.println("Total samples: " + sampleCount);
+            //System.println("Total samples: " + sampleCount);
             if (sampleCount == 0) {
                 pressureValues = [];
                 addToView("PressureLabel", "-");
@@ -141,7 +139,7 @@ class watchView extends WatchUi.WatchFace {
             }
 
 
-          System.println("Pressure values collected: " + pressureValues.size());
+          //System.println("Pressure values collected: " + pressureValues.size());
             // Set the label using the newest sample
             if ((max != null) && (min != null)) {
                 if (max > 2000) { max = max / 100.0; }
@@ -158,7 +156,7 @@ class watchView extends WatchUi.WatchFace {
     }
 
     function drawBarometer(dc as Dc) as Void {
-        System.println("Drawing barometer graph...");
+        //System.println("Drawing barometer graph...");
 
         // Simple axes: horizontal baseline and left vertical axis
         var graphH = 30;
@@ -235,19 +233,7 @@ class watchView extends WatchUi.WatchFace {
     }
 
 
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
-    function onHide() as Void {
-    }
 
-    // The user has just looked at their watch. Timers and animations may be started here.
-    function onExitSleep() as Void {
-    }
-
-    // Terminate any active timers and prepare for slow updates.
-    function onEnterSleep() as Void {
-    }
 
 
     function createClock() as Void {
@@ -304,229 +290,6 @@ class watchView extends WatchUi.WatchFace {
     function drawWeatherIcon(dc, icon) as Void {
        dc.drawBitmap(80, 110, icon);
     }
-function setWeatherIcon(dc) as Void {
-    var icon = null;
-    var weatherText = "";
-    var weather = Weather.getCurrentConditions();
-
-    if (weather != null) {
-        switch (weather.condition) {
-            case Weather.CONDITION_CLEAR:
-                icon = sunIcon;
-                weatherText = "Clear";
-                break;
-            case Weather.CONDITION_PARTLY_CLEAR:
-                icon = sunIcon;
-                weatherText = "Partly Clear";
-                break;
-            case Weather.CONDITION_MOSTLY_CLEAR:
-                icon = sunIcon;
-                weatherText = "Mostly Clear";
-                break;
-            case Weather.CONDITION_FAIR:
-                icon = sunIcon;
-                weatherText = "Fair";
-                break;
-
-            case Weather.CONDITION_PARTLY_CLOUDY:
-                icon = cloudyIcon;
-                weatherText = "Partly Cloudy";
-                break;
-            case Weather.CONDITION_MOSTLY_CLOUDY:
-                icon = cloudyIcon;
-                weatherText = "Mostly Cloudy";
-                break;
-            case Weather.CONDITION_CLOUDY:
-                icon = cloudyIcon;
-                weatherText = "Cloudy";
-                break;
-            case Weather.CONDITION_THIN_CLOUDS:
-                icon = cloudyIcon;
-                weatherText = "Thin Clouds";
-                break;
-
-            case Weather.CONDITION_RAIN:
-                icon = rainIcon;
-                weatherText = "Rain";
-                break;
-            case Weather.CONDITION_HEAVY_RAIN:
-                icon = rainIcon;
-                weatherText = "Heavy Rain";
-                break;
-            case Weather.CONDITION_LIGHT_RAIN:
-                icon = lightRainIcon;
-                weatherText = "Light Rain";
-                break;
-            case Weather.CONDITION_SHOWERS:
-                icon = rainIcon;
-                weatherText = "Showers";
-                break;
-            case Weather.CONDITION_HEAVY_SHOWERS:
-                icon = rainIcon;
-                weatherText = "Heavy Showers";
-                break;
-            case Weather.CONDITION_LIGHT_SHOWERS:
-                icon = lightRainIcon;
-                weatherText = "Light Showers";
-                break;
-            case Weather.CONDITION_DRIZZLE:
-                icon = lightRainIcon;
-                weatherText = "Drizzle";
-                break;
-            case Weather.CONDITION_RAIN_SNOW:
-                icon = rainIcon;
-                weatherText = "Rain/Snow";
-                break;
-            case Weather.CONDITION_LIGHT_RAIN_SNOW:
-                icon = snowIcon;
-                weatherText = "Light Rain/Snow";
-                break;
-            case Weather.CONDITION_HEAVY_RAIN_SNOW:
-                icon = snowIcon;
-                weatherText = "Heavy Rain/Snow";
-                break;
-
-            case Weather.CONDITION_SNOW:
-                icon = snowIcon;
-                weatherText = "Snow";
-                break;
-            case Weather.CONDITION_LIGHT_SNOW:
-                icon = snowIcon;
-                weatherText = "Light Snow";
-                break;
-            case Weather.CONDITION_HEAVY_SNOW:
-                icon = snowIcon;
-                weatherText = "Heavy Snow";
-                break;
-            case Weather.CONDITION_ICE_SNOW:
-                icon = snowIcon;
-                weatherText = "Ice/Snow";
-                break;
-            case Weather.CONDITION_FLURRIES:
-                icon = snowIcon;
-                weatherText = "Flurries";
-                break;
-            case Weather.CONDITION_CHANCE_OF_SNOW:
-                icon = snowIcon;
-                weatherText = "Chance of Snow";
-                break;
-            case Weather.CONDITION_CLOUDY_CHANCE_OF_SNOW:
-                icon = snowIcon;
-                weatherText = "Cloudy Chance of Snow";
-                break;
-            case Weather.CONDITION_CLOUDY_CHANCE_OF_RAIN_SNOW:
-                icon = snowIcon;
-                weatherText = "Cloudy Chance of Rain/Snow";
-                break;
-
-            case Weather.CONDITION_THUNDERSTORMS:
-                icon = stormIcon;
-                weatherText = "Thunderstorms";
-                break;
-            case Weather.CONDITION_SCATTERED_THUNDERSTORMS:
-                icon = stormIcon;
-                weatherText = "Scattered Thunderstorms";
-                break;
-            case Weather.CONDITION_CHANCE_OF_THUNDERSTORMS:
-                icon = stormIcon;
-                weatherText = "Chance of Thunderstorms";
-                break;
-
-            case Weather.CONDITION_FOG:
-                icon = fogIcon;
-                weatherText = "Fog";
-                break;
-            case Weather.CONDITION_HAZY:
-                icon = fogIcon;
-                weatherText = "Hazy";
-                break;
-            case Weather.CONDITION_HAZE:
-                icon = fogIcon;
-                weatherText = "Haze";
-                break;
-            case Weather.CONDITION_MIST:
-                icon = fogIcon;
-                weatherText = "Mist";
-                break;
-            case Weather.CONDITION_DUST:
-                icon = fogIcon;
-                weatherText = "Dust";
-                break;
-            case Weather.CONDITION_SMOKE:
-                icon = fogIcon;
-                weatherText = "Smoke";
-                break;
-            case Weather.CONDITION_SAND:
-                icon = fogIcon;
-                weatherText = "Sand";
-                break;
-            case Weather.CONDITION_VOLCANIC_ASH:
-                icon = fogIcon;
-                weatherText = "Volcanic Ash";
-                break;
-            case Weather.CONDITION_SANDSTORM:
-                icon = fogIcon;
-                weatherText = "Sandstorm";
-                break;
-
-            case Weather.CONDITION_WINDY:
-                icon = windyIcon;
-                weatherText = "Windy";
-                break;
-            case Weather.CONDITION_SQUALL:
-                icon = windyIcon;
-                weatherText = "Squall";
-                break;
-            case Weather.CONDITION_HURRICANE:
-                icon = windyIcon;
-                weatherText = "Hurricane";
-                break;
-            case Weather.CONDITION_TROPICAL_STORM:
-                icon = windyIcon;
-                weatherText = "Tropical Storm";
-                break;
-
-            case Weather.CONDITION_HAIL:
-                icon = overcastIcon;
-                weatherText = "Hail";
-                break;
-            case Weather.CONDITION_ICE:
-                icon = overcastIcon;
-                weatherText = "Ice";
-                break;
-            case Weather.CONDITION_FREEZING_RAIN:
-                icon = overcastIcon;
-                weatherText = "Freezing Rain";
-                break;
-            case Weather.CONDITION_SLEET:
-                icon = overcastIcon;
-                weatherText = "Sleet";
-                break;
-            case Weather.CONDITION_UNKNOWN_PRECIPITATION:
-                icon = overcastIcon;
-                weatherText = "Unknown Precipitation";
-                break;
-            case Weather.CONDITION_UNKNOWN:
-                icon = overcastIcon;
-                weatherText = "Unknown";
-                break;
-
-            default:
-                icon = overcastIcon;
-                weatherText = "Unknown";
-                break;
-        }
-    }
-
-    // Draw the icon
-    if (icon != null) {
-        dc.drawBitmap(35, 115, icon);
-    }
-
-    // Set the text label
-    addToView("WeatherConditionLabel", weatherText);
-}
-
 
 
 }

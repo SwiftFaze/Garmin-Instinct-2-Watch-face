@@ -6,18 +6,6 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var Sun as ResourceId;
-        (:initialized) var WeatherAlert as ResourceId;
-        (:initialized) var Windy as ResourceId;
-        (:initialized) var Snow as ResourceId;
-        (:initialized) var LightRain as ResourceId;
-        (:initialized) var Overcast as ResourceId;
-        (:initialized) var ClearNight as ResourceId;
-        (:initialized) var NightCloudy as ResourceId;
-        (:initialized) var Storm as ResourceId;
-        (:initialized) var Fog as ResourceId;
-        (:initialized) var Cloudy as ResourceId;
-        (:initialized) var Rain as ResourceId;
         (:initialized) var Skull as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables

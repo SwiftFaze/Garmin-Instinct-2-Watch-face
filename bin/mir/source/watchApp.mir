@@ -4,59 +4,477 @@ import Toybox.Application;
 import Toybox.Lang;
 [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 5; @symbol_classdef = [watchApp,5,6,14]; @symbol_extends<0> = [Application,5,23,34]; @symbol_extends<1> = [AppBase,5,35,42]; ]
+[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 6; @position = 4; @symbol_vardef = [counter,6,4,11]; ]
+var counter = 0;
+[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 7; @position = 4; @symbol_vardef = [bgdata,7,4,10]; ]
+var bgdata = "none";
+[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 8; @position = 4; @symbol_vardef = [canDoBG,8,4,11]; ]
+var canDoBG = false;
+[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 9; @position = 4; @symbol_vardef = [inBackground,9,4,16]; ]
+var inBackground = false;
+[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 11; @position = 4; @symbol_vardef = [OSCOUNTER,11,4,13]; ]
+var OSCOUNTER = "oscounter";
+[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 12; @position = 4; @symbol_vardef = [OSDATA,12,4,10]; ]
+var OSDATA = "osdata";
+[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 15; @symbol_classdef = [watchApp,15,6,14]; @symbol_extends<0> = [Application,15,23,34]; @symbol_extends<1> = [AppBase,15,35,42]; ]
 class watchApp extends Application.AppBase {
-    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 5; ]
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 15; ]
     <init> {
     }
-    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 5; ]
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 15; ]
     static
     <init> {
     }
-    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 17; @symbol_functiondef = [initialize,17,13,23]; ]
     function initialize() as Void {
-C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_7_26_9_4_start:
-[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 8 8 ]
-        symbol [ AppBase %tmp.2 8 8 15 ];
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_17_26_27_4_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 18 8 ]
+        symbol [ AppBase %tmp.2 18 8 15 ];
         %tmp.2 = getv ? :AppBase;
-        symbol [ initialize %tmp.3 8 16 26 ];
+        symbol [ initialize %tmp.3 18 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_7_26_9_4_stop:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 19 5 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_17_26_27_4_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_17_26_27_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 19 9 12 ];
+        symbol [ System %tmp.5 19 15 21 ];
+        %tmp.5 = getv ? :System;
+        symbol [ getClockTime %tmp.6 19 22 34 ];
+        %tmp.6 = getv function %tmp.5 :getClockTime;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %now.1 %tmp.7;
+        symbol [ now %now.1 19 9 12 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 20 5 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_17_26_27_4_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_17_26_27_4_stop" ]
+        %ts.2 = local;
+        symbol [ ts %ts.2 20 9 11 ];
+        %tmp.8 = lgetv %now.1;
+        symbol [ now %tmp.8 20 14 17 ];
+        symbol [ hour %tmp.9 20 18 22 ];
+        %tmp.9 = getv %tmp.8 :hour;
+        %tmp.10 = ":";
+        %tmp.11 = add %tmp.9 %tmp.10;
+        %tmp.12 = lgetv %now.1;
+        symbol [ now %tmp.12 20 27 30 ];
+        symbol [ min %tmp.13 20 31 34 ];
+        %tmp.13 = getv %tmp.12 :min;
+        symbol [ format %tmp.14 20 35 41 ];
+        %tmp.14 = getv function %tmp.13 :format;
+        %tmp.15 = "%02d";
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        %tmp.17 = add %tmp.11 %tmp.16;
+        lputv %ts.2 %tmp.17;
+        symbol [ ts %ts.2 20 9 11 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 22 8 ]
+        symbol [ System %tmp.19 22 8 14 ];
+        %tmp.19 = getv ? :System;
+        symbol [ println %tmp.20 22 15 22 ];
+        %tmp.20 = getv function %tmp.19 :println;
+        %tmp.21 = "App initialize ";
+        %tmp.22 = lgetv %ts.2;
+        symbol [ ts %tmp.22 22 41 43 ];
+        %tmp.23 = add %tmp.21 %tmp.22;
+        invoke %tmp.19 %tmp.20(%tmp.23);
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 23 8 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_17_26_27_4_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_17_26_27_4_stop" ]
+        %temp.3 = local;
+        symbol [ temp %temp.3 23 12 16 ];
+        symbol [ Application %tmp.24 23 19 30 ];
+        %tmp.24 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.25 23 31 37 ];
+        %tmp.25 = getv function %tmp.24 :getApp;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        symbol [ getProperty %tmp.27 23 40 51 ];
+        %tmp.27 = getv function %tmp.26 :getProperty;
+        symbol [ OSCOUNTER %tmp.29 23 52 61 ];
+        %tmp.29 = getv ? :OSCOUNTER;
+        %tmp.30 = invoke %tmp.26 %tmp.27(%tmp.29);
+        lputv %temp.3 %tmp.30;
+        symbol [ temp %temp.3 23 12 16 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 25 8 ]
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_8_25_63_if_stmt:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_11_25_41_begin:
+        %tmp.31 = lgetv %temp.3;
+        symbol [ temp %tmp.31 25 11 15 ];
+        %tmp.32 = null;
+        %tmp.33 = ne %tmp.31 %tmp.32;
+        bf %tmp.33 @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_8_25_63_if_end;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_25_25_41_true:
+        %tmp.34 = lgetv %temp.3;
+        symbol [ temp %tmp.34 25 25 29 ];
+        %tmp.35 = as %tmp.34 { (!Null) };
+        symbol [ Number %tmp.37 25 41 47 ];
+        %tmp.37 = getv ? :Number;
+        %tmp.38 = isa %tmp.35 %tmp.37;
+        push %tmp.38;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_25_25_41_end:
+        %tmp.39 = phi [%tmp.33 @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_11_25_41_begin] [%tmp.38 @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_25_25_41_true] [%tmp.39 @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_25_25_41_end];
+        bf %tmp.39 @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_8_25_63_if_end;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_8_25_63_if_true:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_49_25_63_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 25 50 ]
+        %tmp.40 = lgetv %temp.3;
+        symbol [ temp %tmp.40 25 58 62 ];
+        %tmp.41 = as %tmp.40 { (Number) && (!Null) };
+        symbol [ counter ? 25 50 57 ];
+        putv self :counter %tmp.41;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_49_25_63_stop:
+        goto @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_8_25_63_if_end;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_25_8_25_63_if_end:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 26 8 ]
+        symbol [ System %tmp.43 26 8 14 ];
+        %tmp.43 = getv ? :System;
+        symbol [ println %tmp.44 26 15 22 ];
+        %tmp.44 = getv function %tmp.43 :println;
+        %tmp.45 = "Counter in App initialize: ";
+        symbol [ counter %tmp.47 26 53 60 ];
+        %tmp.47 = getv ? :counter;
+        %tmp.48 = add %tmp.45 %tmp.47;
+        invoke %tmp.43 %tmp.44(%tmp.48);
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_17_26_27_4_stop:
     }
-    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 12; @symbol_functiondef = [onStart,12,13,20]; @symbol_param<0> = [state,12,21,26]; @symbol_param<0>_type<0> = [Dictionary,12,30,40]; ]
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 30; @symbol_functiondef = [onStart,30,13,20]; @symbol_param<0> = [state,30,21,26]; @symbol_param<0>_type<0> = [Dictionary,30,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_30_51_32_4_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 31 8 ]
+        symbol [ System %tmp.2 31 8 14 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 31 15 22 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "onStart";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_30_51_32_4_stop:
     }
-    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 16; @symbol_functiondef = [onStop,16,13,19]; @symbol_param<0> = [state,16,20,25]; @symbol_param<0>_type<0> = [Dictionary,16,29,39]; ]
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 35; @symbol_functiondef = [onStop,35,13,19]; @symbol_param<0> = [state,35,20,25]; @symbol_param<0>_type<0> = [Dictionary,35,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_35_50_45_4_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 37 5 ]
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_5_44_5_if_stmt:
+        symbol [ inBackground %tmp.2 37 9 21 ];
+        %tmp.2 = getv ? :inBackground;
+        %tmp.3 = not %tmp.2;
+        bf %tmp.3 @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_5_44_5_if_else_false;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_5_44_5_if_true:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_23_42_5_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 38 6 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_23_42_5_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_23_42_5_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 38 10 13 ];
+        symbol [ System %tmp.5 38 15 21 ];
+        %tmp.5 = getv ? :System;
+        symbol [ getClockTime %tmp.6 38 22 34 ];
+        %tmp.6 = getv function %tmp.5 :getClockTime;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        lputv %now.1 %tmp.7;
+        symbol [ now %now.1 38 10 13 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 39 6 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_23_42_5_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_23_42_5_stop" ]
+        %ts.2 = local;
+        symbol [ ts %ts.2 39 10 12 ];
+        %tmp.8 = lgetv %now.1;
+        symbol [ now %tmp.8 39 15 18 ];
+        symbol [ hour %tmp.9 39 19 23 ];
+        %tmp.9 = getv %tmp.8 :hour;
+        %tmp.10 = ":";
+        %tmp.11 = add %tmp.9 %tmp.10;
+        %tmp.12 = lgetv %now.1;
+        symbol [ now %tmp.12 39 28 31 ];
+        symbol [ min %tmp.13 39 32 35 ];
+        %tmp.13 = getv %tmp.12 :min;
+        symbol [ format %tmp.14 39 36 42 ];
+        %tmp.14 = getv function %tmp.13 :format;
+        %tmp.15 = "%02d";
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        %tmp.17 = add %tmp.11 %tmp.16;
+        lputv %ts.2 %tmp.17;
+        symbol [ ts %ts.2 39 10 12 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 40 9 ]
+        symbol [ System %tmp.19 40 9 15 ];
+        %tmp.19 = getv ? :System;
+        symbol [ println %tmp.20 40 16 23 ];
+        %tmp.20 = getv function %tmp.19 :println;
+        %tmp.21 = "onStop counter=";
+        symbol [ counter %tmp.23 40 42 49 ];
+        %tmp.23 = getv ? :counter;
+        %tmp.24 = add %tmp.21 %tmp.23;
+        %tmp.25 = " ";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        %tmp.27 = lgetv %ts.2;
+        symbol [ ts %tmp.27 40 54 56 ];
+        %tmp.28 = add %tmp.26 %tmp.27;
+        invoke %tmp.19 %tmp.20(%tmp.28);
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 41 6 ]
+        symbol [ Application %tmp.29 41 6 17 ];
+        %tmp.29 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.30 41 18 24 ];
+        %tmp.30 = getv function %tmp.29 :getApp;
+        %tmp.31 = invoke %tmp.29 %tmp.30();
+        symbol [ setProperty %tmp.32 41 27 38 ];
+        %tmp.32 = getv function %tmp.31 :setProperty;
+        symbol [ OSCOUNTER %tmp.34 41 39 48 ];
+        %tmp.34 = getv ? :OSCOUNTER;
+        symbol [ counter %tmp.36 41 50 57 ];
+        %tmp.36 = getv ? :counter;
+        invoke %tmp.31 %tmp.32(%tmp.34, %tmp.36);
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_23_42_5_stop:
+        goto @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_5_44_5_if_end;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_5_44_5_if_else_false:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_42_12_44_5_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 43 6 ]
+        symbol [ System %tmp.38 43 6 12 ];
+        %tmp.38 = getv ? :System;
+        symbol [ println %tmp.39 43 13 20 ];
+        %tmp.39 = getv function %tmp.38 :println;
+        %tmp.40 = "onStop";
+        invoke %tmp.38 %tmp.39(%tmp.40);
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_42_12_44_5_stop:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_37_5_44_5_if_end:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_35_50_45_4_stop:
     }
-    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 20; @symbol_functiondef = [getInitialView,20,13,27]; @symbol_return<0> = [Views,20,34,39]; @symbol_return<1> = [Views,20,45,50]; @symbol_return<2> = [InputDelegates,20,52,66]; ]
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 48; @symbol_functiondef = [getInitialView,48,13,27]; @symbol_return<0> = [Views,48,34,39]; @symbol_return<1> = [Views,48,45,50]; @symbol_return<2> = [InputDelegates,48,52,66]; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_20_68_22_4_start:
-[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 21 8 ]
-        %tmp.1 = newa 1;
-        symbol [ watchView %tmp.5 21 21 30 ];
-        %tmp.5 = getv ? :watchView;
-        %tmp.2 = newc %tmp.5 ();
-        %tmp.6 = dup %tmp.1;
-        %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        ret %tmp.7;
-C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_20_68_22_4_stop:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_48_68_58_4_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 49 8 ]
+        symbol [ System %tmp.2 49 8 14 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 49 15 22 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "getInitialView";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 51 5 ]
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_51_5_56_5_if_stmt:
+        symbol [ Toybox %tmp.6 51 8 14 ];
+        %tmp.6 = getv ? :Toybox;
+        symbol [ System %tmp.7 51 15 21 ];
+        %tmp.7 = getv %tmp.6 :System;
+        %tmp.9 = const :ServiceDelegate;
+        symbol [ ServiceDelegate %tmp.9 51 27 42 const ];
+        %tmp.10 = canhazplz %tmp.7 %tmp.9;
+        bf %tmp.10 @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_51_5_56_5_if_else_false;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_51_5_56_5_if_true:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_51_44_54_5_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 52 6 ]
+        %tmp.11 = true;
+        symbol [ canDoBG ? 52 6 13 ];
+        putv self :canDoBG %tmp.11;
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 53 6 ]
+        symbol [ Background %tmp.13 53 6 16 ];
+        %tmp.13 = getv ? :Background;
+        symbol [ registerForTemporalEvent %tmp.14 53 17 41 ];
+        %tmp.14 = getv function %tmp.13 :registerForTemporalEvent;
+        symbol [ Time %tmp.18 53 46 50 ];
+        %tmp.18 = getv ? :Time;
+        symbol [ Duration %tmp.19 53 51 59 ];
+        %tmp.19 = getv function ? %tmp.18 :Duration;
+        %tmp.20 = 5;
+        %tmp.21 = 60;
+        %tmp.22 = mul %tmp.20 %tmp.21;
+        %tmp.15 = newc %tmp.19 (%tmp.22);
+        invoke %tmp.13 %tmp.14(%tmp.15);
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_51_44_54_5_stop:
+        goto @C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_51_5_56_5_if_end;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_51_5_56_5_if_else_false:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_54_12_56_5_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 55 6 ]
+        symbol [ System %tmp.24 55 6 12 ];
+        %tmp.24 = getv ? :System;
+        symbol [ println %tmp.25 55 13 20 ];
+        %tmp.25 = getv function %tmp.24 :println;
+        %tmp.26 = "****background not available on this device****";
+        invoke %tmp.24 %tmp.25(%tmp.26);
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_54_12_56_5_stop:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_51_5_56_5_if_end:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 57 8 ]
+        %tmp.27 = newa 1;
+        symbol [ watchView %tmp.31 57 21 30 ];
+        %tmp.31 = getv ? :watchView;
+        %tmp.28 = newc %tmp.31 ();
+        %tmp.32 = dup %tmp.27;
+        %tmp.33 = aputv %tmp.32 0 %tmp.28;
+        ret %tmp.33;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_48_68_58_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 61; @symbol_functiondef = [onBackgroundData,61,13,29]; @symbol_param<0> = [data,61,30,34]; ]
+    function onBackgroundData(data) {
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_61_36_69_4_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 62 8 ]
+        symbol [ counter %tmp.3 62 8 15 ];
+        %tmp.3 = getv ? :counter;
+        %tmp.4 = add %tmp.3 1;
+        symbol [ counter ? 62 8 15 ];
+        putv self :counter dup %tmp.4;
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 63 8 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_61_36_69_4_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_61_36_69_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 63 12 15 ];
+        symbol [ System %tmp.6 63 18 24 ];
+        %tmp.6 = getv ? :System;
+        symbol [ getClockTime %tmp.7 63 25 37 ];
+        %tmp.7 = getv function %tmp.6 :getClockTime;
+        %tmp.8 = invoke %tmp.6 %tmp.7();
+        lputv %now.1 %tmp.8;
+        symbol [ now %now.1 63 12 15 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 64 8 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_61_36_69_4_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_61_36_69_4_stop" ]
+        %ts.2 = local;
+        symbol [ ts %ts.2 64 12 14 ];
+        %tmp.9 = lgetv %now.1;
+        symbol [ now %tmp.9 64 15 18 ];
+        symbol [ hour %tmp.10 64 19 23 ];
+        %tmp.10 = getv %tmp.9 :hour;
+        %tmp.11 = ":";
+        %tmp.12 = add %tmp.10 %tmp.11;
+        %tmp.13 = lgetv %now.1;
+        symbol [ now %tmp.13 64 28 31 ];
+        symbol [ min %tmp.14 64 32 35 ];
+        %tmp.14 = getv %tmp.13 :min;
+        symbol [ format %tmp.15 64 36 42 ];
+        %tmp.15 = getv function %tmp.14 :format;
+        %tmp.16 = "%02d";
+        %tmp.17 = invoke %tmp.14 %tmp.15(%tmp.16);
+        %tmp.18 = add %tmp.12 %tmp.17;
+        lputv %ts.2 %tmp.18;
+        symbol [ ts %ts.2 64 12 14 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 65 8 ]
+        symbol [ System %tmp.20 65 8 14 ];
+        %tmp.20 = getv ? :System;
+        symbol [ println %tmp.21 65 15 22 ];
+        %tmp.21 = getv function %tmp.20 :println;
+        %tmp.22 = "onBackgroundData=";
+        %tmp.23 = lgetv %data;
+        symbol [ data %tmp.23 65 43 47 ];
+        %tmp.24 = add %tmp.22 %tmp.23;
+        %tmp.25 = " ";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        symbol [ counter %tmp.28 65 52 59 ];
+        %tmp.28 = getv ? :counter;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        %tmp.30 = " at ";
+        %tmp.31 = add %tmp.29 %tmp.30;
+        %tmp.32 = lgetv %ts.2;
+        symbol [ ts %tmp.32 65 67 69 ];
+        %tmp.33 = add %tmp.31 %tmp.32;
+        invoke %tmp.20 %tmp.21(%tmp.33);
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 66 8 ]
+        %tmp.34 = lgetv %data;
+        symbol [ data %tmp.34 66 17 21 ];
+        symbol [ bgdata ? 66 8 14 ];
+        putv self :bgdata %tmp.34;
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 67 8 ]
+        symbol [ Application %tmp.35 67 8 19 ];
+        %tmp.35 = getm $.Toybox.Application;
+        symbol [ getApp %tmp.36 67 20 26 ];
+        %tmp.36 = getv function %tmp.35 :getApp;
+        %tmp.37 = invoke %tmp.35 %tmp.36();
+        symbol [ setProperty %tmp.38 67 29 40 ];
+        %tmp.38 = getv function %tmp.37 :setProperty;
+        symbol [ OSDATA %tmp.40 67 41 47 ];
+        %tmp.40 = getv ? :OSDATA;
+        symbol [ bgdata %tmp.42 67 48 54 ];
+        %tmp.42 = getv ? :bgdata;
+        invoke %tmp.37 %tmp.38(%tmp.40, %tmp.42);
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 68 8 ]
+        symbol [ WatchUi %tmp.43 68 8 15 ];
+        %tmp.43 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.44 68 16 29 ];
+        %tmp.44 = getv function %tmp.43 :requestUpdate;
+        invoke %tmp.43 %tmp.44();
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_61_36_69_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 72; @symbol_functiondef = [getServiceDelegate,72,13,31]; ]
+    function getServiceDelegate() {
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_72_33_77_4_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 73 5 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_72_33_77_4_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_72_33_77_4_stop" ]
+        %now.1 = local;
+        symbol [ now %now.1 73 9 12 ];
+        symbol [ System %tmp.2 73 15 21 ];
+        %tmp.2 = getv ? :System;
+        symbol [ getClockTime %tmp.3 73 22 34 ];
+        %tmp.3 = getv function %tmp.2 :getClockTime;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %now.1 %tmp.4;
+        symbol [ now %now.1 73 9 12 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 74 5 ]
+        [ "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_72_33_77_4_start" "C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_72_33_77_4_stop" ]
+        %ts.2 = local;
+        symbol [ ts %ts.2 74 9 11 ];
+        %tmp.5 = lgetv %now.1;
+        symbol [ now %tmp.5 74 14 17 ];
+        symbol [ hour %tmp.6 74 18 22 ];
+        %tmp.6 = getv %tmp.5 :hour;
+        %tmp.7 = ":";
+        %tmp.8 = add %tmp.6 %tmp.7;
+        %tmp.9 = lgetv %now.1;
+        symbol [ now %tmp.9 74 27 30 ];
+        symbol [ min %tmp.10 74 31 34 ];
+        %tmp.10 = getv %tmp.9 :min;
+        symbol [ format %tmp.11 74 35 41 ];
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "%02d";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        %tmp.14 = add %tmp.8 %tmp.13;
+        lputv %ts.2 %tmp.14;
+        symbol [ ts %ts.2 74 9 11 ];
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 75 5 ]
+        symbol [ System %tmp.16 75 5 11 ];
+        %tmp.16 = getv ? :System;
+        symbol [ println %tmp.17 75 12 19 ];
+        %tmp.17 = getv function %tmp.16 :println;
+        %tmp.18 = "getServiceDelegate: ";
+        %tmp.19 = lgetv %ts.2;
+        symbol [ ts %tmp.19 75 43 45 ];
+        %tmp.20 = add %tmp.18 %tmp.19;
+        invoke %tmp.16 %tmp.17(%tmp.20);
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 76 8 ]
+        %tmp.21 = newa 1;
+        symbol [ watchServiceDelegate %tmp.25 76 20 40 ];
+        %tmp.25 = getv ? :watchServiceDelegate;
+        %tmp.22 = newc %tmp.25 ();
+        %tmp.26 = dup %tmp.21;
+        %tmp.27 = aputv %tmp.26 0 %tmp.22;
+        ret %tmp.27;
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_72_33_77_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 79; @symbol_functiondef = [onAppInstall,79,13,25]; ]
+    function onAppInstall() {
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_79_28_81_4_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 80 5 ]
+        symbol [ System %tmp.2 80 5 11 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 80 12 19 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "onAppInstall";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_79_28_81_4_stop:
+    }
+    [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 83; @symbol_functiondef = [onAppUpdate,83,13,24]; ]
+    function onAppUpdate() {
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_83_27_85_4_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 84 5 ]
+        symbol [ System %tmp.2 84 5 11 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 84 12 19 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "onAppUpdate";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_83_27_85_4_stop:
     }
 }
-[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 26; @symbol_functiondef = [getApp,26,9,15]; @symbol_return<0> = [watchApp,26,21,29]; ]
+[ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 90; @symbol_functiondef = [getApp,90,9,15]; @symbol_return<0> = [watchApp,90,21,29]; ]
 function getApp() as watchApp {
-C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_26_30_28_0_start:
-[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 27 4 ]
-    symbol [ Application %tmp.1 27 11 22 ];
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_90_30_92_0_start:
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc" 91 4 ]
+    symbol [ Application %tmp.1 91 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
-    symbol [ getApp %tmp.2 27 23 29 ];
+    symbol [ getApp %tmp.2 91 23 29 ];
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 watchApp;
-    symbol [ watchApp %tmp.4 27 35 43 ];
+    symbol [ watchApp %tmp.4 91 35 43 ];
     ret %tmp.4;
-C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_26_30_28_0_stop:
+C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watchApp_mc_90_30_92_0_stop:
 }
 [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watchApp.mc"; @line = 1; ]
 <init> {

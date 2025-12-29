@@ -22,6 +22,10 @@ C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watch_mc_11_23_14_1_s
         symbol [ initialize %tmp.3 12 22 32 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
+[ "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watch.mc" 13 2 ]
+        %tmp.4 = true;
+        symbol [ inBackground ? 13 2 14 ];
+        putv self :inBackground %tmp.4;
 C__Users_Rob_Downloads_Garmin_Instinct_2_Watch_face_source_watch_mc_11_23_14_1_stop:
     }
     [ @file = "C:\Users\Rob\Downloads\Garmin-Instinct-2-Watch-face\source\watch.mc"; @line = 16; @symbol_functiondef = [onTemporalEvent,16,13,28]; ]
